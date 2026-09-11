@@ -1,90 +1,27 @@
-name = "court-monitor-trigger"
+# Изолированные ресурсы Республики Башкортостан.
+name = "court-monitor-bashkortostan"
 main = "worker.js"
+account_id = "fccd25d64fda7e1899a8ad11e5e488fd"
 compatibility_date = "2024-01-01"
-
-# ── Адреса Worker'а (27.08.2026) ────────────────────────────────────────────
-# Часть операторов связи режет *.workers.dev по имени (SNI) — с их сетей не
-# работали синк подписок, админка и операторская. Основной адрес — свой
-# домен; workers.dev ОСТАЁТСЯ живым фолбэком (фронт перебирает адреса через
-# workerFetch, список — PUSH_WORKER_FALLBACKS в region_front.js).
-# workers_dev = true стоит ЯВНО: при появлении routes wrangler иначе гасит
-# workers.dev-адрес молча. Зона delosud.ru живёт в этом же аккаунте CF;
-# wrangler deploy сам создаёт DNS-запись и сертификат. ⚠️ У зоны выключен
-# ECH (RU DPI режет ECH-хендшейки) — не включать обратно.
-# Форк территории ставит свой поддомен: api-ural.delosud.ru.
 workers_dev = true
-routes = [
-  { pattern = "api-hmao.delosud.ru", custom_domain = true }
-]
+routes = [{ pattern = "api-bashkortostan.delosud.ru", custom_domain = true }]
 
 [triggers]
-# ✅ Cron ВОЗВРАЩЁН 05.07.2026. Блок судов на иностранные IP сняли (в т.ч. для
-# US-egress GitHub — проверено .github/workflows/probe_courts.yml), парсинг снова
-# идёт в облаке: Worker по крону дёргает workflow_dispatch update_cases.yml
-# (полный прогон: парсинг + дайджест + доставка), а Mac-схема D2 — спящий резерв.
-# 03:30 UTC = 06:30 МСК = 08:30 ХМАО, пн-пт (сдвиг с 08:45 — просьба юриста
-# 15.07.2026). Буквенный `mon-fri` ОБЯЗАТЕЛЕН: Cloudflare нумерует дни
-# 1=Sun..7=Sat, цифровой `1-5` захватывал воскресенье.
-# ⚠️ Правки crons применяются ТОЛЬКО после `wrangler deploy`.
-# Выключить автозапуск обратно — вернуть `crons = []` и `wrangler deploy`.
-#
-# ⛔ ФЛИП НА РЕЗЕРВ (когда суды режут адреса раннеров): `crons = []` ЗДЕСЬ и
-# `CRON_UTC = ""` в [vars] ниже — иначе плитка «Автозапуск» в админке обещает
-# запуск, которого не будет. Обратно — вернуть оба значения. Оба шага
-# применяются только после `wrangler deploy`.
-#
-# ⏸ 19.08.2026 — ФЛИП ВЫПОЛНЕН (решение юриста): лотерея адресов раннеров
-# (слепые прогоны, перезапуски руками) — парсит Mac-агент 08:00–11:00.
-# Вернуть облако: crons = ["30 3 * * mon-fri"] и CRON_UTC = "3:30" + deploy.
 crons = []
 
-# ── Пер-инстансные настройки территории ─────────────────────────────────────
-# Форк территории меняет ТОЛЬКО этот файл: name воркера, значения [vars],
-# id KV namespace и сдвиг крона (не бить sudrf одновременно с ХМАО-инстансом).
-# Пустое/отсутствующее значение → worker.js использует фолбэк ХМАО-инстанса
-# (см. cfgVar), поэтому существующий деплой работает и без [vars].
 [vars]
 ALLOWED_ORIGIN = "https://selivanovas.github.io"
-CASES_DATA_URL = "https://selivanovas.github.io/dashboard/data/cases.json"
-GH_REPO = "SelivanovAS/dashboard"
-# Время крона (UTC, "Ч:ММ") — ДЕРЖАТЬ В СИНХРОНЕ с [triggers].crons выше:
-# из него админка считает плитку «Автозапуск» (worker.js cronUtcParts).
-# ⛔ Пусто = «крона нет»: держать в синхроне с [triggers].crons — при
-# `crons = []` сюда ставится "", иначе плитка обещает запуск, которого не будет.
-# ⏸ 19.08.2026 флип на Mac-резерв: пусто; вернуть "3:30" вместе с crons.
+CASES_DATA_URL = "https://selivanovas.github.io/dashboard-bashkortostan/data/cases.json"
+GH_REPO = "SelivanovAS/dashboard-bashkortostan"
 CRON_UTC = ""
-# Календарный фид (webcal): опциональные переопределения для форка территории
-# с другим часовым поясом — CAL_TZID (IANA-имя), CAL_TZ_OFFSET_MIN (смещение
-# в минутах) и CAL_FEED_NAME (имя календаря). Дефолты worker.js — обе текущие
-# территории: Asia/Yekaterinburg / 300 / «Мои заседания» — здесь не задаём.
-
-# Счётчик посещений дашборда (31.08.2026). "0" мгновенно выключает ЗАПИСЬ
-# визитов, не трогая ни фронт, ни остальные роуты: /visit — единственный путь,
-# который пишет в KV без аутентификации, а бюджет writes общий на аккаунт
-# (1000/день). Применяется только после `wrangler deploy`.
-VISITS_ENABLED = "1"
-
-# Исполнитель операторских импортов (дамп выдачи, точечная пачка) — 08.09.2026,
-# решение юриста. "vps": Worker только кладёт запись в KV со статусом
-# "queued", а забирает её VPS по слотам court-import.timer (тот же
-# import_dumps.sh, что дочитывал провалы). "github" (или переменная не задана)
-# — прежний путь через workflow_dispatch import_cases.yml/add_cases.yml —
-# аварийный откат: действует на НОВЫЕ записи, уже стоящие в "queued" заберёт
-# очередь резерва. Пометки «лист не нужен» флага не знают (всегда GitHub).
-# Форк территории ставит то же значение — VPS обслуживает обе территории.
-# С 09.09.2026 в этой ветке Worker ещё пишет флаг import:pending — VPS
-# опрашивает его каждые 5 мин (GET /import-pending) и берёт запись сразу;
-# слоты ниже — страховка для провалов.
 IMPORT_EXECUTOR = "vps"
-# Слоты VPS по местному времени территории (+05) — ДЕРЖАТЬ В СИНХРОНЕ с
-# ops/vps-run/systemd/court-import.timer (страж test_mac_import_dumps.py):
-# из них админка обещает оператору «сервер обработает в ЧЧ:ММ» и помечает
-# запись, которую сервер не забрал. Праздники таймер не знает — только будни.
 IMPORT_SLOTS_LOCAL = "12:00,14:00,16:00,18:00,20:00"
+VISITS_ENABLED = "1"
+CAL_TZID = "Asia/Yekaterinburg"
+CAL_TZ_OFFSET_MIN = "300"
+CAL_FEED_NAME = "СберСуд · Башкортостан"
+VAPID_PUBLIC_KEY = "BE2rKPXrsvkjCHhUMifVtVL1nRJxoYZvQ1vWPHMxEwHMADBQZSYGeQqL4KwpzCt_rXKACqwYYdH-rIdrOLuGU50"
 
-# KV-хранилище push-подписок PWA.
-# Создать namespace: wrangler kv namespace create PUSH_SUBSCRIPTIONS
-# Вставить полученный id в поле id ниже, затем wrangler deploy.
 [[kv_namespaces]]
 binding = "PUSH_SUBSCRIPTIONS"
-id = "2ffe67ca59ce4bfe986f80d11df2ab39"
+id = "e4e38c7090e9416887a1f1f4d190f2f8"

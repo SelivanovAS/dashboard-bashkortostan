@@ -1,0 +1,11 @@
+# Требуется git config merge.ours.driver true (уже настроено локально).
+REGION merge=ours
+region_front.js merge=ours
+manifest.json merge=ours
+cloudflare-worker/wrangler.toml merge=ours
+data/** merge=ours
+ops/court_probe/** merge=ours
+ops/region_probe/** merge=ours
+ops/bank_registry/** merge=ours
+ops/writ_probe/** merge=ours
+# Новые data/ops-файлы при merge требуют отдельного аудита содержимого.
