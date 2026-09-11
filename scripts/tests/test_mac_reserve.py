@@ -13,6 +13,7 @@ import os
 import re
 import subprocess
 import sys
+import tomllib
 from pathlib import Path
 
 import pytest
@@ -597,9 +598,15 @@ class TestFlipReadiness:
         assert "усыплён" not in yml.splitlines()[0]
 
     def test_cloud_cron_untouched(self):
-        """Само переключение — решение юриста, а не побочный эффект правки."""
-        toml = _read("cloudflare-worker/wrangler.toml")
-        assert "crons" in toml and "[]" not in toml.split("crons")[1][:40]
+        """При согласованном VPS-режиме Cloudflare не запускает второго писателя.
+
+        Проверяем значения TOML: комментарий о прежнем cron не доказывает
+        текущую настройку, а пустой cron здесь является штатным состоянием.
+        """
+        settings = tomllib.loads(_read("cloudflare-worker/wrangler.toml"))
+        assert settings["vars"]["IMPORT_EXECUTOR"] == "vps"
+        assert settings["triggers"]["crons"] == []
+        assert settings["vars"]["CRON_UTC"] == ""
 
 
 class TestHonestCourtProbe:
