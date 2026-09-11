@@ -9,3 +9,5 @@ ops/region_probe/** merge=ours
 ops/bank_registry/** merge=ours
 ops/writ_probe/** merge=ours
 # Новые data/ops-файлы при merge требуют отдельного аудита содержимого.
+README.md merge=ours
+ops/initial_import/** merge=ours
