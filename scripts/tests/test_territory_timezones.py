@@ -228,7 +228,9 @@ console.log(JSON.stringify({count:impCourts.length,options:(sel.innerHTML.match(
 
 def test_worker_preserves_cassation_review_counters_and_kind():
     src = (ROOT / 'cloudflare-worker/worker.js').read_text()
-    result = node(fn(src, 'handleImportResult') + '''
+    result = node('\n'.join(fn(src, name) for name in (
+        'importQueuePending', 'importLogWriteOptions', 'listImportLogKeys', 'handleImportResult'
+    )) + '''
 const IMPORT_LOG_TTL=100;
 const importChannelAuthOk=()=>true;
 const uuid='11111111-1111-1111-1111-111111111111';
