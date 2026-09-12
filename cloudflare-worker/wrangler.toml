@@ -15,6 +15,8 @@ CASES_DATA_URL = "https://selivanovas.github.io/dashboard-bashkortostan/data/cas
 GH_REPO = "SelivanovAS/dashboard-bashkortostan"
 CRON_UTC = ""
 IMPORT_EXECUTOR = "vps"
+# Уже действующая обратная загрузка через отдельный вход территории.
+IMPORT_GATEWAY_ORIGIN = "https://api2-bashkortostan.delosud.ru"
 IMPORT_SLOTS_LOCAL = "12:00,14:00,16:00,18:00,20:00"
 VISITS_ENABLED = "1"
 CAL_TZID = "Asia/Yekaterinburg"

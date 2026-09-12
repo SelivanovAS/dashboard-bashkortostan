@@ -68,6 +68,12 @@ function output(value) { process.stdout.write(JSON.stringify(value)); }
 def run_worker(script: str) -> dict:
     source = (ROOT / "cloudflare-worker/worker.js").read_text(encoding="utf-8")
     source = source.replace('import { renderAdminHtml } from "./admin_page.js";', "")
+    # Форк сохраняет уже развёрнутую загрузку через шлюз: исполняем её
+    # модуль в том же VM, а обычные тесты очереди не обращаются к сети.
+    gateway = ROOT / "cloudflare-worker/import_gateway.js"
+    if gateway.exists():
+        helper = gateway.read_text(encoding="utf-8").replace("export async function", "async function")
+        source = source.replace('import { readGatewayImportBody } from "./import_gateway.js";', helper)
     source = source.replace("export default {", "const workerExport = {")
     result = subprocess.run(
         [NODE, "-"], input=source + "\n" + HARNESS + "\n(async () => {\n"

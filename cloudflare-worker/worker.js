@@ -1,3 +1,4 @@
+import { readGatewayImportBody } from "./import_gateway.js";
 import { renderAdminHtml } from "./admin_page.js";
 
 // Нерабочие праздничные дни РФ на 2026 год (производственный календарь).
@@ -2179,6 +2180,18 @@ async function handleAdminImportDump(request, env) {
     body = await request.json();
   } catch (_) {
     return new Response("Bad JSON", { status: 400 });
+  }
+  if (body && Object.prototype.hasOwnProperty.call(body, "__gateway_upload")) {
+    try {
+      const loaded = await readGatewayImportBody(body, env);
+      body = loaded.body;
+      jsonHeaders["X-Import-Gateway-SHA256"] = loaded.sha256;
+    } catch (error) {
+      if (error.sha256) jsonHeaders["X-Import-Gateway-SHA256"] = error.sha256;
+      return new Response(JSON.stringify({ ok: false, error: error.message }), {
+        status: error.status || 502, headers: jsonHeaders,
+      });
+    }
   }
   const courtDomain = canonSudrfHost(String((body && body.court_domain) || ""));
   const operator = String((body && body.operator) || "").trim().slice(0, 60);
