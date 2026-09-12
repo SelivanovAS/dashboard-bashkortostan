@@ -14,6 +14,8 @@
 
 - [Дашборд](https://selivanovas.github.io/dashboard-bashkortostan/sberbank_dashboard.html).
 - [Worker](https://api-bashkortostan.delosud.ru).
+- Дополнительный вход через VPS: [api2-bashkortostan](https://api2-bashkortostan.delosud.ru/admin).
+  Нужен прежний ключ роли; [проверки и ограничение загрузки дампов](docs/regions/Башкортостан_api2.md).
 - Резервный адрес Worker: `https://court-monitor-bashkortostan.7selivanov-a.workers.dev`.
 - Владелец и операторы используют `/admin` с разными секретами; ссылки доступа
   передаются отдельно и в репозитории не хранятся.
