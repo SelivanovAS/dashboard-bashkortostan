@@ -135,6 +135,10 @@ from court_monitor.parsing.search import (  # noqa: E402
 )
 from court_monitor.parsing.tables import extract_tables  # noqa: E402
 from court_monitor.regions import get_region  # noqa: E402
+from court_monitor.presidium_search import (  # noqa: E402
+    PRESIDIUM_SINCE as PRESIDIUM_DUMP_SINCE,
+    before_presidium_since as _before_reform,
+)
 from court_monitor.regions.base import CourtConfig  # noqa: E402
 from court_monitor.target_search import build_json_entry  # noqa: E402
 from court_monitor.storage import (  # noqa: E402
@@ -162,7 +166,6 @@ MAX_BANK_CARDS_PER_IMPORT = 100
 # раздела 2800001 облсуда по «Сбербанк» тянет и дела 2019 года (президиум
 # до реформы 2019 — 22 из 25 строк первого дампа ХМАО). Строки с датой
 # поступления раньше реформы ГПК не заводим и карточку не запрашиваем.
-PRESIDIUM_DUMP_SINCE = "01.05.2026"
 
 
 def read_dump(path: str) -> str:
@@ -1204,16 +1207,6 @@ def _presidium_known_keys(*case_lists) -> set[tuple[str, str]]:
             for h in c.get("history") or []:
                 _add((h or {}).get("cassation"))
     return known
-
-
-def _before_reform(filing_date: str) -> bool:
-    """Дата поступления жалобы раньше PRESIDIUM_DUMP_SINCE (реформа ГПК)."""
-    try:
-        d = datetime.strptime((filing_date or "").strip(), "%d.%m.%Y")
-        since = datetime.strptime(PRESIDIUM_DUMP_SINCE, "%d.%m.%Y")
-    except ValueError:
-        return False  # дата не разобралась — не отсеиваем, решит карточка
-    return d < since
 
 
 def _fetch_cassation_card(court: CourtConfig, link: str, num: str,
