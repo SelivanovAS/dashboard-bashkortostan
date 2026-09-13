@@ -217,9 +217,9 @@ console.log(JSON.stringify({count:impCourts.length,options:(sel.innerHTML.match(
  hint:document.getElementById('imp-mode-hint').textContent}));
 })().catch(e=>{console.error(e);process.exit(1)});
 ''')
-    assert result['count'] == result['options'] == 47 and result['fi'] == 45
+    assert result['count'] == result['options'] == 48 and result['fi'] == 45
     assert result['first'] == '6kas.sudrf.ru' and result['firstPinned']
-    assert result['regular'] == ['6kas.sudrf.ru'] and result['availableCount'] == '47'
+    assert result['regular'] == ['6kas.sudrf.ru'] and result['availableCount'] == '48'
     assert result['tile'][1] == '1 просрочено' and 'из 1 судов' in result['tile'][2]
     assert result['label'].endswith(' — апелляция') and 'delo_id=5' in result['openLink']
     assert 'проверочный код' in result['closedStep'] and 'проверочный код' not in result['openStep']

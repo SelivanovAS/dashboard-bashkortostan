@@ -384,7 +384,9 @@ class TestBashkortostanRegion:
         }
         assert {(c.name, c.domain) for c in r.first_instance_courts} == expected
         assert [c.domain for c in r.appeal_courts] == ["vs--bkr.sudrf.ru"]
-        assert r.presidium_courts == ()
+        assert [c.domain for c in r.presidium_courts] == ["vs--bkr.sudrf.ru"]
+        assert not r.presidium_courts[0].search_gated
+        assert not r.presidium_courts[0].search_disabled
         assert r.manual_import_all_courts
         assert r.public_info()["manual_import_all_courts"] is True
 

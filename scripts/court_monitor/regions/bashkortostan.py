@@ -132,6 +132,13 @@ CASSATION_COURT = CourtConfig(
     timezone="Europe/Samara",
 )
 
+# 13.09.2026: форма и выдача по Сбербанку проверены с VPS без CAPTCHA.
+# Тот же домен, что у апелляции, но самостоятельный кассационный раздел.
+PRESIDIUM_COURTS = (
+    CourtConfig("Президиум Верховного суда Республики Башкортостан",
+                "vs--bkr.sudrf.ru", 2800001, "cassation"),
+)
+
 REGION = RegionConfig(
     code="bashkortostan",
     name="Республика Башкортостан",
@@ -140,10 +147,9 @@ REGION = RegionConfig(
     first_instance_courts=FIRST_INSTANCE_COURTS,
     cassation_court=CASSATION_COURT,
     fi_region_markers=("башкортостан", "башкирия", " рб"),
-    # Дела ВС РБ как первой инстанции и президиум не включены в исходный
-    # охват районных дел: для них отдельно проверяются раздел и маршрут.
+    # Дела ВС РБ как первой инстанции не включены в охват районных дел.
     appeal_long_markers=(),
-    presidium_courts=(),
+    presidium_courts=PRESIDIUM_COURTS,
     name_gen="Республики Башкортостан",
     name_short="Башкортостан",
     manual_import_all_courts=True,

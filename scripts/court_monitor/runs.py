@@ -38,6 +38,7 @@ from court_monitor.courts import (
     match_fi_court_by_short_name, match_hmao_first_instance, _eyo,
 )
 from court_monitor.regions import get_region
+from court_monitor.presidium_search import collect_presidium_finds
 from court_monitor.delivery import (
     _build_watchlist_alias_indexes, _filter_events_by_watchlist,
     _make_per_sub_callback,
@@ -3009,6 +3010,34 @@ def main_json():
         breaker_skipped=cass_skipped_breaker,
     )
     timings["cassation"] = time.perf_counter() - t0
+
+    # Открытые президиумы ищутся отдельно от КСОЮ: судебные участки не
+    # входят в FI-реестр районных судов. Находки проходят общую связку.
+    for presidium in _region.presidium_courts:
+        pres_stats = {}
+        pres_t0 = time.perf_counter()
+        try:
+            pres_finds = collect_presidium_finds(
+                presidium, cases,
+                archived_cases + cold_archived_cases + bank_archived_cases,
+                search_skip_keys, health_obs, health_labels, health_captcha, pres_stats,
+            )
+            if pres_finds:
+                archived_before_pres = len(archived_cases)
+                cases, pres_changes, pres_discovered = link_cassation_cases(
+                    cases, pres_finds, archived_cases,
+                )
+                cass_resurrected_count += archived_before_pres - len(archived_cases)
+                cass_changes.extend(pres_changes)
+                for found in pres_discovered:
+                    found["notes"] = f"Найдено автопоиском президиума ({presidium.name})"
+                cass_discovered.extend(pres_discovered)
+        except Exception:
+            log.warning("%s: ошибка поиска президиума", presidium.name, exc_info=True)
+        finally:
+            cass_planned += pres_stats.get("planned", 0)
+            cass_parsed += pres_stats.get("parsed", 0)
+            timings["cassation"] += time.perf_counter() - pres_t0
 
     # ── 4d. Refresh кассации по cassation.link ──
     # Раздел 4c берёт только первую страницу выдачи 7kas — старые касс. дела

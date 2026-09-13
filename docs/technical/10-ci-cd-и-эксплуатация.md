@@ -15,13 +15,13 @@ Actions, какие есть вспомогательные скрипты и т
 
 | Команда | Функция | Что делает |
 |---------|---------|-----------|
-| `--json` | `main_json` ([2482](../../scripts/court_monitor/runs.py#L2482)) | **Основной прогон**: парсинг + JSON + дайджест + рассылка + коммит. Запускается кроном. `--smart-skip` (env `SKIP_NON_WORKING_DAYS`) пропускает нерабочие дни и дела с известной будущей датой. |
-| _(без флага)_ | `main` ([1240](../../scripts/court_monitor/runs.py#L1240)) | Legacy CSV-прогон (апелляция). |
-| `--digest-only` | `main_digest_only` ([6839](../../scripts/court_monitor/runs.py#L6839)) | Только дайджест по текущим данным, без парсинга. |
-| `--replay-last [--push-all]` | `main_replay_last` ([6368](../../scripts/court_monitor/runs.py#L6368)) | Переиграть последний дайджест из `last_digest_context.json` с актуальным промптом. Push — владельцу (или всем при `--push-all`). |
-| `--push-last-digest [--owner-only]` | `main_push_last_digest` ([6693](../../scripts/court_monitor/runs.py#L6693)) | Повторно разослать уже сохранённый дайджест. |
-| `--push-web-only [--push-all]` | `main_push_web_only` ([6643](../../scripts/court_monitor/runs.py#L6643)) | Только web push по сохранённому контексту, без перегенерации дайджеста и Telegram. Вторая половина `replay_on_push.yml` — после публикации на Pages. |
-| `--backfill-appeal-anchors` | `main_backfill_appeal_anchors` ([1435](../../scripts/court_monitor/runs.py#L1435)) | Разовый бэкфилл якорей УИД/номеров из апел. карточек. |
+| `--json` | `main_json` ([2483](../../scripts/court_monitor/runs.py#L2483)) | **Основной прогон**: парсинг + JSON + дайджест + рассылка + коммит. Запускается кроном. `--smart-skip` (env `SKIP_NON_WORKING_DAYS`) пропускает нерабочие дни и дела с известной будущей датой. |
+| _(без флага)_ | `main` ([1241](../../scripts/court_monitor/runs.py#L1241)) | Legacy CSV-прогон (апелляция). |
+| `--digest-only` | `main_digest_only` ([6868](../../scripts/court_monitor/runs.py#L6868)) | Только дайджест по текущим данным, без парсинга. |
+| `--replay-last [--push-all]` | `main_replay_last` ([6397](../../scripts/court_monitor/runs.py#L6397)) | Переиграть последний дайджест из `last_digest_context.json` с актуальным промптом. Push — владельцу (или всем при `--push-all`). |
+| `--push-last-digest [--owner-only]` | `main_push_last_digest` ([6722](../../scripts/court_monitor/runs.py#L6722)) | Повторно разослать уже сохранённый дайджест. |
+| `--push-web-only [--push-all]` | `main_push_web_only` ([6672](../../scripts/court_monitor/runs.py#L6672)) | Только web push по сохранённому контексту, без перегенерации дайджеста и Telegram. Вторая половина `replay_on_push.yml` — после публикации на Pages. |
+| `--backfill-appeal-anchors` | `main_backfill_appeal_anchors` ([1436](../../scripts/court_monitor/runs.py#L1436)) | Разовый бэкфилл якорей УИД/номеров из апел. карточек. |
 
 ```bash
 # Полный боевой прогон локально
@@ -60,8 +60,8 @@ pip install -r scripts/requirements.txt   # requests, pywebpush
 
 В GitHub Actions задаются через **Settings → Secrets and variables → Actions**.
 
-`validate_environment` ([1199](../../scripts/court_monitor/runs.py#L1199)) проверяет
-наличие ключей на старте; `check_court_available` ([1227](../../scripts/court_monitor/runs.py#L1227))
+`validate_environment` ([1200](../../scripts/court_monitor/runs.py#L1200)) проверяет
+наличие ключей на старте; `check_court_available` ([1228](../../scripts/court_monitor/runs.py#L1228))
 — доступность сайта суда.
 
 ## Ежедневный прогон (схема D2; с 28.08.2026 — на VPS)
