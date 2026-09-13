@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-13T11:00:00+05:00",
+  "updated_at": "2026-09-13T11:37:15+05:00",
   "cases": [
     {
       "id": "2-6200/2026",
@@ -9591,6 +9591,76 @@
         "at": "2026-09-13T10:59:31",
         "source": "dump_cassation"
       }
+    },
+    {
+      "id": "4Г-163/2026",
+      "current_stage": "cassation",
+      "plaintiff": "Мулюков Рустем Масгутович",
+      "defendant": "ПАО Сбербанк",
+      "category": "Отношения, связанные с защитой прав потребителей → О защите прав потребителей → - из договоров в сфере: → иные договоры в сфере услуг",
+      "bank_role": "Ответчик",
+      "notes": "Заведено дампом президиума (Президиум Верховного суда Республики Башкортостан)",
+      "discovered_via_cassation": true,
+      "first_instance": {
+        "case_number": "2-1024/2026",
+        "court": "",
+        "court_domain": "",
+        "magistrate": true,
+        "judge": "Фарваева-Халиуллина Альфия Ниязовна",
+        "filing_date": "",
+        "status": "Решено",
+        "result": "",
+        "last_event": "",
+        "event_date": "",
+        "hearing_date": "19.06.2026",
+        "hearing_time": "",
+        "link": "",
+        "act_published": false,
+        "act_date": "",
+        "act_text": "",
+        "events": []
+      },
+      "appeal": null,
+      "cassation": {
+        "case_number": "4Г-163/2026",
+        "cassation_number": "",
+        "court": "Президиум Верховного суда Республики Башкортостан",
+        "court_domain": "vs--bkr.sudrf.ru",
+        "delo_id": 2800001,
+        "srv_num": 1,
+        "new": 2800001,
+        "timezone": "Asia/Yekaterinburg",
+        "judge": "",
+        "filing_date": "10.09.2026",
+        "fi_decision_date": "19.06.2026",
+        "act_kind": "",
+        "category": "Отношения, связанные с защитой прав потребителей → О защите прав потребителей → - из договоров в сфере: → иные договоры в сфере услуг",
+        "judicial_uid": "",
+        "appellant": "ПАО Сбербанк",
+        "appellant_is_bank": true,
+        "appellant_status": "ОТВЕТЧИК",
+        "review_result": "",
+        "suspended_until": "",
+        "hearing_date": "",
+        "hearing_time": "",
+        "decision_date": "",
+        "result_text": "",
+        "result_for_appeal": "",
+        "act_published": false,
+        "act_date": "",
+        "act_text": "",
+        "outcome": "",
+        "remanded_to": "",
+        "events": [],
+        "link": "60778950|b9be2d34-da67-43a5-a04d-cdd06e5f640f",
+        "last_checked_at": "2026-09-13",
+        "discovered_via_cassation": true
+      },
+      "import": {
+        "operator": "Селиванов А.С.",
+        "at": "2026-09-13T11:37:09",
+        "source": "dump_presidium"
+      }
     }
   ],
   "region": {
@@ -10030,7 +10100,19 @@
       "timezone": "Europe/Samara",
       "cassation_kind": "court"
     },
-    "presidium_courts": []
+    "presidium_courts": [
+      {
+        "name": "Президиум Верховного суда Республики Башкортостан",
+        "domain": "vs--bkr.sudrf.ru",
+        "delo_id": 2800001,
+        "search_gated": false,
+        "search_disabled": false,
+        "srv_num": 1,
+        "new": 2800001,
+        "timezone": "Asia/Yekaterinburg",
+        "cassation_kind": "presidium"
+      }
+    ]
   },
   "initial_import": {
     "at": "2026-09-11T15:10:52.162779+05:00",
