@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import os
 import re
+from copy import deepcopy
 from datetime import datetime, timedelta, date
 
 from court_monitor import config
@@ -724,6 +725,8 @@ def link_cassation_cases(
     cases: list[dict],
     cass_finds: list[dict],
     archived_cases: list[dict] | None = None,
+    *,
+    snapshot_discovered: bool = False,
 ) -> tuple[list[dict], list[dict], list[dict]]:
     """Связать найденные на 7kas дела с существующими в `cases.json` ИЛИ
     создать новые (discovery), если 1-инст. номера нет в БД.
@@ -740,6 +743,9 @@ def link_cassation_cases(
                     восстанавливается в активные со всей историей вместо
                     создания discovery-дубля без сторон. Список мутируется
                     (восстановленные дела удаляются).
+        snapshot_discovered: сохранить анонсы на момент обнаружения для
+                    дайджеста. По умолчанию возвращаются сами записи:
+                    импорт дописывает в них служебные отметки.
 
     Возвращает (обновлённый список cases, список изменений для дайджеста,
     список новых дел discovered).
@@ -783,14 +789,38 @@ def link_cassation_cases(
         court = match_fi_court_by_short_name(block.get("court", ""))
         return court.domain if court else ""
 
+    def _find_fi_court(info: dict):
+        return (info.get("fi_court_config")
+                or match_hmao_first_instance(info.get("fi_court_long", ""))
+                or match_fi_court_by_short_name(info.get("fi_court_long", "")))
+
+    def _case_uids(case: dict, blocks=("first_instance", "appeal", "cassation")) -> set[str]:
+        return {((case.get(block) or {}).get("judicial_uid") or "").strip()
+                for block in blocks} - {""}
+
+    def _identity_conflicts(case: dict, info: dict) -> bool:
+        """Сохранённый 8Г-номер тоже мог попасть в чужое дело раньше.
+
+        Проверяем УИД всех текущих инстанций. Переход между судами допустим
+        при подтверждающем УИД нижестоящей инстанции, а не только кассации:
+        именно кассационный блок был чужим в инциденте 14.09.2026.
+        """
+        uid = (info.get("judicial_uid") or "").strip()
+        if uid and _case_uids(case) - {uid}:
+            return True
+        court = _find_fi_court(info)
+        fi = case.get("first_instance") or {}
+        domain = _fi_domain(fi)
+        if court and domain and court.domain != domain:
+            return not (uid and uid in _case_uids(case, ("first_instance", "appeal")))
+        srv = info.get("fi_srv_num") or (court.srv_num if court else None)
+        return bool(srv and fi.get("srv_num") and str(srv) != str(fi["srv_num"]))
+
     def _number_match(index, records, info, number):
         """Номер — лишь кандидаты. Связка требует суд; неполные/неоднозначные
         кандидаты оставляем на проверку вместо первого совпавшего дела."""
         candidates = set(index.get(number, ())) | set(index.get(_bare_case_number(number), ()))
-        court = info.get("fi_court_config")
-        if not court:
-            court = (match_hmao_first_instance(info.get("fi_court_long", ""))
-                     or match_fi_court_by_short_name(info.get("fi_court_long", "")))
+        court = _find_fi_court(info)
         domain = court.domain if court else ""
         exact, unknown = [], []
         for i in candidates:
@@ -801,15 +831,11 @@ def link_cassation_cases(
             elif domain == candidate_domain:
                 # УИД, если он есть у обеих сторон, не должен противоречить
                 # запасному матчу по суду и номеру.
-                uid = (info.get("judicial_uid") or "").strip()
-                candidate_uid = (fi.get("judicial_uid") or "").strip()
-                if uid and candidate_uid and uid != candidate_uid:
-                    continue
-                srv = info.get("fi_srv_num")
-                if srv and fi.get("srv_num") and str(srv) != str(fi["srv_num"]):
+                if _identity_conflicts(records[i], info):
+                    unknown.append(i)
                     continue
                 exact.append(i)
-        if len(exact) == 1:
+        if len(exact) == 1 and not unknown:
             return exact[0], False
         return None, bool(exact or unknown)
     # Параллельный индекс по `cassation.case_number` (`8Г-XXXX/YYYY`).
@@ -882,8 +908,15 @@ def link_cassation_cases(
                 u_idx[uid] = i
                 u_prio[uid] = p
 
-    for i, c in enumerate(cases):
-        _index_case(c, i, fi_index, cass_index, uid_index, uid_prio)
+    def _rebuild_active_indexes() -> None:
+        # При замене производства старый 8Г-номер больше не указывает на
+        # эту запись. Пересчёт также обновляет приоритеты УИД после связки.
+        for index in (fi_index, cass_index, uid_index, uid_prio):
+            index.clear()
+        for i, c in enumerate(cases):
+            _index_case(c, i, fi_index, cass_index, uid_index, uid_prio)
+
+    _rebuild_active_indexes()
 
     # Параллельные индексы горячего архива (если передан): касс. жалоба на
     # дело, уже ушедшее в архив (например, из cassation_watch по 120-дневному
@@ -954,6 +987,11 @@ def link_cassation_cases(
         if idx is None and archived_cases:
             if arch_i is not None and arch_i not in resurrected:
                 arch_case = archived_cases[arch_i]
+                if _identity_conflicts(arch_case, info):
+                    info["_link_status"] = "needs_review"
+                    log.warning("Кассация %s: суд/УИД противоречат архивной записи %s; нужна проверка связки",
+                                cass_int_num, arch_case.get("id"))
+                    continue
                 arch_past = {
                     ((h.get("cassation") or {}).get("case_number") or "").strip()
                     for h in (arch_case.get("history") or [])
@@ -988,6 +1026,11 @@ def link_cassation_cases(
             continue
         if idx is not None:
             case = cases[idx]
+            if _identity_conflicts(case, info):
+                info["_link_status"] = "needs_review"
+                log.warning("Кассация %s: суд/УИД противоречат записи %s; нужна проверка связки",
+                            cass_int_num, case.get("id"))
+                continue
             old_cass = case.get("cassation") or {}
             # ── Защита от «воскрешения» прошлого круга ──
             # После cassation_remanded → re-link (снимок блоков в history,
@@ -1101,6 +1144,7 @@ def link_cassation_cases(
                 "appeal", "cassation_watch", "", None,
             ):
                 case["current_stage"] = "cassation"
+            _rebuild_active_indexes()
             # Зафиксируем изменения для дайджеста.
             change = {
                 "case": fi_num,
@@ -1222,7 +1266,7 @@ def link_cassation_cases(
             # Discovery: дела в cases.json нет. Создаём со стадией cassation
             # и стабом 1-й инст. (только то, что видит 7kas).
             cass_block["discovered_via_cassation"] = True
-            fi_court_cfg = info.get("fi_court_config")
+            fi_court_cfg = _find_fi_court(info)
             fi_court_short = fi_court_cfg.name if fi_court_cfg else info.get("fi_court_long", "")
             fi_court_domain = fi_court_cfg.domain if fi_court_cfg else ""
             # Президиум: главный номер дела — номер президиума «4Г-…»
@@ -1246,6 +1290,8 @@ def link_cassation_cases(
                     "case_number": fi_num,
                     "court": fi_court_short,
                     "court_domain": fi_court_domain,
+                    "srv_num": info.get("fi_srv_num") or (fi_court_cfg.srv_num if fi_court_cfg else 1),
+                    "judicial_uid": info.get("judicial_uid") or "",
                     "magistrate": magistrate,
                     "judge": info.get("fi_judge", ""),
                     "filing_date": "",
@@ -1273,7 +1319,9 @@ def link_cassation_cases(
                 parties_from_participants(info.get("participants"))
             )
             cases.append(new_case)
-            discovered.append(new_case)
+            # Анонс относится к найденному производству. Последующее
+            # обновление cases в том же прогоне не должно подменить его.
+            discovered.append(deepcopy(new_case) if snapshot_discovered else new_case)
             # Повторная находка того же дела в ЭТОМ же вызове (дубль строки
             # дампа) обязана сматчиться с только что заведённым.
             _index_case(new_case, len(cases) - 1, fi_index, cass_index,
