@@ -7,13 +7,16 @@ workers_dev = true
 routes = [{ pattern = "api-bashkortostan.delosud.ru", custom_domain = true }]
 
 [triggers]
-crons = []
+# Отдельная очистка профилей: ежедневно 02:17 Екатеринбург. Парсер выключен.
+crons = ["17 21 * * *"]
 
 [vars]
 ALLOWED_ORIGIN = "https://selivanovas.github.io"
 CASES_DATA_URL = "https://selivanovas.github.io/dashboard-bashkortostan/data/cases.json"
 GH_REPO = "SelivanovAS/dashboard-bashkortostan"
 CRON_UTC = ""
+# Сроки 7/30 дней без использования + 7 дней восстановления.
+PROFILE_CLEANUP_ENABLED = "1"
 IMPORT_EXECUTOR = "vps"
 # Уже действующая обратная загрузка через отдельный вход территории.
 IMPORT_GATEWAY_ORIGIN = "https://api2-bashkortostan.delosud.ru"
