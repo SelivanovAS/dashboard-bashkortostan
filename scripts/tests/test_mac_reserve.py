@@ -597,15 +597,17 @@ class TestFlipReadiness:
         yml = _read(".github/workflows/replay_on_push.yml")
         assert "усыплён" not in yml.splitlines()[0]
 
-    def test_cloud_cron_untouched(self):
+    def test_cloud_parser_cron_disabled(self):
         """При согласованном VPS-режиме Cloudflare не запускает второго писателя.
 
         Проверяем значения TOML: комментарий о прежнем cron не доказывает
-        текущую настройку, а пустой cron здесь является штатным состоянием.
+        текущую настройку. Единственный cron — обслуживание профилей,
+        его отделение от dispatch проверяется настоящим Worker в Node.
         """
         settings = tomllib.loads(_read("cloudflare-worker/wrangler.toml"))
         assert settings["vars"]["IMPORT_EXECUTOR"] == "vps"
-        assert settings["triggers"]["crons"] == []
+        assert settings["triggers"]["crons"] == ["17 21 * * *"]
+        assert settings["vars"]["PROFILE_CLEANUP_ENABLED"] == "1"
         assert settings["vars"]["CRON_UTC"] == ""
 
 

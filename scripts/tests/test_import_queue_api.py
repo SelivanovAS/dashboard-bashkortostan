@@ -74,6 +74,16 @@ def run_worker(script: str) -> dict:
     if gateway.exists():
         helper = gateway.read_text(encoding="utf-8").replace("export async function", "async function")
         source = source.replace('import { readGatewayImportBody } from "./import_gateway.js";', helper)
+    # Этот стенд открывает приватные функции очереди через склейку исходника.
+    # Зависимость профилей изолируем, чтобы её внутренние имена не столкнулись
+    # с worker.js; жизненный цикл отдельно проверяется настоящим ESM-loader.
+    lifecycle = (ROOT / "cloudflare-worker/profile_lifecycle.js").read_text(encoding="utf-8")
+    lifecycle_names = "readProfile, recordProfileUse, profileLifecycleFields, cleanupProfiles, PROFILE_CLEANUP_CRON"
+    source = source.replace(
+        'import { ' + lifecycle_names + ' } from "./profile_lifecycle.js";',
+        'const { ' + lifecycle_names + ' } = (() => {\n'
+        + lifecycle.replace("export ", "") + '\nreturn { ' + lifecycle_names + ' };\n})();',
+    )
     source = source.replace("export default {", "const workerExport = {")
     result = subprocess.run(
         [NODE, "-"], input=source + "\n" + HARNESS + "\n(async () => {\n"
