@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-15T06:44:49+05:00",
+ "updated_at": "2026-09-15T07:13:19+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -614,20 +614,20 @@
   }
  },
  "last_run": {
-  "at": "2026-09-15T06:44:49",
+  "at": "2026-09-15T07:13:19",
   "alerts": [],
-  "requests_ok": 85,
+  "requests_ok": 56,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 65,
-  "cards_planned": 65,
+  "cards_read": 54,
+  "cards_planned": 54,
   "cards_read_today": 196,
   "cards_planned_today": 196,
-  "daily_attempts": 2,
+  "daily_attempts": 3,
   "instances": {
    "first_instance": {
     "read": 54,
@@ -636,8 +636,8 @@
     "planned_today": 160
    },
    "appeal": {
-    "read": 11,
-    "planned": 11,
+    "read": 0,
+    "planned": 0,
     "read_today": 26,
     "planned_today": 26
    },
@@ -649,10 +649,10 @@
    }
   },
   "latency": {
-   "n": 85,
-   "p50": 0.4,
-   "p90": 1.2,
-   "max": 3.2
+   "n": 56,
+   "p50": 0.3,
+   "p90": 0.5,
+   "max": 0.7
   },
   "failure_latency": {},
   "fail_kinds": {},
