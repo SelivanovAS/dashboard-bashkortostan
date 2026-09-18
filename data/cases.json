@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-18T06:34:52+05:00",
+  "updated_at": "2026-09-18T06:50:19+05:00",
   "cases": [
     {
       "id": "33-18967/2026",
@@ -13,7 +13,7 @@
       "first_instance": {
         "case_number": "2-3034/2026",
         "court": "Октябрьский районный суд г. Уфы",
-        "court_domain": "",
+        "court_domain": "oktiabrsky--bkr.sudrf.ru",
         "judge": "Шаймиев Азамат Хамитович",
         "filing_date": "",
         "status": "",
@@ -22,10 +22,15 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "176700571|c7f4256f-1c77-44ad-a27a-32d41bf11149",
         "act_published": false,
         "act_date": "",
-        "events": []
+        "events": [],
+        "judicial_uid": "03RS0005-01-2026-001959-56",
+        "appeal_appellant_checked_at": "2026-09-18",
+        "appeal_appellant": "Ответчик",
+        "appeal_appellant_is_bank": false,
+        "appeal_appellant_status": "Ответчик"
       },
       "appeal": {
         "case_number": "33-18967/2026",
@@ -43,9 +48,21 @@
         "link": "60880684|806ab3d9-b973-4d6d-9458-af69d8051cd0",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "Ответчик",
+        "events": [
+          {
+            "date": "17.09.2026",
+            "time": "15:15",
+            "text": "Передача дела судье. 15:15. 17.09.2026",
+            "name": "Передача дела судье",
+            "posted_at": "17.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-09-18",
+        "appellant_is_bank": false,
+        "appellant_status": "Ответчик"
+      },
+      "initial_bank_role": "Третье лицо"
     },
     {
       "id": "33-18945/2026",
@@ -58,7 +75,7 @@
       "first_instance": {
         "case_number": "2-2188/2025",
         "court": "Иглинский межрайонный суд",
-        "court_domain": "",
+        "court_domain": "iglinsky--bkr.sudrf.ru",
         "judge": "Гареева Алла Сергеевна",
         "filing_date": "",
         "status": "",
@@ -67,10 +84,12 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "176473394|97fc0e78-eeed-4f45-978f-4cd56ef75ed5",
         "act_published": false,
         "act_date": "",
-        "events": []
+        "events": [],
+        "judicial_uid": "03RS0001-01-2025-002216-63",
+        "appeal_appellant_checked_at": "2026-09-18"
       },
       "appeal": {
         "case_number": "33-18945/2026",
@@ -89,8 +108,18 @@
         "act_published": false,
         "act_date": "",
         "appellant": "",
-        "events": []
-      }
+        "events": [
+          {
+            "date": "17.09.2026",
+            "time": "15:19",
+            "text": "Передача дела судье. 15:19. 17.09.2026",
+            "name": "Передача дела судье",
+            "posted_at": "17.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-09-18"
+      },
+      "initial_bank_role": "Истец"
     },
     {
       "id": "33-18921/2026",
@@ -103,7 +132,7 @@
       "first_instance": {
         "case_number": "2-1401/2026",
         "court": "Демский районный суд г. Уфы",
-        "court_domain": "",
+        "court_domain": "demsky--bkr.sudrf.ru",
         "judge": "Захарова Вера Сергеевна",
         "filing_date": "",
         "status": "",
@@ -112,10 +141,15 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "183736505|7c29280c-8d81-418b-bbdb-5fd62a854abf",
         "act_published": false,
         "act_date": "",
-        "events": []
+        "events": [],
+        "judicial_uid": "03RS0001-01-2026-001483-47",
+        "appeal_appellant_checked_at": "2026-09-18",
+        "appeal_appellant": "Истец",
+        "appeal_appellant_is_bank": true,
+        "appeal_appellant_status": "Истец"
       },
       "appeal": {
         "case_number": "33-18921/2026",
@@ -133,9 +167,21 @@
         "link": "60870211|4060da8c-215a-4530-951e-39c3cbb7a190",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "Истец",
+        "events": [
+          {
+            "date": "17.09.2026",
+            "time": "15:21",
+            "text": "Передача дела судье. 15:21. 17.09.2026",
+            "name": "Передача дела судье",
+            "posted_at": "17.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-09-18",
+        "appellant_is_bank": true,
+        "appellant_status": "Истец"
+      },
+      "initial_bank_role": "Истец"
     },
     {
       "id": "2-4229/2026",
