@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-22T07:13:49+05:00",
+ "updated_at": "2026-09-22T07:43:09+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -849,23 +849,23 @@
   }
  },
  "last_run": {
-  "at": "2026-09-22T07:13:49",
+  "at": "2026-09-22T07:43:09",
   "alerts": [],
-  "requests_ok": 42,
-  "requests_failed": 0,
+  "requests_ok": 40,
+  "requests_failed": 2,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 35,
+  "cards_read": 33,
   "cards_planned": 35,
   "cards_read_today": 180,
   "cards_planned_today": 180,
-  "daily_attempts": 3,
+  "daily_attempts": 4,
   "instances": {
    "first_instance": {
-    "read": 35,
+    "read": 33,
     "planned": 35,
     "read_today": 146,
     "planned_today": 146
@@ -884,13 +884,22 @@
    }
   },
   "latency": {
-   "n": 42,
-   "p50": 2.2,
-   "p90": 4.6,
-   "max": 6.9
+   "n": 40,
+   "p50": 0.7,
+   "p90": 2.5,
+   "max": 3.6
   },
-  "failure_latency": {},
-  "fail_kinds": {},
+  "failure_latency": {
+   "connect_timeout": {
+    "n": 2,
+    "p50": 10.0,
+    "p90": 12.1,
+    "max": 12.1
+   }
+  },
+  "fail_kinds": {
+   "connect_timeout": 2
+  },
   "breaker": {
    "mode": "time",
    "opened_hosts": 0,
@@ -909,7 +918,7 @@
   "courts_with_unrequested": 0,
   "courts_outage": 0,
   "cards_unreachable": 0,
-  "cards_unread_other": 0,
+  "cards_unread_other": 2,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }
