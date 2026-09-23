@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-23T06:32:43+05:00",
+  "updated_at": "2026-09-23T06:58:15+05:00",
   "cases": [
     {
       "id": "33-19213/2026",
@@ -22,12 +22,16 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "177355158|6e37e160-8e81-4e53-b36c-d612a548228f",
         "act_published": false,
         "act_date": "",
         "events": [],
         "judicial_uid": "03RS0011-01-2026-000473-25",
-        "srv_num": 1
+        "srv_num": 1,
+        "appeal_appellant_checked_at": "2026-09-23",
+        "appeal_appellant": "Ответчик",
+        "appeal_appellant_is_bank": false,
+        "appeal_appellant_status": "Ответчик"
       },
       "appeal": {
         "case_number": "33-19213/2026",
@@ -45,9 +49,21 @@
         "link": "60935946|c241bde4-d565-4ec3-9383-5a11cbf97624",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "Ответчик",
+        "events": [
+          {
+            "date": "22.09.2026",
+            "time": "17:09",
+            "text": "Передача дела судье. 17:09. 22.09.2026",
+            "name": "Передача дела судье",
+            "posted_at": "22.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-09-23",
+        "appellant_is_bank": false,
+        "appellant_status": "Ответчик"
+      },
+      "initial_bank_role": "Истец"
     },
     {
       "id": "33-19184/2026",
@@ -69,12 +85,16 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "176813753|7b91d78d-bbf3-482e-ba6a-abecec656926",
         "act_published": false,
         "act_date": "",
         "events": [],
         "judicial_uid": "03RS0038-01-2026-000245-54",
-        "srv_num": 1
+        "srv_num": 1,
+        "appeal_appellant_checked_at": "2026-09-23",
+        "appeal_appellant": "Истец",
+        "appeal_appellant_is_bank": false,
+        "appeal_appellant_status": "Истец"
       },
       "appeal": {
         "case_number": "33-19184/2026",
@@ -92,9 +112,21 @@
         "link": "60935470|d7af25c4-b281-456a-873d-8b66ba658c9c",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "Истец",
+        "events": [
+          {
+            "date": "22.09.2026",
+            "time": "17:07",
+            "text": "Передача дела судье. 17:07. 22.09.2026",
+            "name": "Передача дела судье",
+            "posted_at": "22.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-09-23",
+        "appellant_is_bank": false,
+        "appellant_status": "Истец"
+      },
+      "initial_bank_role": "Третье лицо"
     },
     {
       "id": "33-19172/2026",
@@ -116,12 +148,16 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "176813709|1c449bbf-2e96-4e53-8cee-b62a85e66445",
         "act_published": false,
         "act_date": "",
         "events": [],
         "judicial_uid": "03RS0038-01-2026-000238-75",
-        "srv_num": 1
+        "srv_num": 1,
+        "appeal_appellant_checked_at": "2026-09-23",
+        "appeal_appellant": "Истец",
+        "appeal_appellant_is_bank": false,
+        "appeal_appellant_status": "Истец"
       },
       "appeal": {
         "case_number": "33-19172/2026",
@@ -139,9 +175,21 @@
         "link": "60935262|a1e67a6d-2473-4f17-9257-996b2ff8f5ba",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "Истец",
+        "events": [
+          {
+            "date": "22.09.2026",
+            "time": "17:07",
+            "text": "Передача дела судье. 17:07. 22.09.2026",
+            "name": "Передача дела судье",
+            "posted_at": "22.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-09-23",
+        "appellant_is_bank": false,
+        "appellant_status": "Истец"
+      },
+      "initial_bank_role": "Третье лицо"
     },
     {
       "id": "2-3941/2026",
@@ -162,15 +210,55 @@
         "filing_date": "21.09.2026",
         "status": "В производстве",
         "result": "",
-        "last_event": "",
-        "event_date": "",
-        "hearing_date": "",
-        "hearing_time": "",
+        "last_event": "Подготовка дела (собеседование). 11:00. 404. 22.09.2026",
+        "event_date": "19.10.2026",
+        "hearing_date": "19.10.2026",
+        "hearing_time": "11:00",
         "link": "261516095|962a3d83-2c28-435b-bf99-6674854c3bea",
         "act_published": false,
         "act_date": "",
         "act_text": "",
-        "events": []
+        "events": [
+          {
+            "date": "21.09.2026",
+            "time": "14:01",
+            "text": "Регистрация иска (заявления, жалобы) в суде. 14:01. 22.09.2026",
+            "name": "Регистрация иска (заявления, жалобы) в суде",
+            "posted_at": "22.09.2026"
+          },
+          {
+            "date": "21.09.2026",
+            "time": "14:34",
+            "text": "Передача материалов судье. 14:34. 22.09.2026",
+            "name": "Передача материалов судье",
+            "posted_at": "22.09.2026"
+          },
+          {
+            "date": "21.09.2026",
+            "time": "17:00",
+            "text": "Решение вопроса о принятии иска (заявления, жалобы) к рассмотрению. 17:00. Иск (заявление, жалоба) принят к производству. 22.09.2026",
+            "name": "Решение вопроса о принятии иска (заявления, жалобы) к рассмотрению",
+            "result_event": "Иск (заявление, жалоба) принят к производству",
+            "posted_at": "22.09.2026"
+          },
+          {
+            "date": "21.09.2026",
+            "time": "17:30",
+            "text": "Вынесено определение о подготовке дела к судебному разбирательству. 17:30. 22.09.2026",
+            "name": "Вынесено определение о подготовке дела к судебному разбирательству",
+            "posted_at": "22.09.2026"
+          },
+          {
+            "date": "19.10.2026",
+            "time": "11:00",
+            "text": "Подготовка дела (собеседование). 11:00. 404. 22.09.2026",
+            "name": "Подготовка дела (собеседование)",
+            "place": "404",
+            "posted_at": "22.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-09-23",
+        "judicial_uid": "03RS0006-01-2026-004209-43"
       },
       "appeal": null
     },
