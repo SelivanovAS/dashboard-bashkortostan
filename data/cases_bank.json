@@ -29,8 +29,7 @@
         "judicial_uid": "03RS0013-01-2026-004323-09",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-25",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-25"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -68,8 +67,7 @@
         "judicial_uid": "03RS0031-01-2026-001029-13",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-25",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-25"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -185,8 +183,7 @@
         "judicial_uid": "03RS0043-01-2026-000890-85",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-25",
-        "intake_card_parse": true
+        "last_checked_at": "2026-09-25"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -27115,7 +27112,8 @@
         "last_checked_at": "2026-09-25",
         "act_text": "Дело № 2 – 1107/2026 УИД: 03RS0065-01-2026-001261-37 ОПРЕДЕЛЕНИЕ 23 сентября 2026 г. г. Учалы, РБ Учалинский районный суд Республики Башкортостан в составе: председательствующего судьи Яковлевой Л.С., при секретаре Ряшевой Л.Р., рассмотрев в открытом судебном заседании гражданское дело № 2 – 1107/2026 по исковому заявлению ПАО «Сбербанк» в лице филиала – Башкирское отделение № 8598 к Саидовой Хаве Шемальевне о взыскании задолженности по кредитному договору и обращении взыскания на заложенное имущество, УСТАНОВИЛ: ПАО «Сбербанк» в лице филиала – Башкирское отделение № 8598 обратилось в суд с исковым заявлением к Саидовой Х.Ш. о взыскании задолженности по кредитному договору и обращении взыскания на заложенное имущество. На подготовку дела к судебному разбирательству, назначенному на ДД.ММ.ГГГГ представитель истца ПАО «Сбербанк» не явился, о времени и месте рассмотрения дела был извещен надлежащим образом. В судебное заседание, назначенное на ДД.ММ.ГГГГ представитель истца ПАО «Сбербанк», будучи надлежаще извещённым о времени и месте рассмотрения дела, в судебное заседание не явился. О разбирательстве дела в его отсутствие не просил. Причина неявки не известна. Ответчик Саидова Х.Ш. в судебное заседание не явилась, о времени и месте рассмотрении дела извещалась надлежащим образом, о рассмотрении дела в её отсутствие и по существу не просила. В соответствии с п. 8 ст. 222 ГПК РФ суд оставляет заявление без рассмотрения в случае, если истец, не просивший о разбирательстве дела в его отсутствие, не явился в суд по вторичному вызову, а ответчик не требует рассмотрения дела по существу. Доказательств уважительности причин неявки в судебные заседания, а также невозможности сообщения о них суду, стороной истца не представлено. Кроме того, суд отмечает, что на официальном сайте Учалинского районного суда Республики Башкортостан была размещена информация о месте и времени рассмотрения дела. Истец о наличии в производстве суда гражданского дела по его исковому заявлению знал. Информация, размещённая на официальном сайте суда, является публичной и общедоступной информацией. При таких обстоятельствах, суд находит исковое заявление подлежащим оставлению без рассмотрения, в связи с неявкой истца по вторичному вызову. Руководствуясь п. 8 ст. 222, ст. 224, 225 ГПК РФ, ОПРЕДЕЛИЛ: Гражданское дело № 2 – 1107/2026 по исковому заявлению ПАО «Сбербанк» в лице филиала – Башкирское отделение № 8598 к Саидовой Хаве Шемальевне о взыскании задолженности по кредитному договору и обращении взыскания на заложенное имущество – оставить без рассмотрения. В соответствии со ст. 223 ГПК РФ суд по ходатайству заявителя отменяет свое определение об оставлении заявления без рассмотрения, если заявитель представит доказательства, подтверждающие уважительность причин неявки в судебное заседание и невозможности сообщения о них в суд. Председательствующий: Яковлева Л.С. опубликовано 22.07.2026 11:45, изменено 23.09.2026 23:59 function select_delo_id_new(d_i, c_t) { var delo_id; var case_type; var popupDivB = document.getElementById('divFSPopupBottom'); var popupDivT = document.getElementById('divFSPopupTop'); delo_id = d_i; case_type = c_t; if(popupDivB && popupDivT) { //alert(delo_id); var url; if(delo_id !== '0') { switch(delo_id) { case 1540006: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1540006'; break; } break; case 4: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4'; break; case 4: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4&new=4'; break; case 2450001: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=4&new=2450001'; break; } break; case 2450001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2450001'; break; } break; case 1540005: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1540005'; break; } break; case 5: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5'; break; case 5: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5&new=5'; break; case 2800001: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=5&new=2800001'; break; } break; case 2800001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2800001'; break; } break; case 41: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=41'; break; } break; case 42: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=42'; break; } break; case 43: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=43'; break; } break; case 1500001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1500001'; break; } break; case 1502001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1502001'; break; } break; case 1513001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1513001'; break; } break; case 2550001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=2550001'; break; } break; case 1610001: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1610001'; break; } break; case 1610002: switch(case_type) { case 1: url = '/modules.php?name=sud_delo&srv_num=' + 1 + '&name_op=sf&nc=1&delo_id=1610002'; break; } break; } loadXMLDoc1(url); } else { alert(\"Не выбран вид производства\"); document.getElementById('inst1').innerHTML = 'Для поиска по решениям необходимо выбрать вид производства'; if(document.getElementById('case_type1').options[document.getElementById('case_type1').selectedIndex].value === 0) document.getElementById('inst').style.display = 'block'; else document.getElementById('inst').style.display = 'none'; document.getElementById('inst2').style.display = 'block'; document.getElementById('search_content').style.display = 'none'; } hidePopupDiv(); } } function index_docs(n, m) { for(i = 1; i = 10) { s = s * 100 + a } else { s = s * 10 + a; } // Чтобы избежать переполнения - берём остаток по модулю от частичной суммы if (s > maxS) { s = s % modulus } } var result = s % modulus; return result; } function validateJuid(juid) { const minJuidLen = 2; var code = juid.replace(/\\W/g, ''); if(code.length ' + ' ' + placeholder + ' ' + input.outerHTML + ' ';*/ text = ' ' + input.outerHTML + ' Неверный формат ввода ' + ' '; input.outerHTML = text; }, setValueOfMask : function (e) { var value = e.target.value, placeholder = e.target.getAttribute('data-placeholder'); return \" \" + value + \" \" + placeholder.substr(value.length); }, // add event listeners activateMasking : function (inputs) { var i, l; for (i = 0, l = inputs.length; i = 0; matchesLetter = masking.maskedLetter.indexOf(placeholder[i]) >= 0; if ((matchesNumber && isInt) || (isCharsetPresent && matchesLetter && isLetter)) { newValue += strippedValue[j++]; } else if ((!isCharsetPresent && !isInt && matchesNumber) || (isCharsetPresent && ((matchesLetter && !isLetter) || (matchesNumber && !isInt)))) { //masking.errorOnKeyEntry(e); // write your own error handling function return newValue; } else { newValue += placeholder[i]; } // break if no characters left and the pattern is non-special character if (strippedValue[j] == undefined) { break; } } if (e.target.getAttribute('data-valid-example')) { return masking.validateProgress(e, newValue); } return newValue; }, validateProgress : function (e, value) { var validExample = e.target.getAttribute('data-valid-example'), pattern = new RegExp(e.target.getAttribute('pattern')), placeholder = e.targ",
         "resolved_emitted": true,
-        "writ_expected": false
+        "writ_expected": false,
+        "decision_date": "23.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -28751,5 +28749,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-25T06:40:21+05:00"
+  "updated_at": "2026-09-25T07:04:31+05:00"
 }
