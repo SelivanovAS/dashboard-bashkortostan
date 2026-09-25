@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-25T06:40:21+05:00",
+ "updated_at": "2026-09-25T07:04:31+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -979,107 +979,80 @@
     25,
     25,
     25,
-    0
+    0,
+    25
    ],
-   "zero_streak": 1,
+   "zero_streak": 0,
    "fail_streak": 0,
-   "alerted_zero": true,
+   "alerted_zero": false,
    "label": "Президиум Верховного суда Республики Башкортостан",
-   "last_count": 0,
-   "last_run_at": "2026-09-25T06:40:21+05:00"
+   "last_count": 25,
+   "last_run_at": "2026-09-25T07:04:31+05:00"
   }
  },
  "last_run": {
-  "at": "2026-09-25T06:40:21",
+  "at": "2026-09-25T07:04:31",
   "alerts": [
-   "Президиум Верховного суда Республики Башкортостан: поиск вернул 0 результатов, хотя обычно ~25 (1-й нулевой прогон подряд)"
+   "Президиум Верховного суда Республики Башкортостан: снова отдаёт результаты (25)"
   ],
-  "requests_ok": 419,
+  "requests_ok": 125,
   "requests_failed": 0,
   "requests_retried": 0,
-  "cards_breaker_skipped": 50,
-  "cards_breaker_unrequested": 34,
+  "cards_breaker_skipped": 0,
+  "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 360,
-  "cards_planned": 394,
-  "cards_read_today": 360,
-  "cards_planned_today": 394,
-  "daily_attempts": 1,
+  "cards_read": 90,
+  "cards_planned": 90,
+  "cards_read_today": 414,
+  "cards_planned_today": 414,
+  "daily_attempts": 2,
   "instances": {
    "first_instance": {
-    "read": 342,
-    "planned": 342,
-    "read_today": 342,
-    "planned_today": 342
+    "read": 39,
+    "planned": 39,
+    "read_today": 345,
+    "planned_today": 345
    },
    "appeal": {
-    "read": 0,
-    "planned": 33,
-    "read_today": 0,
-    "planned_today": 33
+    "read": 49,
+    "planned": 49,
+    "read_today": 49,
+    "planned_today": 49
    },
    "cassation": {
-    "read": 18,
-    "planned": 19,
-    "read_today": 18,
-    "planned_today": 19
+    "read": 2,
+    "planned": 2,
+    "read_today": 20,
+    "planned_today": 20
    }
   },
   "latency": {
-   "n": 419,
-   "p50": 1.2,
-   "p90": 3.7,
-   "max": 11.2
+   "n": 125,
+   "p50": 2.9,
+   "p90": 8.5,
+   "max": 14.6
   },
-  "failure_latency": {
-   "outage_search": {
-    "n": 1,
-    "p50": 0.2,
-    "p90": 0.2,
-    "max": 0.2
-   }
-  },
-  "fail_kinds": {
-   "outage_search": 1,
-   "breaker": 16
-  },
+  "failure_latency": {},
+  "fail_kinds": {},
   "breaker": {
    "mode": "time",
-   "opened_hosts": 1,
-   "open_hosts": 1,
+   "opened_hosts": 0,
+   "open_hosts": 0,
    "recovered_hosts": 0,
-   "deferred_total": 34,
-   "deferred_remaining": 34,
+   "deferred_total": 0,
+   "deferred_remaining": 0,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
-   "by_kind": {
-    "outage_search": 1
-   },
-   "hosts": [
-    {
-     "host": "vs--bkr.sudrf.ru",
-     "state": "open",
-     "kind": "outage_search",
-     "family": "portal_outage",
-     "reason": "portal_placeholder",
-     "preopened": true,
-     "skipped": 50,
-     "probes": 0,
-     "deferred_total": 34,
-     "deferred_remaining": 34,
-     "deferred_recovered": 0,
-     "cooldown_seconds": 180.0,
-     "next_probe_in_seconds": 0.0
-    }
-   ]
+   "by_kind": {},
+   "hosts": []
   },
-  "courts_unavailable": 1,
-  "courts_with_unrequested": 2,
-  "courts_outage": 1,
-  "cards_unreachable": 34,
+  "courts_unavailable": 0,
+  "courts_with_unrequested": 0,
+  "courts_outage": 0,
+  "cards_unreachable": 0,
   "cards_unread_other": 0,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
