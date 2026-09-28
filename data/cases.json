@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T06:36:14+05:00",
+  "updated_at": "2026-09-28T06:55:14+05:00",
   "cases": [
     {
       "id": "33-19487/2026",
@@ -22,12 +22,16 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "222502480|72cf953b-d8e9-421e-ba54-92019372400d",
         "act_published": false,
         "act_date": "",
         "events": [],
         "judicial_uid": "03RS0003-01-2025-000943-90",
-        "srv_num": 1
+        "srv_num": 1,
+        "appeal_appellant_checked_at": "2026-09-28",
+        "appeal_appellant": "Ответчик",
+        "appeal_appellant_is_bank": true,
+        "appeal_appellant_status": "Ответчик"
       },
       "appeal": {
         "case_number": "33-19487/2026",
@@ -45,9 +49,21 @@
         "link": "60990545|b34d8ff9-81bc-44e2-99bd-eb8014ecb2c6",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "Ответчик",
+        "events": [
+          {
+            "date": "25.09.2026",
+            "time": "15:00",
+            "text": "Передача дела судье. 15:00. 25.09.2026",
+            "name": "Передача дела судье",
+            "posted_at": "25.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-09-28",
+        "appellant_is_bank": true,
+        "appellant_status": "Ответчик"
+      },
+      "initial_bank_role": "Ответчик"
     },
     {
       "id": "М-3974/2026",
@@ -68,15 +84,32 @@
         "filing_date": "24.09.2026",
         "status": "В производстве",
         "result": "",
-        "last_event": "",
-        "event_date": "",
+        "last_event": "Передача материалов судье. 12:35. 25.09.2026",
+        "event_date": "25.09.2026",
         "hearing_date": "",
         "hearing_time": "",
         "link": "195381814|95c33d52-d368-4b3c-92b2-8c20669936ea",
         "act_published": false,
         "act_date": "",
         "act_text": "",
-        "events": []
+        "events": [
+          {
+            "date": "24.09.2026",
+            "time": "18:39",
+            "text": "Регистрация иска (заявления, жалобы) в суде. 18:39. 24.09.2026",
+            "name": "Регистрация иска (заявления, жалобы) в суде",
+            "posted_at": "24.09.2026"
+          },
+          {
+            "date": "25.09.2026",
+            "time": "12:35",
+            "text": "Передача материалов судье. 12:35. 25.09.2026",
+            "name": "Передача материалов судье",
+            "posted_at": "25.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-09-28",
+        "judicial_uid": "03RS0004-01-2026-010279-78"
       },
       "appeal": null
     },
@@ -16508,7 +16541,16 @@
         "act_published": false,
         "act_date": "",
         "appellant": "",
-        "events": []
+        "events": [
+          {
+            "date": "25.09.2026",
+            "time": "15:02",
+            "text": "Передача дела судье. 15:02. 25.09.2026",
+            "name": "Передача дела судье",
+            "posted_at": "25.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-09-28"
       },
       "initial_bank_role": "Истец",
       "import": {
