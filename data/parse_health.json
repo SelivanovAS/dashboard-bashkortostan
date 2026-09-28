@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-09-28T06:36:13+05:00",
+ "updated_at": "2026-09-28T06:55:13+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -1038,44 +1038,44 @@
   }
  },
  "last_run": {
-  "at": "2026-09-28T06:36:13",
+  "at": "2026-09-28T06:55:13",
   "alerts": [],
-  "requests_ok": 290,
+  "requests_ok": 45,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 223,
-  "cards_planned": 223,
-  "cards_read_today": 223,
-  "cards_planned_today": 223,
-  "daily_attempts": 1,
+  "cards_read": 35,
+  "cards_planned": 35,
+  "cards_read_today": 229,
+  "cards_planned_today": 229,
+  "daily_attempts": 2,
   "instances": {
    "first_instance": {
-    "read": 154,
-    "planned": 154,
-    "read_today": 154,
-    "planned_today": 154
+    "read": 33,
+    "planned": 33,
+    "read_today": 158,
+    "planned_today": 158
    },
    "appeal": {
-    "read": 49,
-    "planned": 49,
-    "read_today": 49,
-    "planned_today": 49
+    "read": 2,
+    "planned": 2,
+    "read_today": 51,
+    "planned_today": 51
    },
    "cassation": {
-    "read": 20,
-    "planned": 20,
+    "read": 0,
+    "planned": 0,
     "read_today": 20,
     "planned_today": 20
    }
   },
   "latency": {
-   "n": 290,
-   "p50": 2.8,
-   "p90": 5.3,
+   "n": 45,
+   "p50": 4.4,
+   "p90": 9.7,
    "max": 12.7
   },
   "failure_latency": {},
