@@ -4,8 +4,8 @@
   "smart_skip": true,
   "totals": {
     "total": 724,
-    "parsed": 37,
-    "skip": 687,
+    "parsed": 35,
+    "skip": 689,
     "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
@@ -12955,9 +12955,9 @@
       "last_checked_at": "2026-09-25"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -12991,16 +12991,14 @@
       "last_checked_at": "2026-09-25"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_hearing_recess"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "zilairsky--bkr.sudrf.ru|2-413/2026",
@@ -13047,5 +13045,5 @@
       "last_checked_at": "2026-09-25"
     }
   ],
-  "updated_at": "2026-09-30T07:27:47+05:00"
+  "updated_at": "2026-09-30T08:14:42+05:00"
 }
