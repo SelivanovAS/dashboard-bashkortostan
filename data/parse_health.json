@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-01T07:05:25+05:00",
+ "updated_at": "2026-10-01T08:11:18+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -149,7 +149,6 @@
   "fi:leninsky--bkr.sudrf.ru": {
    "counts": [
     22,
-    22,
     23,
     23,
     22,
@@ -159,16 +158,17 @@
     21,
     20,
     20,
+    21,
     21,
     21,
     21
    ],
    "zero_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "alerted_zero": false,
    "label": "Ленинский районный суд г. Уфы",
    "last_count": 21,
-   "last_run_at": "2026-10-01T07:05:25+05:00"
+   "last_run_at": "2026-10-01T08:11:18+05:00"
   },
   "fi:oktiabrsky--bkr.sudrf.ru": {
    "counts": [
@@ -476,11 +476,11 @@
     22
    ],
    "zero_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "alerted_zero": false,
    "label": "Баймакский районный суд",
    "last_count": 22,
-   "last_run_at": "2026-10-01T07:05:25+05:00"
+   "last_run_at": "2026-10-01T08:11:18+05:00"
   },
   "fi:belokataisky--bkr.sudrf.ru": {
    "counts": [
@@ -541,18 +541,18 @@
     20,
     20,
     20,
-    20,
+    19,
     19,
     19,
     19,
     19
    ],
    "zero_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "alerted_zero": false,
    "label": "Бижбулякский межрайонный суд",
    "last_count": 19,
-   "last_run_at": "2026-10-01T07:05:25+05:00"
+   "last_run_at": "2026-10-01T08:11:18+05:00"
   },
   "fi:blagovarsky--bkr.sudrf.ru": {
    "counts": [
@@ -605,7 +605,7 @@
   "fi:blagoveschensky--bkr.sudrf.ru": {
    "counts": [
     21,
-    21,
+    22,
     22,
     22,
     22,
@@ -620,11 +620,11 @@
     22
    ],
    "zero_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "alerted_zero": false,
    "label": "Благовещенский районный суд",
    "last_count": 22,
-   "last_run_at": "2026-10-01T07:05:25+05:00"
+   "last_run_at": "2026-10-01T08:11:18+05:00"
   },
   "fi:gafuriysky--bkr.sudrf.ru": {
    "counts": [
@@ -639,16 +639,16 @@
     22,
     22,
     22,
-    22,
+    21,
     21,
     21
    ],
    "zero_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "alerted_zero": false,
    "label": "Гафурийский межрайонный суд",
    "last_count": 21,
-   "last_run_at": "2026-10-01T07:05:25+05:00"
+   "last_run_at": "2026-10-01T08:11:18+05:00"
   },
   "fi:davlekanovsky--bkr.sudrf.ru": {
    "counts": [
@@ -788,11 +788,11 @@
     18
    ],
    "zero_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "alerted_zero": false,
    "label": "Караидельский межрайонный суд",
    "last_count": 18,
-   "last_run_at": "2026-10-01T07:05:25+05:00"
+   "last_run_at": "2026-10-01T08:11:18+05:00"
   },
   "fi:karmaskalinsky--bkr.sudrf.ru": {
    "counts": [
@@ -1132,81 +1132,81 @@
   }
  },
  "last_run": {
-  "at": "2026-10-01T07:05:25",
+  "at": "2026-10-01T08:11:18",
   "alerts": [],
-  "requests_ok": 153,
-  "requests_failed": 18,
+  "requests_ok": 149,
+  "requests_failed": 16,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 92,
-  "cards_planned": 237,
-  "cards_read_today": 92,
-  "cards_planned_today": 237,
-  "daily_attempts": 1,
+  "cards_read": 128,
+  "cards_planned": 159,
+  "cards_read_today": 217,
+  "cards_planned_today": 248,
+  "daily_attempts": 2,
   "instances": {
    "first_instance": {
-    "read": 21,
-    "planned": 164,
-    "read_today": 21,
-    "planned_today": 164
+    "read": 123,
+    "planned": 154,
+    "read_today": 141,
+    "planned_today": 172
    },
    "appeal": {
-    "read": 51,
-    "planned": 53,
-    "read_today": 51,
-    "planned_today": 53
+    "read": 5,
+    "planned": 5,
+    "read_today": 56,
+    "planned_today": 56
    },
    "cassation": {
-    "read": 20,
-    "planned": 20,
+    "read": 0,
+    "planned": 0,
     "read_today": 20,
     "planned_today": 20
    }
   },
   "latency": {
-   "n": 153,
-   "p50": 16.2,
-   "p90": 25.0,
-   "max": 29.9
+   "n": 149,
+   "p50": 17.5,
+   "p90": 23.8,
+   "max": 32.3
   },
   "failure_latency": {
    "http_504": {
-    "n": 13,
+    "n": 11,
     "p50": 30.1,
-    "p90": 30.2,
-    "max": 31.0
+    "p90": 30.1,
+    "max": 60.1
    },
    "read_timeout": {
     "n": 5,
     "p50": 0.2,
-    "p90": 22.6,
-    "max": 22.6
+    "p90": 2.7,
+    "max": 2.7
    }
   },
   "fail_kinds": {
-   "http_504": 13,
+   "http_504": 11,
    "read_timeout": 5
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 1,
-   "open_hosts": 1,
+   "opened_hosts": 2,
+   "open_hosts": 2,
    "recovered_hosts": 0,
-   "deferred_total": 1,
-   "deferred_remaining": 1,
+   "deferred_total": 2,
+   "deferred_remaining": 2,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
    "by_kind": {
-    "read_timeout": 1
+    "read_timeout": 2
    },
    "hosts": [
     {
-     "host": "bizhbuliaksky--bkr.sudrf.ru",
+     "host": "sterlibashevsky--bkr.sudrf.ru",
      "state": "open",
      "kind": "read_timeout",
      "family": "slow_unavailable",
@@ -1218,15 +1218,30 @@
      "deferred_remaining": 1,
      "deferred_recovered": 0,
      "cooldown_seconds": 300.0,
-     "next_probe_in_seconds": 291.9
+     "next_probe_in_seconds": 292.4
+    },
+    {
+     "host": "sterlitamaksky--bkr.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 0,
+     "probes": 0,
+     "deferred_total": 1,
+     "deferred_remaining": 1,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 298.5
     }
    ]
   },
-  "courts_unavailable": 1,
+  "courts_unavailable": 2,
   "courts_with_unrequested": 0,
   "courts_outage": 0,
   "cards_unreachable": 0,
-  "cards_unread_other": 145,
+  "cards_unread_other": 31,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": true
  }

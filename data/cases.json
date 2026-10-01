@@ -1,7 +1,38 @@
 {
   "version": 1,
-  "updated_at": "2026-10-01T07:05:25+05:00",
+  "updated_at": "2026-10-01T08:11:19+05:00",
   "cases": [
+    {
+      "id": "М-4017/2026",
+      "current_stage": "first_instance",
+      "plaintiff": "Смирнова Татьяна Викторовна",
+      "defendant": "ПАО Сбербанк в лице филиала - Уральский банк ПАО Сбербанк",
+      "category": "Отношения, связанные с защитой прав потребителей → О защите прав потребителей → - из договоров с финансово-кредитными учреждениями в сфере: → услуг кредитных организаций",
+      "bank_role": "Ответчик",
+      "initial_bank_role": "Ответчик",
+      "notes": "",
+      "first_instance": {
+        "case_number": "М-4017/2026",
+        "court": "Ленинский районный суд г. Уфы",
+        "court_domain": "leninsky--bkr.sudrf.ru",
+        "delo_id": 1540005,
+        "srv_num": 1,
+        "judge": "Ахметов Р.Р.",
+        "filing_date": "29.09.2026",
+        "status": "В производстве",
+        "result": "",
+        "last_event": "",
+        "event_date": "",
+        "hearing_date": "",
+        "hearing_time": "",
+        "link": "199418127|ca3b7172-db50-40aa-97d6-cc4c71ac55e2",
+        "act_published": false,
+        "act_date": "",
+        "act_text": "",
+        "events": []
+      },
+      "appeal": null
+    },
     {
       "id": "33-19730/2026",
       "current_stage": "appeal",
@@ -46,8 +77,18 @@
         "act_published": false,
         "act_date": "",
         "appellant": "",
-        "events": []
-      }
+        "events": [
+          {
+            "date": "30.09.2026",
+            "time": "15:01",
+            "text": "Передача дела судье. 15:01. 30.09.2026",
+            "name": "Передача дела судье",
+            "posted_at": "30.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-10-01"
+      },
+      "initial_bank_role": "Третье лицо"
     },
     {
       "id": "33-19724/2026",
@@ -69,12 +110,16 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "197417920|89d9f4f3-5640-492c-a3d4-cb5540f168fd",
         "act_published": false,
         "act_date": "",
         "events": [],
         "judicial_uid": "03RS0017-01-2024-000079-81",
-        "srv_num": 1
+        "srv_num": 1,
+        "appeal_appellant_checked_at": "2026-10-01",
+        "appeal_appellant": "Истец",
+        "appeal_appellant_is_bank": false,
+        "appeal_appellant_status": "Истец"
       },
       "appeal": {
         "case_number": "33-19724/2026",
@@ -92,9 +137,21 @@
         "link": "61046192|76eecbbf-a29b-4f0c-84a3-9be7c4c2f99c",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "Истец",
+        "events": [
+          {
+            "date": "30.09.2026",
+            "time": "14:56",
+            "text": "Передача дела судье. 14:56. 30.09.2026",
+            "name": "Передача дела судье",
+            "posted_at": "30.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-10-01",
+        "appellant_is_bank": false,
+        "appellant_status": "Истец"
+      },
+      "initial_bank_role": "Третье лицо"
     },
     {
       "id": "33-19697/2026",
@@ -116,12 +173,16 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "198736217|a16110f8-b9bd-46a0-817a-d635ab1157b7",
         "act_published": false,
         "act_date": "",
         "events": [],
         "judicial_uid": "03RS0017-01-2025-012213-70",
-        "srv_num": 1
+        "srv_num": 1,
+        "appeal_appellant_checked_at": "2026-10-01",
+        "appeal_appellant": "Ответчик",
+        "appeal_appellant_is_bank": false,
+        "appeal_appellant_status": "Ответчик"
       },
       "appeal": {
         "case_number": "33-19697/2026",
@@ -139,9 +200,21 @@
         "link": "61044699|a8a8516a-dc21-4349-8855-e74dc843e7a3",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "Ответчик",
+        "events": [
+          {
+            "date": "30.09.2026",
+            "time": "14:52",
+            "text": "Передача дела судье. 14:52. 30.09.2026",
+            "name": "Передача дела судье",
+            "posted_at": "30.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-10-01",
+        "appellant_is_bank": false,
+        "appellant_status": "Ответчик"
+      },
+      "initial_bank_role": "Третье лицо"
     },
     {
       "id": "М-2307/2026",
@@ -162,15 +235,32 @@
         "filing_date": "30.09.2026",
         "status": "В производстве",
         "result": "",
-        "last_event": "",
-        "event_date": "",
+        "last_event": "Передача материалов судье. 10:46. 30.09.2026",
+        "event_date": "30.09.2026",
         "hearing_date": "",
         "hearing_time": "",
         "link": "262386838|5ca0a19a-3d65-4d0f-9e61-e5e682428ad4",
         "act_published": false,
         "act_date": "",
         "act_text": "",
-        "events": []
+        "events": [
+          {
+            "date": "30.09.2026",
+            "time": "10:09",
+            "text": "Регистрация иска (заявления, жалобы) в суде. 10:09. 30.09.2026",
+            "name": "Регистрация иска (заявления, жалобы) в суде",
+            "posted_at": "30.09.2026"
+          },
+          {
+            "date": "30.09.2026",
+            "time": "10:46",
+            "text": "Передача материалов судье. 10:46. 30.09.2026",
+            "name": "Передача материалов судье",
+            "posted_at": "30.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-10-01",
+        "judicial_uid": "03RS0010-01-2026-004662-24"
       },
       "appeal": null
     },
@@ -193,15 +283,32 @@
         "filing_date": "14.09.2026",
         "status": "В производстве",
         "result": "",
-        "last_event": "",
-        "event_date": "",
+        "last_event": "Передача материалов судье. 18:46. 30.09.2026",
+        "event_date": "30.09.2026",
         "hearing_date": "",
         "hearing_time": "",
         "link": "262506158|222602f4-8e1b-4125-8ba2-c467cf4a5927",
         "act_published": false,
         "act_date": "",
         "act_text": "",
-        "events": []
+        "events": [
+          {
+            "date": "14.09.2026",
+            "time": "18:33",
+            "text": "Регистрация иска (заявления, жалобы) в суде. 18:33. 30.09.2026",
+            "name": "Регистрация иска (заявления, жалобы) в суде",
+            "posted_at": "30.09.2026"
+          },
+          {
+            "date": "30.09.2026",
+            "time": "18:46",
+            "text": "Передача материалов судье. 18:46. 30.09.2026",
+            "name": "Передача материалов судье",
+            "posted_at": "30.09.2026"
+          }
+        ],
+        "last_checked_at": "2026-10-01",
+        "judicial_uid": "03RS0064-01-2026-005009-98"
       },
       "appeal": null
     },
@@ -3402,7 +3509,7 @@
             "posted_at": "28.09.2026"
           }
         ],
-        "last_checked_at": "2026-09-30",
+        "last_checked_at": "2026-10-01",
         "judicial_uid": "03RS0069-01-2026-001244-70",
         "material_number": "М-862/2026",
         "accepted_pending_emit": false,
@@ -4504,7 +4611,7 @@
             "posted_at": "15.09.2026"
           }
         ],
-        "last_checked_at": "2026-09-30"
+        "last_checked_at": "2026-10-01"
       },
       "initial_bank_role": "Третье лицо"
     },
@@ -4924,7 +5031,7 @@
             "posted_at": "14.09.2026"
           }
         ],
-        "last_checked_at": "2026-09-30",
+        "last_checked_at": "2026-10-01",
         "appellant_is_bank": false,
         "appellant_status": "Ответчик"
       },
@@ -7880,7 +7987,7 @@
           }
         ],
         "judicial_uid": "03RS0028-01-2026-001021-02",
-        "last_checked_at": "2026-09-30"
+        "last_checked_at": "2026-10-01"
       },
       "appeal": null,
       "import": {
@@ -10755,7 +10862,7 @@
           }
         ],
         "judicial_uid": "03RS0065-01-2026-001036-33",
-        "last_checked_at": "2026-09-30",
+        "last_checked_at": "2026-10-01",
         "decision_date": "10.09.2026",
         "resolved_emitted": true,
         "act_analysis": {
@@ -11798,7 +11905,7 @@
         "judicial_uid": "18RS0001-01-2026-000097-47",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-30",
+        "last_checked_at": "2026-10-01",
         "resolved_emitted": true,
         "decision_date": "18.05.2026",
         "appeal_filed": true,
@@ -11938,7 +12045,7 @@
         "judicial_uid": "03RS0030-01-2026-000167-33",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-30",
+        "last_checked_at": "2026-10-01",
         "resolved_emitted": true,
         "decision_date": "10.04.2026",
         "appeal_filed": true,
@@ -12860,7 +12967,7 @@
         "judicial_uid": "03RS0049-01-2026-000608-31",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-30",
+        "last_checked_at": "2026-10-01",
         "resolved_emitted": true,
         "decision_date": "17.06.2026",
         "appeal_filed": true,
