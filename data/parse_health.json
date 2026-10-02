@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-02T08:03:39+05:00",
+ "updated_at": "2026-10-02T08:19:13+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -561,7 +561,6 @@
     10,
     10,
     10,
-    10,
     11,
     11,
     11,
@@ -569,14 +568,15 @@
     11,
     11,
     0,
+    0,
     0
    ],
-   "zero_streak": 2,
+   "zero_streak": 3,
    "fail_streak": 0,
    "alerted_zero": true,
    "label": "Благоварский межрайонный суд",
    "last_count": 0,
-   "last_run_at": "2026-10-02T08:03:39+05:00"
+   "last_run_at": "2026-10-02T08:19:13+05:00"
   },
   "fi:birsky--bkr.sudrf.ru": {
    "counts": [
@@ -1132,30 +1132,32 @@
   }
  },
  "last_run": {
-  "at": "2026-10-02T08:03:39",
-  "alerts": [],
-  "requests_ok": 227,
-  "requests_failed": 4,
+  "at": "2026-10-02T08:19:13",
+  "alerts": [
+   "Благоварский межрайонный суд: поиск вернул 0 результатов, хотя обычно ~10 (3-й нулевой прогон подряд)"
+  ],
+  "requests_ok": 18,
+  "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 206,
-  "cards_planned": 214,
-  "cards_read_today": 418,
+  "cards_read": 4,
+  "cards_planned": 8,
+  "cards_read_today": 422,
   "cards_planned_today": 428,
-  "daily_attempts": 2,
+  "daily_attempts": 3,
   "instances": {
    "first_instance": {
-    "read": 201,
-    "planned": 209,
-    "read_today": 337,
+    "read": 4,
+    "planned": 8,
+    "read_today": 341,
     "planned_today": 347
    },
    "appeal": {
-    "read": 5,
-    "planned": 5,
+    "read": 0,
+    "planned": 0,
     "read_today": 63,
     "planned_today": 63
    },
@@ -1167,42 +1169,28 @@
    }
   },
   "latency": {
-   "n": 227,
-   "p50": 9.4,
-   "p90": 17.1,
-   "max": 27.0
+   "n": 18,
+   "p50": 13.1,
+   "p90": 22.4,
+   "max": 22.8
   },
   "failure_latency": {
    "degraded_card": {
     "n": 4,
-    "p50": 7.8,
-    "p90": 16.7,
-    "max": 16.7
+    "p50": 13.1,
+    "p90": 15.3,
+    "max": 15.3
    },
    "empty_search": {
     "n": 1,
-    "p50": 9.7,
-    "p90": 9.7,
-    "max": 9.7
-   },
-   "http_504": {
-    "n": 3,
-    "p50": 30.0,
-    "p90": 30.0,
-    "max": 30.0
-   },
-   "read_timeout": {
-    "n": 1,
-    "p50": 65.0,
-    "p90": 65.0,
-    "max": 65.0
+    "p50": 8.9,
+    "p90": 8.9,
+    "max": 8.9
    }
   },
   "fail_kinds": {
    "empty_search": 1,
-   "degraded_card": 4,
-   "http_504": 3,
-   "read_timeout": 1
+   "degraded_card": 4
   },
   "breaker": {
    "mode": "time",
@@ -1222,7 +1210,7 @@
   "courts_with_unrequested": 0,
   "courts_outage": 0,
   "cards_unreachable": 0,
-  "cards_unread_other": 8,
+  "cards_unread_other": 4,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  }
