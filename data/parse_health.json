@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-05T08:05:04+05:00",
+ "updated_at": "2026-10-05T08:20:03+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -200,7 +200,6 @@
     15,
     15,
     15,
-    15,
     14,
     14,
     14,
@@ -209,14 +208,15 @@
     14,
     13,
     13,
-    13
+    13,
+    14
    ],
    "zero_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "alerted_zero": false,
    "label": "Орджоникидзевский районный суд г. Уфы",
-   "last_count": 13,
-   "last_run_at": "2026-10-05T08:05:04+05:00"
+   "last_count": 14,
+   "last_run_at": "2026-10-05T08:20:03+05:00"
   },
   "fi:sovetsky--bkr.sudrf.ru": {
    "counts": [
@@ -270,7 +270,6 @@
    "counts": [
     13,
     13,
-    13,
     14,
     14,
     14,
@@ -281,14 +280,15 @@
     14,
     15,
     17,
+    17,
     17
    ],
    "zero_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "alerted_zero": false,
    "label": "Ишимбайский городской суд",
    "last_count": 17,
-   "last_run_at": "2026-10-05T08:05:04+05:00"
+   "last_run_at": "2026-10-05T08:20:03+05:00"
   },
   "fi:neftekamsky--bkr.sudrf.ru": {
    "counts": [
@@ -558,25 +558,25 @@
    "counts": [
     10,
     10,
-    10,
     11,
     11,
     11,
     11,
     11,
     11,
+    0,
     0,
     0,
     0,
     0,
     0
    ],
-   "zero_streak": 5,
+   "zero_streak": 6,
    "fail_streak": 0,
    "alerted_zero": true,
    "label": "Благоварский межрайонный суд",
    "last_count": 0,
-   "last_run_at": "2026-10-05T08:05:04+05:00"
+   "last_run_at": "2026-10-05T08:20:03+05:00"
   },
   "fi:birsky--bkr.sudrf.ru": {
    "counts": [
@@ -1132,68 +1132,61 @@
   }
  },
  "last_run": {
-  "at": "2026-10-05T08:05:04",
+  "at": "2026-10-05T08:20:03",
   "alerts": [],
-  "requests_ok": 325,
-  "requests_failed": 2,
+  "requests_ok": 30,
+  "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 258,
-  "cards_planned": 262,
-  "cards_read_today": 258,
-  "cards_planned_today": 262,
-  "daily_attempts": 1,
+  "cards_read": 4,
+  "cards_planned": 8,
+  "cards_read_today": 262,
+  "cards_planned_today": 266,
+  "daily_attempts": 2,
   "instances": {
    "first_instance": {
-    "read": 180,
-    "planned": 184,
+    "read": 0,
+    "planned": 4,
     "read_today": 180,
     "planned_today": 184
    },
    "appeal": {
-    "read": 61,
-    "planned": 61,
-    "read_today": 61,
-    "planned_today": 61
+    "read": 4,
+    "planned": 4,
+    "read_today": 65,
+    "planned_today": 65
    },
    "cassation": {
-    "read": 17,
-    "planned": 17,
+    "read": 0,
+    "planned": 0,
     "read_today": 17,
     "planned_today": 17
    }
   },
   "latency": {
-   "n": 325,
-   "p50": 5.2,
+   "n": 30,
+   "p50": 6.8,
    "p90": 12.6,
-   "max": 28.6
+   "max": 17.1
   },
   "failure_latency": {
    "degraded_card": {
     "n": 4,
-    "p50": 9.0,
-    "p90": 13.6,
-    "max": 13.6
+    "p50": 0.2,
+    "p90": 8.1,
+    "max": 8.1
    },
    "empty_search": {
     "n": 1,
-    "p50": 0.2,
-    "p90": 0.2,
-    "max": 0.2
-   },
-   "http_504": {
-    "n": 2,
-    "p50": 30.2,
-    "p90": 60.1,
-    "max": 60.1
+    "p50": 12.0,
+    "p90": 12.0,
+    "max": 12.0
    }
   },
   "fail_kinds": {
-   "http_504": 2,
    "empty_search": 1,
    "degraded_card": 4
   },
