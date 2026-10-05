@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-05T08:20:03+05:00",
+ "updated_at": "2026-10-05T08:43:41+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -557,13 +557,13 @@
   "fi:blagovarsky--bkr.sudrf.ru": {
    "counts": [
     10,
-    10,
     11,
     11,
     11,
     11,
     11,
     11,
+    0,
     0,
     0,
     0,
@@ -571,12 +571,12 @@
     0,
     0
    ],
-   "zero_streak": 6,
+   "zero_streak": 7,
    "fail_streak": 0,
    "alerted_zero": true,
    "label": "Благоварский межрайонный суд",
    "last_count": 0,
-   "last_run_at": "2026-10-05T08:20:03+05:00"
+   "last_run_at": "2026-10-05T08:43:41+05:00"
   },
   "fi:birsky--bkr.sudrf.ru": {
    "counts": [
@@ -1132,20 +1132,20 @@
   }
  },
  "last_run": {
-  "at": "2026-10-05T08:20:03",
+  "at": "2026-10-05T08:43:41",
   "alerts": [],
-  "requests_ok": 30,
+  "requests_ok": 14,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 4,
-  "cards_planned": 8,
+  "cards_read": 0,
+  "cards_planned": 4,
   "cards_read_today": 262,
   "cards_planned_today": 266,
-  "daily_attempts": 2,
+  "daily_attempts": 3,
   "instances": {
    "first_instance": {
     "read": 0,
@@ -1154,8 +1154,8 @@
     "planned_today": 184
    },
    "appeal": {
-    "read": 4,
-    "planned": 4,
+    "read": 0,
+    "planned": 0,
     "read_today": 65,
     "planned_today": 65
    },
@@ -1167,23 +1167,23 @@
    }
   },
   "latency": {
-   "n": 30,
-   "p50": 6.8,
-   "p90": 12.6,
-   "max": 17.1
+   "n": 14,
+   "p50": 11.0,
+   "p90": 14.3,
+   "max": 14.7
   },
   "failure_latency": {
    "degraded_card": {
     "n": 4,
-    "p50": 0.2,
-    "p90": 8.1,
-    "max": 8.1
+    "p50": 10.2,
+    "p90": 14.7,
+    "max": 14.7
    },
    "empty_search": {
     "n": 1,
-    "p50": 12.0,
-    "p90": 12.0,
-    "max": 12.0
+    "p50": 10.7,
+    "p90": 10.7,
+    "max": 10.7
    }
   },
   "fail_kinds": {
