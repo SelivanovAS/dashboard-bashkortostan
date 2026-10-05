@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-05T08:05:05+05:00",
+  "updated_at": "2026-10-05T08:20:04+05:00",
   "cases": [
     {
       "id": "33-19889/2026",
@@ -22,12 +22,16 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "178866087|2dc37c29-d5d8-4aa4-bd2d-f8d5660e26b6",
         "act_published": false,
         "act_date": "",
         "events": [],
         "judicial_uid": "03RS0005-01-2026-002789-88",
-        "srv_num": 1
+        "srv_num": 1,
+        "appeal_appellant_checked_at": "2026-10-05",
+        "appeal_appellant": "Ответчик",
+        "appeal_appellant_is_bank": false,
+        "appeal_appellant_status": "Ответчик"
       },
       "appeal": {
         "case_number": "33-19889/2026",
@@ -45,9 +49,13 @@
         "link": "61081057|8e2c02f0-a114-41a5-9dae-be661e210537",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "Ответчик",
+        "events": [],
+        "last_checked_at": "2026-10-05",
+        "appellant_is_bank": false,
+        "appellant_status": "Ответчик"
+      },
+      "initial_bank_role": "Истец"
     },
     {
       "id": "33-19861/2026",
@@ -69,12 +77,16 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "243281836|f13f610c-3365-41df-b6f5-b771c2f494a4",
         "act_published": false,
         "act_date": "",
         "events": [],
         "judicial_uid": "03RS0064-01-2026-001506-34",
-        "srv_num": 1
+        "srv_num": 1,
+        "appeal_appellant_checked_at": "2026-10-05",
+        "appeal_appellant": "Ответчик",
+        "appeal_appellant_is_bank": false,
+        "appeal_appellant_status": "Ответчик"
       },
       "appeal": {
         "case_number": "33-19861/2026",
@@ -92,9 +104,21 @@
         "link": "61082860|cfad3380-48e2-4c68-a97b-905b47ccb53b",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "Ответчик",
+        "events": [
+          {
+            "date": "02.10.2026",
+            "time": "15:20",
+            "text": "Передача дела судье. 15:20. 02.10.2026",
+            "name": "Передача дела судье",
+            "posted_at": "02.10.2026"
+          }
+        ],
+        "last_checked_at": "2026-10-05",
+        "appellant_is_bank": false,
+        "appellant_status": "Ответчик"
+      },
+      "initial_bank_role": "Третье лицо"
     },
     {
       "id": "33-19851/2026",
@@ -116,12 +140,15 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "252450665|52411f9a-c710-4c81-ad16-0815f9f4913f",
         "act_published": false,
         "act_date": "",
         "events": [],
         "judicial_uid": "03RS0014-01-2026-000402-79",
-        "srv_num": 1
+        "srv_num": 1,
+        "appeal_appellant_checked_at": "2026-10-05",
+        "appeal_appellant": "ПРЕДСТАВИТЕЛЬ",
+        "appeal_appellant_is_bank": null
       },
       "appeal": {
         "case_number": "33-19851/2026",
@@ -139,9 +166,20 @@
         "link": "61081732|00c70b82-5832-4920-9383-e9c36d1f8248",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "ПРЕДСТАВИТЕЛЬ",
+        "events": [
+          {
+            "date": "02.10.2026",
+            "time": "15:16",
+            "text": "Передача дела судье. 15:16. 02.10.2026",
+            "name": "Передача дела судье",
+            "posted_at": "02.10.2026"
+          }
+        ],
+        "last_checked_at": "2026-10-05",
+        "appellant_is_bank": null
+      },
+      "initial_bank_role": "Третье лицо"
     },
     {
       "id": "33-19846/2026",
@@ -163,12 +201,16 @@
         "event_date": "",
         "hearing_date": "",
         "hearing_time": "",
-        "link": "",
+        "link": "238370149|77f3cd55-29ce-4329-80d7-a3bc8ae604e3",
         "act_published": false,
         "act_date": "",
         "events": [],
         "judicial_uid": "03RS0014-01-2026-000638-50",
-        "srv_num": 1
+        "srv_num": 1,
+        "appeal_appellant_checked_at": "2026-10-05",
+        "appeal_appellant": "Третье лицо",
+        "appeal_appellant_is_bank": null,
+        "appeal_appellant_status": "Третье лицо"
       },
       "appeal": {
         "case_number": "33-19846/2026",
@@ -186,9 +228,21 @@
         "link": "61079666|eb2d2dd4-263c-4c78-afb0-89e6d4a7dbb6",
         "act_published": false,
         "act_date": "",
-        "appellant": "",
-        "events": []
-      }
+        "appellant": "Третье лицо",
+        "events": [
+          {
+            "date": "02.10.2026",
+            "time": "15:20",
+            "text": "Передача дела судье. 15:20. 02.10.2026",
+            "name": "Передача дела судье",
+            "posted_at": "02.10.2026"
+          }
+        ],
+        "last_checked_at": "2026-10-05",
+        "appellant_is_bank": null,
+        "appellant_status": "Третье лицо"
+      },
+      "initial_bank_role": "Третье лицо"
     },
     {
       "id": "33-19822/2026",
