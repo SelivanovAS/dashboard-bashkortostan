@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-07T07:04:59+05:00",
+ "updated_at": "2026-10-07T07:20:34+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -1132,73 +1132,48 @@
   }
  },
  "last_run": {
-  "at": "2026-10-07T07:04:59",
-  "alerts": [
-   "Благоварский межрайонный суд: снова отдаёт результаты (12)"
-  ],
-  "requests_ok": 305,
-  "requests_failed": 4,
+  "at": "2026-10-07T07:20:34",
+  "alerts": [],
+  "requests_ok": 35,
+  "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 234,
-  "cards_planned": 253,
-  "cards_read_today": 234,
-  "cards_planned_today": 253,
-  "daily_attempts": 1,
+  "cards_read": 19,
+  "cards_planned": 24,
+  "cards_read_today": 253,
+  "cards_planned_today": 258,
+  "daily_attempts": 2,
   "instances": {
    "first_instance": {
-    "read": 180,
-    "planned": 184,
-    "read_today": 180,
-    "planned_today": 184
+    "read": 5,
+    "planned": 5,
+    "read_today": 185,
+    "planned_today": 185
    },
    "appeal": {
-    "read": 50,
-    "planned": 50,
-    "read_today": 50,
-    "planned_today": 50
+    "read": 4,
+    "planned": 4,
+    "read_today": 54,
+    "planned_today": 54
    },
    "cassation": {
-    "read": 4,
-    "planned": 19,
-    "read_today": 4,
+    "read": 10,
+    "planned": 15,
+    "read_today": 14,
     "planned_today": 19
    }
   },
   "latency": {
-   "n": 305,
-   "p50": 7.4,
-   "p90": 15.0,
-   "max": 28.1
+   "n": 35,
+   "p50": 5.8,
+   "p90": 9.4,
+   "max": 16.4
   },
-  "failure_latency": {
-   "http_502": {
-    "n": 1,
-    "p50": 60.1,
-    "p90": 60.1,
-    "max": 60.1
-   },
-   "http_504": {
-    "n": 2,
-    "p50": 30.0,
-    "p90": 30.1,
-    "max": 30.1
-   },
-   "read_timeout": {
-    "n": 1,
-    "p50": 65.1,
-    "p90": 65.1,
-    "max": 65.1
-   }
-  },
-  "fail_kinds": {
-   "http_504": 2,
-   "read_timeout": 1,
-   "http_502": 1
-  },
+  "failure_latency": {},
+  "fail_kinds": {},
   "breaker": {
    "mode": "time",
    "opened_hosts": 0,
@@ -1217,7 +1192,7 @@
   "courts_with_unrequested": 0,
   "courts_outage": 0,
   "cards_unreachable": 0,
-  "cards_unread_other": 19,
+  "cards_unread_other": 5,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": false
  },
@@ -1227,7 +1202,7 @@
   "waiting": 15,
   "due": 15,
   "planned": 15,
-  "read": 0,
+  "read": 10,
   "published": 0,
   "backfilled": 0,
   "unplanned": 0,
@@ -1238,9 +1213,9 @@
     "court": "6kas.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-05",
-    "next_check_at": "2026-10-06",
+    "next_check_at": "2026-10-13",
     "over_90_days": false,
-    "reason": "backfill_budget"
+    "reason": "text_not_published"
    },
    {
     "key": "6kas.sudrf.ru|2800001|8Г-18333/2026",
@@ -1248,9 +1223,9 @@
     "court": "6kas.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-06",
-    "next_check_at": "2026-10-07",
+    "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_budget"
+    "reason": "text_not_published"
    },
    {
     "key": "6kas.sudrf.ru|2800001|8Г-18448/2026",
@@ -1258,9 +1233,9 @@
     "court": "6kas.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-06",
-    "next_check_at": "2026-10-07",
+    "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_budget"
+    "reason": "text_not_published"
    },
    {
     "key": "6kas.sudrf.ru|2800001|8Г-18541/2026",
@@ -1268,9 +1243,9 @@
     "court": "6kas.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-06",
-    "next_check_at": "2026-10-07",
+    "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_budget"
+    "reason": "text_not_published"
    },
    {
     "key": "6kas.sudrf.ru|2800001|8Г-18639/2026",
@@ -1278,9 +1253,9 @@
     "court": "6kas.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-06",
-    "next_check_at": "2026-10-07",
+    "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_budget"
+    "reason": "text_not_published"
    },
    {
     "key": "6kas.sudrf.ru|2800001|8Г-18666/2026",
@@ -1288,9 +1263,9 @@
     "court": "6kas.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-06",
-    "next_check_at": "2026-10-07",
+    "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_budget"
+    "reason": "text_not_published"
    },
    {
     "key": "6kas.sudrf.ru|2800001|8Г-18847/2026",
@@ -1298,9 +1273,9 @@
     "court": "6kas.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-06",
-    "next_check_at": "2026-10-07",
+    "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_budget"
+    "reason": "text_not_published"
    },
    {
     "key": "6kas.sudrf.ru|2800001|8Г-18915/2026",
@@ -1308,9 +1283,9 @@
     "court": "6kas.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-06",
-    "next_check_at": "2026-10-07",
+    "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_budget"
+    "reason": "text_not_published"
    },
    {
     "key": "6kas.sudrf.ru|2800001|8Г-19171/2026",
@@ -1318,9 +1293,9 @@
     "court": "6kas.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-06",
-    "next_check_at": "2026-10-07",
+    "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_budget"
+    "reason": "text_not_published"
    },
    {
     "key": "6kas.sudrf.ru|2800001|8Г-20059/2026",
@@ -1328,9 +1303,9 @@
     "court": "6kas.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-06",
-    "next_check_at": "2026-10-07",
+    "next_check_at": "2026-10-08",
     "over_90_days": false,
-    "reason": "backfill_budget"
+    "reason": "text_not_published"
    },
    {
     "key": "6kas.sudrf.ru|2800001|8Г-21215/2026",
@@ -1384,7 +1359,7 @@
    }
   ],
   "expired": 0,
-  "unread": 15,
+  "unread": 5,
   "long_wait": 0
  },
  "appeal_act_publication_watch": {
