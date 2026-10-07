@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-07T08:12:26+05:00",
+ "updated_at": "2026-10-07T08:41:41+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -1132,7 +1132,7 @@
   }
  },
  "last_run": {
-  "at": "2026-10-07T08:12:26",
+  "at": "2026-10-07T08:41:41",
   "alerts": [],
   "requests_ok": 10,
   "requests_failed": 0,
@@ -1145,7 +1145,7 @@
   "cards_planned": 5,
   "cards_read_today": 253,
   "cards_planned_today": 258,
-  "daily_attempts": 4,
+  "daily_attempts": 5,
   "instances": {
    "first_instance": {
     "read": 0,
@@ -1168,9 +1168,9 @@
   },
   "latency": {
    "n": 10,
-   "p50": 7.8,
-   "p90": 11.3,
-   "max": 11.9
+   "p50": 0.5,
+   "p90": 15.1,
+   "max": 15.4
   },
   "failure_latency": {},
   "fail_kinds": {},
