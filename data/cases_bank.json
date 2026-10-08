@@ -4,6 +4,45 @@
   "archived_count": 16,
   "cases": [
     {
+      "id": "М-657/2026",
+      "current_stage": "first_instance",
+      "plaintiff": "ПАО Сбербанк в лице филиала -Башкирское отделение №8598",
+      "defendant": "Бессонова Светлана Александровна",
+      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
+      "bank_role": "Истец",
+      "notes": "",
+      "first_instance": {
+        "case_number": "М-657/2026",
+        "court": "Альшеевский районный суд",
+        "court_domain": "alsheevsky--bkr.sudrf.ru",
+        "judge": "",
+        "filing_date": "07.10.2026",
+        "status": "В производстве",
+        "result": "",
+        "last_event": "Регистрация иска (заявления, жалобы) в суде. 12:58. 07.10.2026",
+        "event_date": "07.10.2026",
+        "hearing_date": "",
+        "hearing_time": "",
+        "link": "263119373|767a29bf-57f6-45ca-9ae2-501c2f1ef83e",
+        "act_published": false,
+        "act_date": "",
+        "judicial_uid": "03RS0020-01-2026-001046-60",
+        "delo_id": 1540005,
+        "srv_num": 1,
+        "last_checked_at": "2026-10-08",
+        "intake_card_parse": true
+      },
+      "appeal": null,
+      "track": "plaintiff_light",
+      "initial_bank_role": "Истец",
+      "import": {
+        "operator": "auto",
+        "at": "2026-10-08T08:12:50",
+        "source": "auto_search",
+        "announced": true
+      }
+    },
+    {
       "id": "M-2176/2026",
       "current_stage": "first_instance",
       "plaintiff": "Публичное акционерное общество \"Сбербанк России\"",
@@ -10055,7 +10094,11 @@
         "judicial_uid": "03RS0024-01-2026-001361-67",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-09-29"
+        "last_checked_at": "2026-10-08",
+        "writ_checked_at": "2026-10-08",
+        "act_absent_checked_at": "2026-10-08",
+        "fi_act_watch_baseline_version": 1,
+        "fi_act_checked_at": "2026-10-08"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -13298,9 +13341,9 @@
         "court_domain": "birsky--bkr.sudrf.ru",
         "judge": "Хисматуллина Р.Ф.",
         "filing_date": "27.04.2026",
-        "status": "В производстве",
-        "result": "",
-        "last_event": "Судебное заседание. 12:00. 11.09.2026",
+        "status": "Решено",
+        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН ЧАСТИЧНО",
+        "last_event": "Судебное заседание. 12:00. Вынесено заочное решение по делу. Иск (заявление, жалоба) УДОВЛЕТВОРЕН ЧАСТИЧНО. 11.09.2026",
         "event_date": "06.10.2026",
         "hearing_date": "06.10.2026",
         "hearing_time": "12:00",
@@ -13310,7 +13353,18 @@
         "judicial_uid": "03RS0032-01-2026-000886-98",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-10-07"
+        "last_checked_at": "2026-10-08",
+        "writ_checked_at": "2026-10-08",
+        "decision_date": "06.10.2026",
+        "resolved_emitted": true,
+        "act_absent_checked_at": "2026-10-08",
+        "fi_act_watch_baseline_version": 1,
+        "fi_act_checked_at": "2026-10-08",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-21",
+        "writ_awaited_since": "2026-11-21",
+        "default_judgment": true
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -30809,7 +30863,11 @@
         "judicial_uid": "03RS0063-01-2026-003122-89",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-10-07"
+        "last_checked_at": "2026-10-08",
+        "writ_checked_at": "2026-10-08",
+        "act_absent_checked_at": "2026-10-08",
+        "fi_act_watch_baseline_version": 1,
+        "fi_act_checked_at": "2026-10-08"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -31958,9 +32016,13 @@
         "judicial_uid": "03RS0064-01-2026-004602-58",
         "delo_id": 1540005,
         "srv_num": 1,
-        "last_checked_at": "2026-10-07",
+        "last_checked_at": "2026-10-08",
         "material_number": "М-3089/2026",
-        "accepted_pending_emit": false
+        "accepted_pending_emit": false,
+        "writ_checked_at": "2026-10-08",
+        "act_absent_checked_at": "2026-10-08",
+        "fi_act_watch_baseline_version": 1,
+        "fi_act_checked_at": "2026-10-08"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -33431,5 +33493,5 @@
       }
     }
   ],
-  "updated_at": "2026-10-08T07:54:14+05:00"
+  "updated_at": "2026-10-08T08:13:55+05:00"
 }
