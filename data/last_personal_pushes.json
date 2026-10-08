@@ -1,9 +1,18 @@
 {
   "version": 1,
-  "generated_at": "2026-10-07T03:46:01",
+  "generated_at": "2026-10-08T03:46:04",
   "title_default": "Мониторинг дел — тестовая рассылка",
-  "body_default": "📥 1 новое дело в 1-й инст. · 📥 4 новые апелляции · 📌 3 события в апелляции · 📅 26 заседаний в 1-й инст. · ⚖️ 4 решения 1-й инст. · 🔚 2 возврата исков · 📨 1 апел. жалоба · 🏁 3 финальных события 1-й инст. · 🔄 4 смены статуса (1-я инст.) · 📅 1 заседание кассации",
+  "body_default": "📥 3 новые апелляции · 📌 5 событий в апелляции · ⚖️ 2 итога апелляции · 📅 31 заседание в 1-й инст. · ⚖️ 8 решений 1-й инст. · 🔚 3 возврата исков · 📨 1 апел. жалоба · 🏁 2 финальных события 1-й инст. · 🔄 8 смен статуса (1-я инст.)",
   "owner_only": false,
+  "delivery": {
+    "status": "complete",
+    "subscriptions": 3,
+    "attempted": 3,
+    "accepted": 3,
+    "failed": 0,
+    "skipped": 0,
+    "expired": 0
+  },
   "items": [
     {
       "endpoint": "https://web.push.apple.com/QErHBadzml4XPNAzbVCVR2AUKd7m4fuUhPEbEbh1yAxOrnkeZko_wwskoTl-uamJ3lJxWL6sCLSSniyoVBvkDc8gqnZ7b8myBvCcjlYvaixY8GeXn-3r_u83KSu8GKnuKeYyZx0UkqLBScj3R6TcAHvrLj_LXLj1r5sTzczHTfw",
@@ -30,8 +39,9 @@
       ],
       "variant": "personal",
       "title": "Мониторинг дел — твои дела",
-      "body": "Изменения по 5 делам: М-4126/2026, 33-20047/2026, 33-20018/2026 и ещё 2",
-      "click_url": "/sberbank_dashboard.html?digest=open&mine=1"
+      "body": "Изменения по 3 делам: 33-20143/2026, 33-20138/2026, 33-20132/2026",
+      "click_url": "/sberbank_dashboard.html?digest=open&mine=1",
+      "delivery_status": "accepted"
     },
     {
       "endpoint": "https://web.push.apple.com/QH4kVWwJisPpcoWCo4HEmjw-yYidPptOBTyWRR7ujjcJ6s4aU2CZ6y8QD6xB7IkEsdzcBTwwnwkW0j8wORjaMlvUPlYjh5xRDgjGZs0LfhpZowiQntOAKos_nfjceht7jL2S2XuNROXKY2EbrGgK-ihjvhiXvDb2zL45QFSKru8",
@@ -41,8 +51,9 @@
       "watchlist": [],
       "variant": "general",
       "title": "Мониторинг дел — обновление",
-      "body": "📥 1 новое дело в 1-й инст. · 📥 4 новые апелляции · 📌 3 события в апелляции · 📅 26 заседаний в 1-й инст. · ⚖️ 4 решения 1-й инст. · 🔚 2 возврата исков · 📨 1 апел. жалоба · 🏁 3 финальных события 1-й инст. · 🔄 4 смены статуса (1-я инст.) · 📅 1 заседание кассации",
-      "click_url": "/sberbank_dashboard.html?digest=open"
+      "body": "📥 3 новые апелляции · 📌 5 событий в апелляции · ⚖️ 2 итога апелляции · 📅 31 заседание в 1-й инст. · ⚖️ 8 решений 1-й инст. · 🔚 3 возврата исков · 📨 1 апел. жалоба · 🏁 2 финальных события 1-й инст. · 🔄 8 смен статуса (1-я инст.)",
+      "click_url": "/sberbank_dashboard.html?digest=open",
+      "delivery_status": "accepted"
     },
     {
       "endpoint": "https://web.push.apple.com/QNaMwKZnynidAG5pGUIGaCyy93vQNBEDzawGY85uz497p0AMBREyGQLmYWkHOzn4nfvJXDAuEMXEPa60fXbDZX4qeL3AU0gZM3Dc2_04WzyRZVQFhNCy4omGJlAsGh0SRlERs5Mcps3hWrVyiBN8hPShTeZte2ntLKUpdusc3LQ",
@@ -60,9 +71,10 @@
       ],
       "variant": "personal",
       "title": "Мониторинг дел — твои дела",
-      "body": "Изменения по 5 делам: М-4126/2026, 33-20047/2026, 33-20018/2026 и ещё 2",
-      "click_url": "/sberbank_dashboard.html?digest=open&mine=1"
+      "body": "Изменения по 3 делам: 33-20143/2026, 33-20138/2026, 33-20132/2026",
+      "click_url": "/sberbank_dashboard.html?digest=open&mine=1",
+      "delivery_status": "accepted"
     }
   ],
-  "updated_at": "2026-10-07T03:46:01+00:00"
+  "updated_at": "2026-10-08T03:46:04+00:00"
 }
