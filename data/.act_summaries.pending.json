@@ -18,8 +18,8 @@
     },
     "source_hash": "fa8ac8f5371eec49aada4bf17996d436bcfe41080b263099aa9bd9ed8cc952a2",
     "created_at": "2026-10-09T03:11:32+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "fa8ac8f5371eec49aada4bf17996d436bcfe41080b263099aa9bd9ed8cc952a2",
@@ -34,8 +34,23 @@
       "identity_check": "matched_uid",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "ready",
+        "context_limit": 262144,
+        "input_token_upper_bound": 19312,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-10-09T03:11:32+00:00"
+    "updated_at": "2026-10-09T04:17:29+00:00",
+    "retry_after": "2026-10-10T04:17:29+00:00",
+    "model": "openrouter:apodex/apodex-1.1-mini:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Суд удовлетворил иск частично, освободив автомобиль от ареста по пяти исполнительным производствам, поскольку на день запрета регистрационных действий он уже принадлежал истцу по договору купли-продажи, не оспоренному ответчиками. В остальной части требования отклонены, так как по трём другим производствам постановления о запрете на спорное имущество не выносились."
   }
 }
