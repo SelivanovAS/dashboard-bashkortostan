@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-09T07:05:50+05:00",
+ "updated_at": "2026-10-09T08:11:31+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -940,7 +940,6 @@
   },
   "fi:sterlibashevsky--bkr.sudrf.ru": {
    "counts": [
-    19,
     18,
     18,
     18,
@@ -951,16 +950,17 @@
     17,
     17,
     16,
+    14,
     14,
     14,
     14
    ],
    "zero_streak": 0,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "alerted_zero": false,
    "label": "Стерлибашевский межрайонный суд",
    "last_count": 14,
-   "last_run_at": "2026-10-09T07:05:50+05:00"
+   "last_run_at": "2026-10-09T08:11:31+05:00"
   },
   "fi:tuimazinsky--bkr.sudrf.ru": {
    "counts": [
@@ -1132,83 +1132,132 @@
   }
  },
  "last_run": {
-  "at": "2026-10-09T07:05:50",
+  "at": "2026-10-09T08:11:31",
   "alerts": [],
-  "requests_ok": 162,
-  "requests_failed": 11,
+  "requests_ok": 164,
+  "requests_failed": 15,
   "requests_retried": 0,
-  "cards_breaker_skipped": 0,
-  "cards_breaker_unrequested": 0,
+  "cards_breaker_skipped": 7,
+  "cards_breaker_unrequested": 6,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 86,
-  "cards_planned": 530,
-  "cards_read_today": 86,
-  "cards_planned_today": 469,
-  "daily_attempts": 1,
+  "cards_read": 153,
+  "cards_planned": 428,
+  "cards_read_today": 237,
+  "cards_planned_today": 478,
+  "daily_attempts": 2,
   "instances": {
    "first_instance": {
-    "read": 19,
-    "planned": 448,
-    "read_today": 19,
-    "planned_today": 387
+    "read": 145,
+    "planned": 405,
+    "read_today": 162,
+    "planned_today": 388
    },
    "appeal": {
-    "read": 59,
-    "planned": 60,
-    "read_today": 59,
-    "planned_today": 60
+    "read": 8,
+    "planned": 9,
+    "read_today": 67,
+    "planned_today": 68
    },
    "cassation": {
-    "read": 8,
-    "planned": 22,
+    "read": 0,
+    "planned": 14,
     "read_today": 8,
     "planned_today": 22
    }
   },
   "latency": {
-   "n": 162,
-   "p50": 16.6,
+   "n": 164,
+   "p50": 16.2,
    "p90": 22.3,
-   "max": 55.1
+   "max": 27.1
   },
   "failure_latency": {
    "http_504": {
-    "n": 2,
+    "n": 6,
     "p50": 30.1,
-    "p90": 30.2,
-    "max": 30.2
+    "p90": 60.1,
+    "max": 60.1
    },
    "read_timeout": {
     "n": 9,
     "p50": 0.2,
-    "p90": 7.9,
-    "max": 7.9
+    "p90": 16.0,
+    "max": 16.0
    }
   },
   "fail_kinds": {
-   "http_504": 2,
-   "read_timeout": 9
+   "http_504": 6,
+   "read_timeout": 9,
+   "breaker": 1
   },
   "breaker": {
    "mode": "time",
-   "opened_hosts": 0,
-   "open_hosts": 0,
+   "opened_hosts": 3,
+   "open_hosts": 3,
    "recovered_hosts": 0,
-   "deferred_total": 0,
-   "deferred_remaining": 0,
+   "deferred_total": 8,
+   "deferred_remaining": 8,
    "deferred_recovered": 0,
    "probes": 0,
    "probe_successes": 0,
    "probe_failures": 0,
-   "by_kind": {},
-   "hosts": []
+   "by_kind": {
+    "read_timeout": 3
+   },
+   "hosts": [
+    {
+     "host": "chishmilinsky--bkr.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 0,
+     "probes": 0,
+     "deferred_total": 1,
+     "deferred_remaining": 1,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 198.4
+    },
+    {
+     "host": "demsky--bkr.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 7,
+     "probes": 0,
+     "deferred_total": 7,
+     "deferred_remaining": 7,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 204.4
+    },
+    {
+     "host": "krasnokamsky--bkr.sudrf.ru",
+     "state": "open",
+     "kind": "read_timeout",
+     "family": "slow_unavailable",
+     "reason": "суд не отдал данные до таймаута чтения",
+     "preopened": false,
+     "skipped": 0,
+     "probes": 0,
+     "deferred_total": 0,
+     "deferred_remaining": 0,
+     "deferred_recovered": 0,
+     "cooldown_seconds": 300.0,
+     "next_probe_in_seconds": 295.9
+    }
+   ]
   },
-  "courts_unavailable": 0,
-  "courts_with_unrequested": 0,
+  "courts_unavailable": 3,
+  "courts_with_unrequested": 1,
   "courts_outage": 0,
-  "cards_unreachable": 0,
-  "cards_unread_other": 444,
+  "cards_unreachable": 6,
+  "cards_unread_other": 269,
   "run_deadline_seconds": 3300.0,
   "run_deadline_reached": true
  },
@@ -1517,11 +1566,11 @@
  "fi_act_publication_watch": {
   "date": "2026-10-09",
   "region": "bashkortostan",
-  "waiting": 165,
-  "due": 134,
-  "planned": 134,
-  "read": 6,
-  "published": 1,
+  "waiting": 162,
+  "due": 103,
+  "planned": 103,
+  "read": 4,
+  "published": 0,
   "backfilled": 0,
   "unplanned": 22,
   "items": [
@@ -1550,78 +1599,6 @@
     "reason": "missing_decision_date"
    },
    {
-    "key": "abzelilovsky--bkr.sudrf.ru|1540005|1|2-854/2026|2026-09-30",
-    "number": "2-854/2026",
-    "court": "abzelilovsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-12",
-    "over_90_days": false,
-    "reason": "text_not_published"
-   },
-   {
-    "key": "abzelilovsky--bkr.sudrf.ru|1540005|1|2-977/2026|2026-10-06",
-    "number": "2-977/2026",
-    "court": "abzelilovsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-12",
-    "over_90_days": false,
-    "reason": "text_not_published"
-   },
-   {
-    "key": "alsheevsky--bkr.sudrf.ru|1540005|1|2-665/2026|2026-10-01",
-    "number": "2-665/2026",
-    "court": "alsheevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-12",
-    "over_90_days": false,
-    "reason": "published"
-   },
-   {
-    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-686/2026|2026-09-15",
-    "number": "2-686/2026",
-    "court": "baimaksky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-12",
-    "over_90_days": false,
-    "reason": "text_not_published"
-   },
-   {
-    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-807/2026|2026-10-05",
-    "number": "2-807/2026",
-    "court": "baimaksky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-12",
-    "over_90_days": false,
-    "reason": "text_not_published"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-445/2026|2026-09-14",
-    "number": "2-445/2026",
-    "court": "baltachevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-12",
-    "over_90_days": false,
-    "reason": "text_not_published"
-   },
-   {
     "key": "birsky--bkr.sudrf.ru|1540005|1|2-759/2026|2026-10-06",
     "number": "2-759/2026",
     "court": "birsky--bkr.sudrf.ru",
@@ -1629,10 +1606,9 @@
     "last_checked_at": "2026-10-08",
     "normal_last_checked_at": "2026-10-08",
     "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
     "over_90_days": false,
-    "reason": "unread_card",
-    "failure_kind": "read_timeout"
+    "reason": "text_not_published"
    },
    {
     "key": "bizhbuliaksky--bkr.sudrf.ru|1540005|1|2-457/2026|2026-09-16",
@@ -1642,10 +1618,9 @@
     "last_checked_at": "2026-10-08",
     "normal_last_checked_at": "2026-10-08",
     "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
     "over_90_days": false,
-    "reason": "unread_card",
-    "failure_kind": "read_timeout"
+    "reason": "text_not_published"
    },
    {
     "key": "blagoveschensky--bkr.sudrf.ru|1540005|1|2-632/2026|2026-09-29",
@@ -1655,10 +1630,9 @@
     "last_checked_at": "2026-10-08",
     "normal_last_checked_at": "2026-10-08",
     "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
     "over_90_days": false,
-    "reason": "unread_card",
-    "failure_kind": "read_timeout"
+    "reason": "text_not_published"
    },
    {
     "key": "chekmagushevsky--bkr.sudrf.ru|1540005|1|2-798/2026|2026-10-07",
@@ -1668,10 +1642,9 @@
     "last_checked_at": "2026-10-08",
     "normal_last_checked_at": "2026-10-08",
     "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
     "over_90_days": false,
-    "reason": "unread_card",
-    "failure_kind": "read_timeout"
+    "reason": "text_not_published"
    },
    {
     "key": "demsky--bkr.sudrf.ru|1540005|1|2-1958/2026|2026-10-06",
@@ -1683,31 +1656,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "diurtiulinsky--bkr.sudrf.ru|1540005|1|2-698/2026|2026-09-23",
-    "number": "2-698/2026",
-    "court": "diurtiulinsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "ishimbaisky--bkr.sudrf.ru|1540005|1|2-1236/2026|2026-10-01",
-    "number": "2-1236/2026",
-    "court": "ishimbaisky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "run_deadline"
+    "reason": "unread_card",
+    "failure_kind": "breaker"
    },
    {
     "key": "karmaskalinsky--bkr.sudrf.ru|1540005|1|2-735/2026|2026-10-06",
@@ -1719,7 +1669,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "run_deadline"
+    "reason": "unread_card",
+    "failure_kind": "read_timeout"
    },
    {
     "key": "kirovsky--bkr.sudrf.ru|1540005|1|2-7811/2026|2026-09-16",
@@ -1731,7 +1682,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "run_deadline"
+    "reason": "unread_card",
+    "failure_kind": "read_timeout"
    },
    {
     "key": "krasnokamsky--bkr.sudrf.ru|1540005|1|2-733/2026|2026-09-29",
@@ -1743,7 +1695,8 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "run_deadline"
+    "reason": "unread_card",
+    "failure_kind": "read_timeout"
    },
    {
     "key": "krasnokamsky--bkr.sudrf.ru|1540005|1|2-892/2026|2026-09-14",
@@ -1755,24 +1708,13 @@
     "fi_act_checked_at": "2026-10-08",
     "next_check_at": "2026-10-09",
     "over_90_days": false,
-    "reason": "run_deadline"
+    "reason": "unread_card",
+    "failure_kind": "read_timeout"
    },
    {
     "key": "kumertauskiy--bkr.sudrf.ru|1540005|1|2-1016/2026|2026-09-22",
     "number": "2-1016/2026",
     "court": "kumertauskiy--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "oktabrsky--bkr.sudrf.ru|1540005|1|2-1776/2026|2026-10-01",
-    "number": "2-1776/2026",
-    "court": "oktabrsky--bkr.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-08",
     "normal_last_checked_at": "2026-10-08",
@@ -1842,16 +1784,28 @@
     "reason": "run_deadline"
    },
    {
-    "key": "yanaulsky--bkr.sudrf.ru|1540005|1|2-477/2026|2026-10-02",
-    "number": "2-477/2026",
-    "court": "yanaulsky--bkr.sudrf.ru",
+    "key": "abzelilovsky--bkr.sudrf.ru|1540005|1|2-854/2026|2026-09-30",
+    "number": "2-854/2026",
+    "court": "abzelilovsky--bkr.sudrf.ru",
     "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
-    "next_check_at": "2026-10-09",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
     "over_90_days": false,
-    "reason": "run_deadline"
+    "reason": "scheduled"
+   },
+   {
+    "key": "abzelilovsky--bkr.sudrf.ru|1540005|1|2-977/2026|2026-10-06",
+    "number": "2-977/2026",
+    "court": "abzelilovsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-08",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
    },
    {
     "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-629/2026|2026-08-17",
@@ -1866,9 +1820,105 @@
     "reason": "scheduled"
    },
    {
+    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-686/2026|2026-09-15",
+    "number": "2-686/2026",
+    "court": "baimaksky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-08",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-688/2026|2026-09-15",
+    "number": "2-688/2026",
+    "court": "baimaksky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-807/2026|2026-10-05",
+    "number": "2-807/2026",
+    "court": "baimaksky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-08",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-445/2026|2026-09-14",
+    "number": "2-445/2026",
+    "court": "baltachevsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-08",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-557/2026|2026-09-17",
+    "number": "2-557/2026",
+    "court": "baltachevsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "belebeevsky--bkr.sudrf.ru|1540005|1|2-1138/2026|2026-09-16",
+    "number": "2-1138/2026",
+    "court": "belebeevsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
     "key": "belokataisky--bkr.sudrf.ru|1540005|1|2-712/2026|2026-09-29",
     "number": "2-712/2026",
     "court": "belokataisky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "belorecky--bkr.sudrf.ru|1540005|1|9-202/2026|2026-09-18",
+    "number": "9-202/2026",
+    "court": "belorecky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "belorecky--bkr.sudrf.ru|1540005|1|9-203/2026|2026-09-18",
+    "number": "9-203/2026",
+    "court": "belorecky--bkr.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-09",
     "normal_last_checked_at": "2026-10-09",
@@ -1890,14 +1940,170 @@
     "reason": "scheduled"
    },
    {
+    "key": "blagoveschensky--bkr.sudrf.ru|1540005|1|2-623/2026|2026-10-01",
+    "number": "2-623/2026",
+    "court": "blagoveschensky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "blagoveschensky--bkr.sudrf.ru|1540005|1|2-751/2026|2026-10-01",
+    "number": "2-751/2026",
+    "court": "blagoveschensky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "chekmagushevsky--bkr.sudrf.ru|1540005|1|2-479/2026|2026-08-12",
+    "number": "2-479/2026",
+    "court": "chekmagushevsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "chekmagushevsky--bkr.sudrf.ru|1540005|1|2-787/2026|2026-10-01",
+    "number": "2-787/2026",
+    "court": "chekmagushevsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "chekmagushevsky--bkr.sudrf.ru|1540005|1|2-794/2026|2026-10-01",
+    "number": "2-794/2026",
+    "court": "chekmagushevsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "diurtiulinsky--bkr.sudrf.ru|1540005|1|2-698/2026|2026-09-23",
+    "number": "2-698/2026",
+    "court": "diurtiulinsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "ishimbaisky--bkr.sudrf.ru|1540005|1|2-1236/2026|2026-10-01",
+    "number": "2-1236/2026",
+    "court": "ishimbaisky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "yanaulsky--bkr.sudrf.ru|1540005|1|2-477/2026|2026-10-02",
+    "number": "2-477/2026",
+    "court": "yanaulsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-12",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-687/2026|2026-08-19",
+    "number": "2-687/2026",
+    "court": "baimaksky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-13",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "birsky--bkr.sudrf.ru|1540005|1|2-1117/2026|2026-09-07",
+    "number": "2-1117/2026",
+    "court": "birsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-13",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
     "key": "yanaulsky--bkr.sudrf.ru|1540005|1|2-377/2026|2026-08-25",
     "number": "2-377/2026",
     "court": "yanaulsky--bkr.sudrf.ru",
     "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-10-08",
-    "fi_act_checked_at": "2026-10-08",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
     "next_check_at": "2026-10-13",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-739/2026|2026-08-31",
+    "number": "2-739/2026",
+    "court": "baimaksky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-14",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-680/2026|2026-08-19",
+    "number": "2-680/2026",
+    "court": "baimaksky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-15",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-417/2026|2026-07-27",
+    "number": "2-417/2026",
+    "court": "baltachevsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-15",
     "over_90_days": false,
     "reason": "scheduled"
    },
@@ -1914,13 +2120,73 @@
     "reason": "scheduled"
    },
    {
+    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-671/2026|2026-08-17",
+    "number": "2-671/2026",
+    "court": "baimaksky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-16",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-418/2026|2026-07-27",
+    "number": "2-418/2026",
+    "court": "baltachevsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-16",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-630/2026|2026-09-04",
+    "number": "2-630/2026",
+    "court": "baltachevsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-16",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
+    "key": "chekmagushevsky--bkr.sudrf.ru|1540005|1|2-478/2026|2026-08-12",
+    "number": "2-478/2026",
+    "court": "chekmagushevsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-10-16",
+    "over_90_days": false,
+    "reason": "scheduled"
+   },
+   {
     "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-373/2026|2026-05-27",
     "number": "2-373/2026",
     "court": "baltachevsky--bkr.sudrf.ru",
     "status": "waiting",
-    "last_checked_at": "2026-10-08",
-    "normal_last_checked_at": "2026-09-11",
-    "fi_act_checked_at": "2026-10-08",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
+    "next_check_at": "2026-11-02",
+    "over_90_days": true,
+    "reason": "scheduled"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-375/2026|2026-07-06",
+    "number": "2-375/2026",
+    "court": "baltachevsky--bkr.sudrf.ru",
+    "status": "waiting",
+    "last_checked_at": "2026-10-09",
+    "normal_last_checked_at": "2026-10-09",
+    "fi_act_checked_at": "2026-10-09",
     "next_check_at": "2026-11-02",
     "over_90_days": true,
     "reason": "scheduled"
@@ -2610,138 +2876,6 @@
     "reason": "missing_court_domain"
    },
    {
-    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-688/2026|2026-09-15",
-    "number": "2-688/2026",
-    "court": "baimaksky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-557/2026|2026-09-17",
-    "number": "2-557/2026",
-    "court": "baltachevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "belebeevsky--bkr.sudrf.ru|1540005|1|2-1138/2026|2026-09-16",
-    "number": "2-1138/2026",
-    "court": "belebeevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "belorecky--bkr.sudrf.ru|1540005|1|2-2333/2026|2026-10-01",
-    "number": "2-2333/2026",
-    "court": "belorecky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "belorecky--bkr.sudrf.ru|1540005|1|9-202/2026|2026-09-18",
-    "number": "9-202/2026",
-    "court": "belorecky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "belorecky--bkr.sudrf.ru|1540005|1|9-203/2026|2026-09-18",
-    "number": "9-203/2026",
-    "court": "belorecky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "blagoveschensky--bkr.sudrf.ru|1540005|1|2-623/2026|2026-10-01",
-    "number": "2-623/2026",
-    "court": "blagoveschensky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "blagoveschensky--bkr.sudrf.ru|1540005|1|2-751/2026|2026-10-01",
-    "number": "2-751/2026",
-    "court": "blagoveschensky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "chekmagushevsky--bkr.sudrf.ru|1540005|1|2-479/2026|2026-08-12",
-    "number": "2-479/2026",
-    "court": "chekmagushevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "chekmagushevsky--bkr.sudrf.ru|1540005|1|2-787/2026|2026-10-01",
-    "number": "2-787/2026",
-    "court": "chekmagushevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "chekmagushevsky--bkr.sudrf.ru|1540005|1|2-794/2026|2026-10-01",
-    "number": "2-794/2026",
-    "court": "chekmagushevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-05",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
     "key": "demsky--bkr.sudrf.ru|1540005|1|2-1809/2026|2026-09-01",
     "number": "2-1809/2026",
     "court": "demsky--bkr.sudrf.ru",
@@ -3042,18 +3176,6 @@
     "reason": "run_deadline"
    },
    {
-    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-687/2026|2026-08-19",
-    "number": "2-687/2026",
-    "court": "baimaksky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-06",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
     "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-749/2026|2026-09-30",
     "number": "2-749/2026",
     "court": "baimaksky--bkr.sudrf.ru",
@@ -3138,36 +3260,12 @@
     "reason": "run_deadline"
    },
    {
-    "key": "birsky--bkr.sudrf.ru|1540005|1|2-1117/2026|2026-09-07",
-    "number": "2-1117/2026",
-    "court": "birsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-06",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
     "key": "bizhbuliaksky--bkr.sudrf.ru|1540005|1|2-217/2026|2026-09-10",
     "number": "2-217/2026",
     "court": "bizhbuliaksky--bkr.sudrf.ru",
     "status": "waiting",
     "last_checked_at": "2026-10-05",
     "normal_last_checked_at": "2026-10-05",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-06",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "chishmilinsky--bkr.sudrf.ru|1540005|1|2-777/2026|2026-09-07",
-    "number": "2-777/2026",
-    "court": "chishmilinsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-06",
     "over_90_days": false,
@@ -3360,18 +3458,6 @@
     "status": "waiting",
     "last_checked_at": "2026-10-06",
     "normal_last_checked_at": "2026-10-06",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-07",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-739/2026|2026-08-31",
-    "number": "2-739/2026",
-    "court": "baimaksky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
     "fi_act_checked_at": "",
     "next_check_at": "2026-10-07",
     "over_90_days": false,
@@ -3642,30 +3728,6 @@
     "reason": "missing_card_link"
    },
    {
-    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-680/2026|2026-08-19",
-    "number": "2-680/2026",
-    "court": "baimaksky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-08",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-417/2026|2026-07-27",
-    "number": "2-417/2026",
-    "court": "baltachevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-08",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
     "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-602/2026|2026-09-14",
     "number": "2-602/2026",
     "court": "baltachevsky--bkr.sudrf.ru",
@@ -3906,54 +3968,6 @@
     "reason": "run_deadline"
    },
    {
-    "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-671/2026|2026-08-17",
-    "number": "2-671/2026",
-    "court": "baimaksky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-418/2026|2026-07-27",
-    "number": "2-418/2026",
-    "court": "baltachevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-630/2026|2026-09-04",
-    "number": "2-630/2026",
-    "court": "baltachevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
-    "key": "chekmagushevsky--bkr.sudrf.ru|1540005|1|2-478/2026|2026-08-12",
-    "number": "2-478/2026",
-    "court": "chekmagushevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-10-09",
-    "over_90_days": false,
-    "reason": "run_deadline"
-   },
-   {
     "key": "ishimbaisky--bkr.sudrf.ru|1540005|1|2-1302/2026|2026-07-28",
     "number": "2-1302/2026",
     "court": "ishimbaisky--bkr.sudrf.ru",
@@ -3976,18 +3990,6 @@
     "next_check_at": "2026-10-09",
     "over_90_days": false,
     "reason": "run_deadline"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1540005|1|2-375/2026|2026-07-06",
-    "number": "2-375/2026",
-    "court": "baltachevsky--bkr.sudrf.ru",
-    "status": "waiting",
-    "last_checked_at": "2026-10-02",
-    "normal_last_checked_at": "2026-10-02",
-    "fi_act_checked_at": "",
-    "next_check_at": "2026-11-02",
-    "over_90_days": true,
-    "reason": "scheduled"
    },
    {
     "key": "krasnokamsky--bkr.sudrf.ru|1540005|1|2-662/2026|2026-07-02",
@@ -4027,7 +4029,7 @@
    }
   ],
   "expired": 42,
-  "unread": 128,
+  "unread": 99,
   "long_wait": 12
  },
  "writ_watch": {
@@ -4036,14 +4038,9 @@
   "waiting": 300,
   "needs_review": 5,
   "long_wait": 20,
-  "planned": 185,
+  "planned": 131,
   "read": 0,
   "items": [
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1|2-373/2026|27.05.2026",
-    "reason": "basis_changed",
-    "next_check_at": "2026-09-18"
-   },
    {
     "key": "belokataisky--bkr.sudrf.ru|1|2-875/2025|29.12.2025",
     "reason": "missing_link",
@@ -4142,276 +4139,6 @@
    {
     "key": "ordjonikidzovsky--bkr.sudrf.ru|1|2-284/2026|24.03.2026",
     "reason": "missing_link",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "abzelilovsky--bkr.sudrf.ru|1|2-899/2026|08.09.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "abzelilovsky--bkr.sudrf.ru|1|2-854/2026|30.09.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "abzelilovsky--bkr.sudrf.ru|1|2-860/2026|19.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "abzelilovsky--bkr.sudrf.ru|1|2-732/2026|03.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "abzelilovsky--bkr.sudrf.ru|1|2-710/2026|06.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "abzelilovsky--bkr.sudrf.ru|1|2-719/2026|03.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "alsheevsky--bkr.sudrf.ru|1|2-666/2026|01.10.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "alsheevsky--bkr.sudrf.ru|1|2-665/2026|01.10.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "alsheevsky--bkr.sudrf.ru|1|2-532/2026|22.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "alsheevsky--bkr.sudrf.ru|1|2-497/2026|31.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "alsheevsky--bkr.sudrf.ru|1|2-415/2026|09.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "baimaksky--bkr.sudrf.ru|1|2-739/2026|31.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "baimaksky--bkr.sudrf.ru|1|2-687/2026|19.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "baimaksky--bkr.sudrf.ru|1|2-680/2026|19.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "baimaksky--bkr.sudrf.ru|1|2-671/2026|17.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1|2-630/2026|04.09.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1|2-536/2026|14.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1|2-557/2026|17.09.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1|2-418/2026|27.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1|2-417/2026|27.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "baltachevsky--bkr.sudrf.ru|1|2-375/2026|06.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belebeevsky--bkr.sudrf.ru|1|2-1138/2026|16.09.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-779/2026|25.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-733/2026|18.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-699/2026|25.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-637/2026|25.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-665/2026|30.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-595/2026|30.06.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-522/2026|20.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-504/2026|15.06.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-472/2026|14.05.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-480/2026|14.05.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-476/2026|03.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belokataisky--bkr.sudrf.ru|1|2-458/2026|13.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "belorecky--bkr.sudrf.ru|1|2-2333/2026|01.10.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "birsky--bkr.sudrf.ru|1|2-1117/2026|07.09.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "birsky--bkr.sudrf.ru|1|2-1067/2026|17.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "birsky--bkr.sudrf.ru|1|2-718/2026|15.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "blagoveschensky--bkr.sudrf.ru|1|2-751/2026|01.10.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "blagoveschensky--bkr.sudrf.ru|1|2-635/2026|23.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "blagoveschensky--bkr.sudrf.ru|1|2-626/2026|31.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "blagoveschensky--bkr.sudrf.ru|1|2-634/2026|24.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "blagoveschensky--bkr.sudrf.ru|1|2-630/2026|24.07.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "blagoveschensky--bkr.sudrf.ru|1|2-623/2026|01.10.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "blagoveschensky--bkr.sudrf.ru|1|2-567/2026|24.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "blagoveschensky--bkr.sudrf.ru|1|2-548/2026|10.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "chekmagushevsky--bkr.sudrf.ru|1|2-794/2026|01.10.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "chekmagushevsky--bkr.sudrf.ru|1|2-787/2026|01.10.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "chekmagushevsky--bkr.sudrf.ru|1|2-546/2026|23.06.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "chekmagushevsky--bkr.sudrf.ru|1|2-479/2026|12.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "chekmagushevsky--bkr.sudrf.ru|1|2-478/2026|12.08.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "chishmilinsky--bkr.sudrf.ru|1|2-900/2026|24.09.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "chishmilinsky--bkr.sudrf.ru|1|2-777/2026|07.09.2026",
-    "reason": "run_deadline",
-    "next_check_at": "2026-10-09"
-   },
-   {
-    "key": "chishmilinsky--bkr.sudrf.ru|1|2-682/2026|24.08.2026",
-    "reason": "run_deadline",
     "next_check_at": "2026-10-09"
    },
    {
@@ -5375,11 +5102,6 @@
     "next_check_at": "2026-10-14"
    },
    {
-    "key": "bizhbuliaksky--bkr.sudrf.ru|1|2-258/2026|18.05.2026",
-    "reason": "appeal_pending",
-    "next_check_at": "2026-10-15"
-   },
-   {
     "key": "blagovarsky--bkr.sudrf.ru|1|2-635/2026|03.09.2026",
     "reason": "appeal_pending",
     "next_check_at": "2026-10-15"
@@ -5402,11 +5124,6 @@
    {
     "key": "kalininsky--bkr.sudrf.ru|1|2-3977/2026|27.07.2026",
     "reason": "awaiting_writ",
-    "next_check_at": "2026-10-15"
-   },
-   {
-    "key": "abzelilovsky--bkr.sudrf.ru|1|2-885/2026|21.08.2026",
-    "reason": "decision_cancelled",
     "next_check_at": "2026-10-15"
    },
    {
@@ -5440,11 +5157,6 @@
     "next_check_at": "2026-10-15"
    },
    {
-    "key": "blagovarsky--bkr.sudrf.ru|1|2-460/2026|18.06.2026",
-    "reason": "decision_cancelled",
-    "next_check_at": "2026-10-15"
-   },
-   {
     "key": "blagoveschensky--bkr.sudrf.ru|1|2-632/2026|29.09.2026",
     "reason": "awaiting_writ",
     "next_check_at": "2026-10-15"
@@ -5452,11 +5164,6 @@
    {
     "key": "chishmilinsky--bkr.sudrf.ru|1|2-886/2026|16.09.2026",
     "reason": "awaiting_writ",
-    "next_check_at": "2026-10-15"
-   },
-   {
-    "key": "ilishevsky--bkr.sudrf.ru|1|2-433/2026|14.09.2026",
-    "reason": "appeal_pending",
     "next_check_at": "2026-10-15"
    },
    {
@@ -5560,12 +5267,307 @@
     "next_check_at": "2026-10-15"
    },
    {
+    "key": "baltachevsky--bkr.sudrf.ru|1|2-373/2026|27.05.2026",
+    "reason": "basis_changed",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "bizhbuliaksky--bkr.sudrf.ru|1|2-258/2026|18.05.2026",
+    "reason": "appeal_pending",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "abzelilovsky--bkr.sudrf.ru|1|2-899/2026|08.09.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "abzelilovsky--bkr.sudrf.ru|1|2-885/2026|21.08.2026",
+    "reason": "decision_cancelled",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "abzelilovsky--bkr.sudrf.ru|1|2-854/2026|30.09.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "abzelilovsky--bkr.sudrf.ru|1|2-860/2026|19.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "abzelilovsky--bkr.sudrf.ru|1|2-732/2026|03.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "abzelilovsky--bkr.sudrf.ru|1|2-710/2026|06.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "abzelilovsky--bkr.sudrf.ru|1|2-719/2026|03.08.2026",
+    "reason": "issued_status_observation",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "alsheevsky--bkr.sudrf.ru|1|2-666/2026|01.10.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "alsheevsky--bkr.sudrf.ru|1|2-665/2026|01.10.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "alsheevsky--bkr.sudrf.ru|1|2-532/2026|22.07.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "alsheevsky--bkr.sudrf.ru|1|2-497/2026|31.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "alsheevsky--bkr.sudrf.ru|1|2-415/2026|09.07.2026",
+    "reason": "issued_status_observation",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "baimaksky--bkr.sudrf.ru|1|2-739/2026|31.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "baimaksky--bkr.sudrf.ru|1|2-687/2026|19.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "baimaksky--bkr.sudrf.ru|1|2-680/2026|19.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "baimaksky--bkr.sudrf.ru|1|2-671/2026|17.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1|2-630/2026|04.09.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1|2-536/2026|14.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1|2-557/2026|17.09.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1|2-418/2026|27.07.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1|2-417/2026|27.07.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "baltachevsky--bkr.sudrf.ru|1|2-375/2026|06.07.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belebeevsky--bkr.sudrf.ru|1|2-1138/2026|16.09.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-779/2026|25.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-733/2026|18.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-699/2026|25.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-637/2026|25.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-665/2026|30.07.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-595/2026|30.06.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-522/2026|20.07.2026",
+    "reason": "issued_status_observation",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-504/2026|15.06.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-472/2026|14.05.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-480/2026|14.05.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-476/2026|03.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belokataisky--bkr.sudrf.ru|1|2-458/2026|13.07.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "belorecky--bkr.sudrf.ru|1|2-2333/2026|01.10.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "birsky--bkr.sudrf.ru|1|2-1117/2026|07.09.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "birsky--bkr.sudrf.ru|1|2-1067/2026|17.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "birsky--bkr.sudrf.ru|1|2-718/2026|15.07.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "blagovarsky--bkr.sudrf.ru|1|2-460/2026|18.06.2026",
+    "reason": "decision_cancelled",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "blagoveschensky--bkr.sudrf.ru|1|2-751/2026|01.10.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "blagoveschensky--bkr.sudrf.ru|1|2-635/2026|23.07.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "blagoveschensky--bkr.sudrf.ru|1|2-626/2026|31.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "blagoveschensky--bkr.sudrf.ru|1|2-634/2026|24.07.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "blagoveschensky--bkr.sudrf.ru|1|2-630/2026|24.07.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "blagoveschensky--bkr.sudrf.ru|1|2-623/2026|01.10.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "blagoveschensky--bkr.sudrf.ru|1|2-567/2026|24.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "blagoveschensky--bkr.sudrf.ru|1|2-548/2026|10.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "chekmagushevsky--bkr.sudrf.ru|1|2-794/2026|01.10.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "chekmagushevsky--bkr.sudrf.ru|1|2-787/2026|01.10.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "chekmagushevsky--bkr.sudrf.ru|1|2-546/2026|23.06.2026",
+    "reason": "issued_status_observation",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "chekmagushevsky--bkr.sudrf.ru|1|2-479/2026|12.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "chekmagushevsky--bkr.sudrf.ru|1|2-478/2026|12.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "chishmilinsky--bkr.sudrf.ru|1|2-900/2026|24.09.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "chishmilinsky--bkr.sudrf.ru|1|2-777/2026|07.09.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "chishmilinsky--bkr.sudrf.ru|1|2-682/2026|24.08.2026",
+    "reason": "awaiting_writ",
+    "next_check_at": "2026-10-16"
+   },
+   {
+    "key": "ilishevsky--bkr.sudrf.ru|1|2-433/2026|14.09.2026",
+    "reason": "appeal_pending",
+    "next_check_at": "2026-10-16"
+   },
+   {
     "key": "bizhbuliaksky--bkr.sudrf.ru|1|2-183/2026|10.04.2026",
     "reason": "appeal_pending",
-    "next_check_at": "2026-11-07"
+    "next_check_at": "2026-11-08"
    }
   ],
-  "unread": 185
+  "unread": 131
  },
  "discovery_queue": {
   "date": "2026-10-09",
@@ -6078,11 +6080,11 @@
  "parsing_backlog": {
   "date": "2026-10-09",
   "region": "bashkortostan",
-  "cards_unread": 444,
+  "cards_unread": 275,
   "fi_without_card": 0,
   "candidates_pending": 0,
-  "acts_unread": 143,
-  "writs_unread": 185,
+  "acts_unread": 114,
+  "writs_unread": 131,
   "writs_need_review": 5
  }
 }
