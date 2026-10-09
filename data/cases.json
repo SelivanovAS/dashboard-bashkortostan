@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09T09:17:09+05:00",
+  "updated_at": "2026-10-09T04:17:31+00:00",
   "cases": [
     {
       "id": "33-20209/2026",
@@ -12513,7 +12513,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-10-09T02:23:50+00:00",
         "act_source_url": "https://oktabrsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=257281791&case_uid=6983dfd5-6b89-431b-b924-fcce8978cd92&delo_id=1540005&new=0",
-        "act_decision_date": "01.10.2026"
+        "act_decision_date": "01.10.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд удовлетворил иск частично, освободив автомобиль от ареста по пяти исполнительным производствам, поскольку на день запрета регистрационных действий он уже принадлежал истцу по договору купли-продажи, не оспоренному ответчиками. В остальной части требования отклонены, так как по трём другим производствам постановления о запрете на спорное имущество не выносились.</p>",
+          "source": "llm_summary",
+          "act_date": "01.10.2026",
+          "generated_at": "2026-10-09T04:17:29+00:00",
+          "model": "openrouter:apodex/apodex-1.1-mini:free",
+          "source_hash": "fa8ac8f5371eec49aada4bf17996d436bcfe41080b263099aa9bd9ed8cc952a2",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "fa8ac8f5371eec49aada4bf17996d436bcfe41080b263099aa9bd9ed8cc952a2",
+            "raw_chars": 7740,
+            "prepared_chars": 7740,
+            "source_url": "https://oktabrsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=257281791&case_uid=6983dfd5-6b89-431b-b924-fcce8978cd92&delo_id=1540005&new=0",
+            "court_domain": "oktabrsky--bkr.sudrf.ru",
+            "received_at": "2026-10-09T02:23:50+00:00",
+            "case_number": "2-1776/2026",
+            "stage": "first_instance",
+            "judicial_uid": "03RS0014-01-2026-002825-85",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
