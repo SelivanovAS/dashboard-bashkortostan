@@ -72,8 +72,8 @@
     },
     "source_hash": "690144335f5c01ea0a526ab6f8a877e9db467a073e45798770631988f534c17e",
     "created_at": "2026-10-13T02:05:32+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "690144335f5c01ea0a526ab6f8a877e9db467a073e45798770631988f534c17e",
@@ -88,8 +88,41 @@
       "identity_check": "matched_uid",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "rate_limit",
+        "context_limit": 262144,
+        "input_token_upper_bound": 46586,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "rate_limit",
+        "context_limit": 262144,
+        "input_token_upper_bound": 46586,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "ready",
+        "context_limit": 262144,
+        "input_token_upper_bound": 46586,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-10-13T02:05:32+00:00"
+    "updated_at": "2026-10-13T03:52:50+00:00",
+    "retry_after": "2026-10-14T03:52:50+00:00",
+    "model": "openrouter:apodex/apodex-1.1-mini:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Истец фактически приняла наследство, вступив во владение имуществом, управляя им, неся расходы на содержание и сохраняя его в течение шести месяцев после смерти наследодателя. Суд признал за ней право собственности на вклад, жилой дом и земельный участок в порядке наследования, поскольку право переходит к наследнику со дня открытия наследства независимо от государственной регистрации."
   }
 }
