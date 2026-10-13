@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-13T08:52:27+05:00",
+  "updated_at": "2026-10-13T03:53:08+00:00",
   "cases": [
     {
       "id": "33-20393/2026",
@@ -11417,7 +11417,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-10-12T11:16:45+00:00",
         "act_source_url": "https://birsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=185551273&case_uid=249632e6-86b1-4888-9663-8fa7d39f4860&delo_id=1540005&new=0",
-        "act_decision_date": "18.09.2026"
+        "act_decision_date": "18.09.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Истец фактически приняла наследство, вступив во владение имуществом, управляя им, неся расходы на содержание и сохраняя его в течение шести месяцев после смерти наследодателя. Суд признал за ней право собственности на вклад, жилой дом и земельный участок в порядке наследования, поскольку право переходит к наследнику со дня открытия наследства независимо от государственной регистрации.</p>",
+          "source": "llm_summary",
+          "act_date": "18.09.2026",
+          "generated_at": "2026-10-13T03:52:50+00:00",
+          "model": "openrouter:apodex/apodex-1.1-mini:free",
+          "source_hash": "690144335f5c01ea0a526ab6f8a877e9db467a073e45798770631988f534c17e",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "690144335f5c01ea0a526ab6f8a877e9db467a073e45798770631988f534c17e",
+            "raw_chars": 22448,
+            "prepared_chars": 22448,
+            "source_url": "https://birsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=185551273&case_uid=249632e6-86b1-4888-9663-8fa7d39f4860&delo_id=1540005&new=0",
+            "court_domain": "birsky--bkr.sudrf.ru",
+            "received_at": "2026-10-12T11:16:45+00:00",
+            "case_number": "2-985/2026",
+            "stage": "first_instance",
+            "judicial_uid": "03RS0032-01-2026-001220-66",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
