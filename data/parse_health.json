@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-13T12:11:27+05:00",
+ "updated_at": "2026-10-13T16:10:20+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -1132,24 +1132,24 @@
   }
  },
  "last_run": {
-  "at": "2026-10-13T12:11:27",
+  "at": "2026-10-13T16:10:20",
   "alerts": [],
-  "requests_ok": 4,
+  "requests_ok": 0,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 4,
-  "cards_planned": 16,
+  "cards_read": 0,
+  "cards_planned": 12,
   "cards_read_today": 373,
   "cards_planned_today": 386,
-  "daily_attempts": 5,
+  "daily_attempts": 6,
   "instances": {
    "first_instance": {
-    "read": 4,
-    "planned": 16,
+    "read": 0,
+    "planned": 12,
     "read_today": 278,
     "planned_today": 291
    },
@@ -1166,12 +1166,7 @@
     "planned_today": 23
    }
   },
-  "latency": {
-   "n": 4,
-   "p50": 5.5,
-   "p90": 25.4,
-   "max": 25.4
-  },
+  "latency": {},
   "failure_latency": {},
   "fail_kinds": {},
   "breaker": {
@@ -1444,11 +1439,11 @@
   "date": "2026-10-13",
   "region": "bashkortostan",
   "waiting": 125,
-  "due": 16,
-  "planned": 16,
-  "read": 4,
+  "due": 12,
+  "planned": 12,
+  "read": 0,
   "unread": 12,
-  "published": 1,
+  "published": 0,
   "backfilled": 0,
   "unplanned": 21,
   "needs_review": 21,
@@ -2154,20 +2149,14 @@
    {
     "key": "kirovsky--bkr.sudrf.ru|1540005|1|2-7942/2026|2026-09-23",
     "number": "2-7942/2026",
-    "next_check_at": "2026-10-12",
-    "reason": "checked"
+    "next_check_at": "2026-10-14",
+    "reason": "scheduled"
    },
    {
     "key": "kirovsky--bkr.sudrf.ru|1540005|1|2-7941/2026|2026-09-23",
     "number": "2-7941/2026",
-    "next_check_at": "2026-10-12",
-    "reason": "checked"
-   },
-   {
-    "key": "kirovsky--bkr.sudrf.ru|1540005|1|2-7898/2026|2026-09-23",
-    "number": "2-7898/2026",
-    "next_check_at": "2026-10-12",
-    "reason": "checked"
+    "next_check_at": "2026-10-14",
+    "reason": "scheduled"
    },
    {
     "key": "krasnokamsky--bkr.sudrf.ru|1540005|1|2-922/2026|2026-09-17",
@@ -2484,8 +2473,8 @@
    {
     "key": "karmaskalinsky--bkr.sudrf.ru|1540005|1|2-906/2026|2026-10-07",
     "number": "2-906/2026",
-    "next_check_at": "2026-10-12",
-    "reason": "checked"
+    "next_check_at": "2026-10-14",
+    "reason": "scheduled"
    },
    {
     "key": "kirovsky--bkr.sudrf.ru|1540005|1|2-7808/2026|2026-10-07",
@@ -3773,13 +3762,13 @@
    {
     "key": "kirovsky--bkr.sudrf.ru|1|2-7942/2026|23.09.2026",
     "number": "2-7942/2026",
-    "next_check_at": "2026-10-16",
+    "next_check_at": "2026-10-20",
     "reason": "scheduled"
    },
    {
     "key": "kirovsky--bkr.sudrf.ru|1|2-7941/2026|23.09.2026",
     "number": "2-7941/2026",
-    "next_check_at": "2026-10-16",
+    "next_check_at": "2026-10-20",
     "reason": "scheduled"
    },
    {
@@ -4403,7 +4392,7 @@
    {
     "key": "karmaskalinsky--bkr.sudrf.ru|1|2-906/2026|07.10.2026",
     "number": "2-906/2026",
-    "next_check_at": "2026-10-16",
+    "next_check_at": "2026-10-20",
     "reason": "scheduled"
    },
    {
@@ -5471,41 +5460,9 @@
  "card_refresh": {
   "date": "2026-10-13",
   "region": "bashkortostan",
-  "planned": 16,
-  "read": 4,
+  "planned": 12,
+  "read": 0,
   "items": [
-   {
-    "key": "first_instance|https://karmaskalinsky--bkr.sudrf.ru/modules.php?case_id=187304522&case_uid=0e7da0c2-c7fa-45f5-b542-1179bb4e30df&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "first_instance|https://kirovsky--bkr.sudrf.ru/modules.php?case_id=257886996&case_uid=b5741e2e-7ccf-4452-8b90-f66d384345dd&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "first_instance|https://kirovsky--bkr.sudrf.ru/modules.php?case_id=257887206&case_uid=4030a8bb-605e-4aa6-89b8-1b4edc869909&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "first_instance|https://kirovsky--bkr.sudrf.ru/modules.php?case_id=257989574&case_uid=232609ea-e31d-424c-8364-d00ad42a3c36&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
    {
     "key": "first_instance|https://demsky--bkr.sudrf.ru/modules.php?case_id=186643523&case_uid=e8810b30-bf20-4bb8-9690-4dbc3ae32109&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
     "stage": "first_instance",
@@ -5613,8 +5570,8 @@
     "read": 0
    },
    "first_instance": {
-    "planned": 16,
-    "read": 4
+    "planned": 12,
+    "read": 0
    }
   },
   "unread": 12
