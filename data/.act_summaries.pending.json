@@ -144,8 +144,8 @@
     },
     "source_hash": "867070f2f070cd5149d125b542c2a3ee053c3bc18e64eb987633b0bd31fc9950",
     "created_at": "2026-10-14T02:05:51+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "867070f2f070cd5149d125b542c2a3ee053c3bc18e64eb987633b0bd31fc9950",
@@ -160,8 +160,59 @@
       "identity_check": "matched_header",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "http_404",
+        "context_limit": 262144,
+        "input_token_upper_bound": 67151,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "http_404",
+        "context_limit": 262144,
+        "input_token_upper_bound": 67151,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "apodex/apodex-1.1-mini:free",
+        "status": "http_404",
+        "context_limit": 262144,
+        "input_token_upper_bound": 67151,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "gigachat",
+        "model": "GigaChat-3-Pro",
+        "status": "http_401",
+        "context_limit": 128000,
+        "input_token_upper_bound": 67151,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "claude",
+        "model": "claude-haiku-4-5-20251001",
+        "status": "ready",
+        "context_limit": 200000,
+        "input_token_upper_bound": 67151,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-10-14T02:05:51+00:00"
+    "updated_at": "2026-10-14T03:45:30+00:00",
+    "retry_after": "2026-10-15T03:45:30+00:00",
+    "model": "claude:claude-haiku-4-5-20251001",
+    "fallback": true,
+    "cached": false,
+    "summary": "Суд отказал в иске, установив, что истец добровольно и осознанно согласился с условиями кредитного договора, включая дисконт 9% при оформлении страховой услуги, о чём свидетельствует его собственноручная подпись в заявлении-анкете и заявлении о подключении услуги. При отказе от услуги банк вправе повысить процентную ставку до базовой 25,40% в соответствии с согласованным пунктом 4 индивидуальных условий договора, поскольку заемщик утратил право на дисконт, обусловивший льготную ставку."
   }
 }
