@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-14T08:42:43+05:00",
+  "updated_at": "2026-10-14T03:45:51+00:00",
   "cases": [
     {
       "id": "33-20463/2026",
@@ -13683,7 +13683,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-10-14T02:00:21+00:00",
         "act_source_url": "https://kugarchinsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=249920131&case_uid=dfb2109f-aac8-4eaf-ada0-e867f72d0de2&delo_id=1540005&new=0",
-        "act_decision_date": "01.10.2026"
+        "act_decision_date": "01.10.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд отказал в иске, установив, что истец добровольно и осознанно согласился с условиями кредитного договора, включая дисконт 9% при оформлении страховой услуги, о чём свидетельствует его собственноручная подпись в заявлении-анкете и заявлении о подключении услуги. При отказе от услуги банк вправе повысить процентную ставку до базовой 25,40% в соответствии с согласованным пунктом 4 индивидуальных условий договора, поскольку заемщик утратил право на дисконт, обусловивший льготную ставку.</p>",
+          "source": "llm_summary",
+          "act_date": "01.10.2026",
+          "generated_at": "2026-10-14T03:45:30+00:00",
+          "model": "claude:claude-haiku-4-5-20251001",
+          "source_hash": "867070f2f070cd5149d125b542c2a3ee053c3bc18e64eb987633b0bd31fc9950",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "867070f2f070cd5149d125b542c2a3ee053c3bc18e64eb987633b0bd31fc9950",
+            "raw_chars": 33887,
+            "prepared_chars": 33887,
+            "source_url": "https://kugarchinsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=249920131&case_uid=dfb2109f-aac8-4eaf-ada0-e867f72d0de2&delo_id=1540005&new=0",
+            "court_domain": "kugarchinsky--bkr.sudrf.ru",
+            "received_at": "2026-10-14T02:00:21+00:00",
+            "case_number": "2-555/2026",
+            "stage": "first_instance",
+            "judicial_uid": "",
+            "identity_check": "matched_header",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
