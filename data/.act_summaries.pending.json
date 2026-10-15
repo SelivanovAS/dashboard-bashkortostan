@@ -234,8 +234,8 @@
     },
     "source_hash": "bb2d8a64f081deb26a24c2498966baee9d0925f5a640dbefe3e04f941713d626",
     "created_at": "2026-10-15T03:11:49+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "bb2d8a64f081deb26a24c2498966baee9d0925f5a640dbefe3e04f941713d626",
@@ -250,8 +250,23 @@
       "identity_check": "matched_uid",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 30965,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-10-15T03:11:49+00:00"
+    "updated_at": "2026-10-15T03:45:29+00:00",
+    "retry_after": "2026-10-16T03:45:29+00:00",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Суд удовлетворил иск, установив, что истец добросовестно приобрел автомобиль по договору купли-продажи и договору цессии с залогодержателем (КБ «ЛОКО-Банк»), приняв его по акту приема-передачи до наложения ареста. Залоговые обязательства имеют приоритет перед требованиями необеспеченных кредиторов, а приобретение заложенного имущества на законных основаниях ведет к прекращению залога."
   }
 }

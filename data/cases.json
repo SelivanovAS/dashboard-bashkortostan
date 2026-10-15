@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-15T08:37:02+05:00",
+  "updated_at": "2026-10-15T03:45:31+00:00",
   "cases": [
     {
       "id": "33-20566/2026",
@@ -13568,7 +13568,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-10-15T02:34:47+00:00",
         "act_source_url": "https://diurtiulinsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=188457178&case_uid=84340871-44e5-4f16-be1b-02da0c0f5bda&delo_id=1540005&new=0",
-        "act_decision_date": "23.09.2026"
+        "act_decision_date": "23.09.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд удовлетворил иск, установив, что истец добросовестно приобрел автомобиль по договору купли-продажи и договору цессии с залогодержателем (КБ «ЛОКО-Банк»), приняв его по акту приема-передачи до наложения ареста. Залоговые обязательства имеют приоритет перед требованиями необеспеченных кредиторов, а приобретение заложенного имущества на законных основаниях ведет к прекращению залога.</p>",
+          "source": "llm_summary",
+          "act_date": "23.09.2026",
+          "generated_at": "2026-10-15T03:45:29+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "bb2d8a64f081deb26a24c2498966baee9d0925f5a640dbefe3e04f941713d626",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "bb2d8a64f081deb26a24c2498966baee9d0925f5a640dbefe3e04f941713d626",
+            "raw_chars": 14206,
+            "prepared_chars": 14206,
+            "source_url": "https://diurtiulinsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=188457178&case_uid=84340871-44e5-4f16-be1b-02da0c0f5bda&delo_id=1540005&new=0",
+            "court_domain": "diurtiulinsky--bkr.sudrf.ru",
+            "received_at": "2026-10-15T02:34:47+00:00",
+            "case_number": "2-698/2026",
+            "stage": "first_instance",
+            "judicial_uid": "03RS0040-01-2026-000645-09",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
