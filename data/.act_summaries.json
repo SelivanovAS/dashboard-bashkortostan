@@ -184,5 +184,37 @@
       "status": "ready"
     },
     "generated_at": "2026-10-14T03:45:50+00:00"
+  },
+  "c89ef095e50988bd": {
+    "summary": "Суд удовлетворил иск, установив, что истец добросовестно приобрел автомобиль по договору купли-продажи и договору цессии с залогодержателем (КБ «ЛОКО-Банк»), приняв его по акту приема-передачи до наложения ареста. Залоговые обязательства имеют приоритет перед требованиями необеспеченных кредиторов, а приобретение заложенного имущества на законных основаниях ведет к прекращению залога.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 30965,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "bb2d8a64f081deb26a24c2498966baee9d0925f5a640dbefe3e04f941713d626",
+      "raw_chars": 14206,
+      "prepared_chars": 14206,
+      "source_url": "https://diurtiulinsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=188457178&case_uid=84340871-44e5-4f16-be1b-02da0c0f5bda&delo_id=1540005&new=0",
+      "court_domain": "diurtiulinsky--bkr.sudrf.ru",
+      "received_at": "2026-10-15T02:34:47+00:00",
+      "case_number": "2-698/2026",
+      "stage": "first_instance",
+      "judicial_uid": "03RS0040-01-2026-000645-09",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-15T03:45:30+00:00"
   }
 }
