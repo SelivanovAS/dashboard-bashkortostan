@@ -288,8 +288,8 @@
     },
     "source_hash": "f1100d00f0406a2f9a318dbeb40558834331ea7f48b87fedca116c755220b254",
     "created_at": "2026-10-16T03:48:00+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "f1100d00f0406a2f9a318dbeb40558834331ea7f48b87fedca116c755220b254",
@@ -304,8 +304,41 @@
       "identity_check": "matched_header",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "invalid_response",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 53365,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "invalid_response",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 53365,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 53365,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-10-16T03:48:00+00:00"
+    "updated_at": "2026-10-16T03:48:24+00:00",
+    "retry_after": "2026-10-17T03:48:24+00:00",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Суд установил, что наследственное имущество умершей Шакировой Ф.Ш. является выморочным: движимое имущество (денежные средства на счетах в сумме 427,07 руб.) перешло в собственность РФ в лице ТУ Росимущества, а недвижимое — в собственность администрации сельского поселения. Ответственность по долгам наследодателя в пределах стоимости полученного имущества несут оба публично-правовых образования солидарно. При этом суд признал злоупотреблением правом длительное бездействие банка, осведомленного о смерти заемщика с сентября 2023 г., и отказал в взыскании процентов и неустоек."
   }
 }
