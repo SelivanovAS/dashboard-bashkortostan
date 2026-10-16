@@ -1,5 +1,5 @@
 {
-  "baseline_sha256": "04ac30c0419c3a3e50468edbfd71bc206337921f8d1fd4c70c677dab67b78f64",
+  "baseline_sha256": "9524908cde54508b52d33c49014dc186e17d2781c9ecc522de92f616d0b427e1",
   "files": {
     ".github/workflows/add_cases.yml": {
       "mode": "100644",
@@ -123,7 +123,7 @@
     },
     "docs/regions/Башкортостан_api2.md": {
       "mode": "100644",
-      "sha256": "b06c72dab36e83969167192eb52c39c80437502df111d0e9188187ef3ef7e99c"
+      "sha256": "f3119c1cd4e0b2fdb1cf52400128836bb5477ded77c259922d51cc44e23fd844"
     },
     "docs/technical/01-обзор-и-архитектура.md": {
       "mode": "100644",
@@ -169,13 +169,17 @@
       "mode": "100644",
       "sha256": "c55e0d9efb254a60ecae91d25b7edc717c735b930f8aba189e831b0594a466fb"
     },
+    "docs/Загрузка_дампов_четырёх_территорий_2026-10-15.md": {
+      "mode": "100644",
+      "sha256": "03ed7673d04ea1d1adab98213b2066d94622aac11d0badae780a83a4f1bd9ade"
+    },
     "docs/Общая_программа.md": {
       "mode": "100644",
       "sha256": "e62c7865766735067404e5195e1d477d1b3e1bad19b75b30d888d99420cf3628"
     },
     "docs/Пилот_капчи_ХМАО.md": {
       "mode": "100644",
-      "sha256": "303d883152692ce41dd48d0192b51d4e5c5024530556f234331df3c629acf2a8"
+      "sha256": "562e260f96be92f95e41d660a4a5eab2cd74b484d94f7d611c33a9518c629b33"
     },
     "docs/Тиражирование_регионы.md": {
       "mode": "100644",
@@ -327,7 +331,15 @@
     },
     "ops/vps-run/api2-bashkortostan.nginx.conf": {
       "mode": "100644",
-      "sha256": "d1b5769b876ae3cdb07c048956c4032843043b930c88af5f285d4028376dd5e2"
+      "sha256": "734182519da5828551a21c84c91e692b24663fe680a831fe9b1404f461d38775"
+    },
+    "ops/vps-run/bashkortostan_upload_relay.py": {
+      "mode": "100644",
+      "sha256": "55fb259167fbcb29d66d8f0394d50f318624a293904cf1e2bfec59aacbb0f91f"
+    },
+    "ops/vps-run/court-monitor-upload-bashkortostan.service": {
+      "mode": "100644",
+      "sha256": "e012187baa08f58991c0f14404dca67ab667b3971668df7b03e2ed8290b99f65"
     },
     "ops/vps-run/delivery_all.sh": {
       "mode": "100755",
@@ -467,7 +479,7 @@
     },
     "scripts/court_monitor/appeal_captcha.py": {
       "mode": "100644",
-      "sha256": "2fc2cc878a2c4ca9e386035317bf2a3c2dbad73f30ad3920d41a0171ab9e64fb"
+      "sha256": "587c5723a16c75248178496f00f06e494dcbca9949d8ef78fdbfca12df652269"
     },
     "scripts/court_monitor/appeal_intake.py": {
       "mode": "100644",
@@ -483,7 +495,7 @@
     },
     "scripts/court_monitor/captcha_audit.py": {
       "mode": "100644",
-      "sha256": "30d804bd6c46dcd9a67f0ef4fea79e8b1da103b54f61378b7922b8875443061f"
+      "sha256": "9560ef82f168f72d176ca950fe5c5e8b7570a3969ec3329a07c11611cca9967a"
     },
     "scripts/court_monitor/card_refresh.py": {
       "mode": "100644",
@@ -923,7 +935,7 @@
     },
     "scripts/tests/test_appeal_captcha_pilot.py": {
       "mode": "100644",
-      "sha256": "49fc05a0fb331c419e243e4b0739ddd2c6449f9c783a3c5e0cf136b32767b801"
+      "sha256": "14f6e3467cf5f71eca5e5da481bff9d64b0d79a3fdd28f631d3014fe05cc1b7b"
     },
     "scripts/tests/test_appeal_court_identity.py": {
       "mode": "100644",
@@ -968,6 +980,10 @@
     "scripts/tests/test_bashkortostan_gateway_worker.py": {
       "mode": "100644",
       "sha256": "1d60f34e79287736f40c1de9c48631d2680e859649216430116b3e7cf4b63c9b"
+    },
+    "scripts/tests/test_bashkortostan_upload_relay.py": {
+      "mode": "100644",
+      "sha256": "552841d3c1c154a07c66afbd2d4b5529119e1180570736aa9f0edba1f1c03594"
     },
     "scripts/tests/test_calendar_feed.py": {
       "mode": "100644",
@@ -1175,7 +1191,7 @@
     },
     "scripts/tests/test_import_gateway.py": {
       "mode": "100644",
-      "sha256": "faad1c71aa409aeb25ffecbec1729eb549146d8d6dad9a8817ec7b98e2959565"
+      "sha256": "fcc3bb2c1769c02f3b4b34efead6ebfa3a3308c80a3cb9b92d033518ff25b1c1"
     },
     "scripts/tests/test_import_oblast_sections.py": {
       "mode": "100644",
@@ -1455,7 +1471,7 @@
     }
   },
   "kind": "program",
-  "profile_sha256": "60270866da702a8970e7e478094b71bc8629c48e2730f552e3b4735f9a011d69",
+  "profile_sha256": "052bccc2080b28e9581d1bc4276cd51ecd053cc7aeb33b1d0d9fa94b25d2ec8c",
   "protected_prefixes": [
     "data/",
     "ops/bank_registry/",
@@ -1469,11 +1485,11 @@
     "exports/"
   ],
   "region": "bashkortostan",
-  "release_id": "a72d4a50dd011a852b41f007796eec5bba640ac56d875067df5e2952d74be429",
+  "release_id": "3dddd0db008cd9a03ef7212c9fcc86eb28c29db33d2b1d564015936501f1cc26",
   "repository": "SelivanovAS/dashboard-bashkortostan",
   "schema_version": 1,
   "site_url": "https://selivanovas.github.io/dashboard-bashkortostan/sberbank_dashboard.html",
-  "source_commit": "7a6fc85a3ba4740c7ba5eba88709f49bd443b351",
+  "source_commit": "4764f09f47778e2bb445b58424d6c22096534d9f",
   "source_repo": "SelivanovAS/dashboard",
   "vps_path": "/opt/court-monitor/dashboard-bashkortostan"
 }
