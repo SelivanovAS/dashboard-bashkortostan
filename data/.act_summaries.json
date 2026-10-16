@@ -216,5 +216,55 @@
       "status": "ready"
     },
     "generated_at": "2026-10-15T03:45:30+00:00"
+  },
+  "9bbeec855a8e7fee": {
+    "summary": "Суд установил, что наследственное имущество умершей Шакировой Ф.Ш. является выморочным: движимое имущество (денежные средства на счетах в сумме 427,07 руб.) перешло в собственность РФ в лице ТУ Росимущества, а недвижимое — в собственность администрации сельского поселения. Ответственность по долгам наследодателя в пределах стоимости полученного имущества несут оба публично-правовых образования солидарно. При этом суд признал злоупотреблением правом длительное бездействие банка, осведомленного о смерти заемщика с сентября 2023 г., и отказал в взыскании процентов и неустоек.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "invalid_response",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 53365,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "invalid_response",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 53365,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 53365,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "f1100d00f0406a2f9a318dbeb40558834331ea7f48b87fedca116c755220b254",
+      "raw_chars": 26343,
+      "prepared_chars": 26343,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60379889&case_uid=eefd20bd-b412-49a9-9ccf-f5c42ac3d779&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-10-16T03:41:54+00:00",
+      "case_number": "33-16624/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-16T03:48:46+00:00"
   }
 }
