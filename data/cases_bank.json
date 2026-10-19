@@ -2,7 +2,6 @@
   "version": 1,
   "track": "plaintiff_light",
   "archived_count": 36,
-  "updated_at": "2026-10-19T15:50:41+05:00",
   "cases": [
     {
       "id": "2-477/2026",
@@ -33,7 +32,12 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "03.09.2026"
+        "decision_date": "03.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-10-20",
+        "writ_awaited_since": "2026-10-20",
+        "motivirovka_date": "17.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -74,7 +78,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "03.09.2026"
+        "decision_date": "03.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-10-20",
+        "writ_awaited_since": "2026-10-20",
+        "default_judgment": true,
+        "motivirovka_date": "03.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -100,8 +110,8 @@
         "court_domain": "chekmagushevsky--bkr.sudrf.ru",
         "judge": "Сахибгареева Г.А.",
         "filing_date": "26.03.2026",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН ЧАСТИЧНО",
+        "status": "В производстве",
+        "result": "",
         "last_event": "Рассмотрение заявления об отмене заочного решения. 16:30. Заочное решение отменено. 03.08.2026",
         "event_date": "10.08.2026",
         "hearing_date": "24.06.2026",
@@ -114,8 +124,20 @@
         "srv_num": 1,
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
-        "resolved_emitted": true,
-        "decision_date": "24.06.2026"
+        "resolved_emitted": false,
+        "writ_watch_status": "needs_review",
+        "writ_watch_reason": "decision_cancelled",
+        "decision_date_vacated": "24.06.2026",
+        "default_copy_served_emitted": "26.07.2026",
+        "default_judgment": true,
+        "motivirovka_date": "29.06.2026",
+        "default_copy_served_date": "26.07.2026",
+        "default_cancellation": {
+          "filed_date": "29.07.2026",
+          "hearing_date": "10.08.2026",
+          "outcome": "cancelled",
+          "outcome_date": "10.08.2026"
+        }
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -156,7 +178,15 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "02.04.2026"
+        "decision_date": "02.04.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-05-13",
+        "writ_overdue_emitted": "2026-05-13|150",
+        "court_archived_at": "14.05.2026",
+        "legal_force_est": "2026-05-13",
+        "writ_awaited_since": "2026-05-13",
+        "motivirovka_date": "10.04.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -197,7 +227,11 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "15.09.2026"
+        "decision_date": "15.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-10-30",
+        "writ_awaited_since": "2026-10-30"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -277,7 +311,15 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "22.04.2026"
+        "decision_date": "22.04.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-06-09",
+        "writ_overdue_emitted": "2026-06-09|120",
+        "legal_force_est": "2026-06-09",
+        "writ_awaited_since": "2026-06-09",
+        "default_judgment": true,
+        "motivirovka_date": "22.04.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -285,124 +327,6 @@
       "import": {
         "operator": "Гульдар",
         "at": "2026-10-19T15:43:21",
-        "source": "dump",
-        "announced": true
-      }
-    },
-    {
-      "id": "2-317/2026",
-      "current_stage": "first_instance",
-      "plaintiff": "ПАО Сбербанк в лице филиала - Башкирское отделение № 8598",
-      "defendant": "Индивидуальный предприниматель Дедиков Сергей Павлович, Курамшин Евгений Николаевич",
-      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
-      "bank_role": "Истец",
-      "notes": "",
-      "first_instance": {
-        "case_number": "2-317/2026",
-        "court": "Сибайский городской суд",
-        "court_domain": "sibaisky--bkr.sudrf.ru",
-        "judge": "Микрюков Р.А.",
-        "filing_date": "18.02.2026",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН ЧАСТИЧНО",
-        "last_event": "Дело сдано в отдел судебного делопроизводства. 17:25. 18.06.2026",
-        "event_date": "17.06.2026",
-        "hearing_date": "07.05.2026",
-        "hearing_time": "09:00",
-        "link": "175493682|cea63ced-2bea-40c4-b934-0b6e1541bba5",
-        "act_published": true,
-        "act_date": "",
-        "judicial_uid": "03RS0016-01-2026-000380-39",
-        "delo_id": 1540005,
-        "srv_num": 1,
-        "last_checked_at": "2026-10-19",
-        "intake_card_parse": true,
-        "resolved_emitted": true,
-        "decision_date": "07.05.2026",
-        "appeal_filed": true,
-        "appeal_filed_date": "17.06.2026",
-        "sent_to_appeal": true,
-        "sent_to_appeal_date": "23.06.2026",
-        "appeal_events": [
-          {
-            "date": "11.09.2026",
-            "text": "Дата рассмотрения жалобы",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "17.06.2026",
-            "text": "Регистрация жалобы (представления) в суде",
-            "name": "Регистрация жалобы (представления) в суде",
-            "posted_at": "17.06.2026",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "22.06.2026",
-            "text": "Решение вопроса о принятии жалобы (представления) к рассмотрению",
-            "name": "Решение вопроса о принятии жалобы (представления) к рассмотрению",
-            "result_event": "Жалоба (предст.) ПРИНЯТА К РАССМОТРЕНИЮ",
-            "posted_at": "12.10.2026",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "23.06.2026",
-            "text": "Направлено в вышестоящую инстанцию",
-            "name": "Направлено в вышестоящую инстанцию",
-            "posted_at": "24.06.2026",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "12.10.2026",
-            "text": "Возвращено из вышестоящей инстанции",
-            "name": "Возвращено из вышестоящей инстанции",
-            "posted_at": "12.10.2026",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "11.09.2026",
-            "text": "Дата рассмотрения жалобы",
-            "complaint_id": "2*"
-          },
-          {
-            "date": "03.07.2026",
-            "text": "Регистрация жалобы (представления) в суде",
-            "name": "Регистрация жалобы (представления) в суде",
-            "posted_at": "03.07.2026",
-            "complaint_id": "2*"
-          },
-          {
-            "date": "03.07.2026",
-            "text": "Решение вопроса о принятии жалобы (представления) к рассмотрению",
-            "name": "Решение вопроса о принятии жалобы (представления) к рассмотрению",
-            "result_event": "Жалоба (предст.) ПРИНЯТА К РАССМОТРЕНИЮ",
-            "posted_at": "12.10.2026",
-            "complaint_id": "2*"
-          },
-          {
-            "date": "03.07.2026",
-            "text": "Направлено в вышестоящую инстанцию",
-            "name": "Направлено в вышестоящую инстанцию",
-            "posted_at": "06.08.2026",
-            "complaint_id": "2*"
-          },
-          {
-            "date": "12.10.2026",
-            "text": "Возвращено из вышестоящей инстанции",
-            "name": "Возвращено из вышестоящей инстанции",
-            "posted_at": "12.10.2026",
-            "complaint_id": "2*"
-          }
-        ],
-        "appeal_appellant": "Ответчик",
-        "appeal_appellant_is_bank": false,
-        "appeal_appellant_status": "Ответчик"
-      },
-      "appeal": null,
-      "track": "plaintiff_light",
-      "initial_bank_role": "Истец",
-      "import": {
-        "operator": "Гульдар",
-        "at": "2026-10-19T15:42:14",
         "source": "dump",
         "announced": true
       }
@@ -436,7 +360,12 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "28.09.2026"
+        "decision_date": "28.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-06",
+        "writ_awaited_since": "2026-11-06",
+        "motivirovka_date": "05.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -477,7 +406,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "01.09.2026"
+        "decision_date": "01.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-10-16",
+        "legal_force_est": "2026-10-16",
+        "writ_awaited_since": "2026-10-16",
+        "motivirovka_date": "15.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -518,7 +453,18 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "29.04.2026"
+        "decision_date": "29.04.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "default_copy_returned_emitted": "15.06.2026",
+        "legal_force_emitted": "2026-06-30",
+        "writ_overdue_emitted": "2026-06-30|90",
+        "legal_force_est": "2026-06-30",
+        "writ_awaited_since": "2026-06-30",
+        "default_judgment": true,
+        "motivirovka_date": "14.05.2026",
+        "default_copy_returned": true,
+        "default_copy_returned_date": "15.06.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -559,7 +505,14 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "15.06.2026"
+        "decision_date": "15.06.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-07-28",
+        "writ_overdue_emitted": "2026-07-28|60",
+        "legal_force_est": "2026-07-28",
+        "writ_awaited_since": "2026-07-28",
+        "motivirovka_date": "26.06.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -600,7 +553,12 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "09.09.2026"
+        "decision_date": "09.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-10-24",
+        "writ_awaited_since": "2026-10-24",
+        "motivirovka_date": "23.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -641,7 +599,14 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "16.04.2026"
+        "decision_date": "16.04.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-06-02",
+        "writ_overdue_emitted": "2026-06-02|120",
+        "legal_force_est": "2026-06-02",
+        "writ_awaited_since": "2026-06-02",
+        "motivirovka_date": "30.04.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -649,87 +614,6 @@
       "import": {
         "operator": "Зульфия",
         "at": "2026-10-19T15:31:13",
-        "source": "dump",
-        "announced": true
-      }
-    },
-    {
-      "id": "2-1906/2026",
-      "current_stage": "first_instance",
-      "plaintiff": "ПАО Сбербанк в лице филиала - Башкирское отделение №8598",
-      "defendant": "Администрация сельского поселения Урнякский сельсовет муниципального района Чекмагушевский район РБ, Каримов Инзер Тагирович, Каримова Лениза Рифовна, ТУ Росимущества в Республике Башкортостан, Хуснутдинов Алмас Нагимович",
-      "category": "Споры, связанные с наследственными отношениями → Споры, связанные с наследованием имущества → об ответственности наследников по долгам наследодателя",
-      "bank_role": "Истец",
-      "notes": "",
-      "first_instance": {
-        "case_number": "2-1906/2026",
-        "court": "Калининский районный суд г. Уфы",
-        "court_domain": "kalininsky--bkr.sudrf.ru",
-        "judge": "Сулейманова А.Т.",
-        "filing_date": "20.02.2026",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН ЧАСТИЧНО",
-        "last_event": "Дело оформлено. 16:12. 08.06.2026",
-        "event_date": "08.06.2026",
-        "hearing_date": "21.05.2026",
-        "hearing_time": "10:00",
-        "link": "238540330|e65b92ae-b836-4e79-998a-273ac6fba4c4",
-        "act_published": false,
-        "act_date": "",
-        "judicial_uid": "03RS0068-01-2025-001392-51",
-        "delo_id": 1540005,
-        "srv_num": 1,
-        "last_checked_at": "2026-10-19",
-        "intake_card_parse": true,
-        "resolved_emitted": true,
-        "decision_date": "21.05.2026",
-        "appeal_filed": true,
-        "appeal_filed_date": "17.07.2026",
-        "sent_to_appeal": true,
-        "sent_to_appeal_date": "23.07.2026",
-        "appeal_events": [
-          {
-            "date": "02.09.2026",
-            "text": "Назначено в вышестоящий суд на дату",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "02.09.2026",
-            "text": "Дата рассмотрения жалобы",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "17.07.2026",
-            "text": "Регистрация жалобы (представления) в суде",
-            "name": "Регистрация жалобы (представления) в суде",
-            "posted_at": "17.07.2026",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "23.07.2026",
-            "text": "Направлено в вышестоящую инстанцию",
-            "name": "Направлено в вышестоящую инстанцию",
-            "posted_at": "23.07.2026",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "16.10.2026",
-            "text": "Возвращено из вышестоящей инстанции",
-            "name": "Возвращено из вышестоящей инстанции",
-            "posted_at": "16.10.2026",
-            "complaint_id": "1*"
-          }
-        ],
-        "appeal_appellant": "Ответчик",
-        "appeal_appellant_is_bank": false,
-        "appeal_appellant_status": "Ответчик"
-      },
-      "appeal": null,
-      "track": "plaintiff_light",
-      "initial_bank_role": "Истец",
-      "import": {
-        "operator": "Зульфия",
-        "at": "2026-10-19T15:23:27",
         "source": "dump",
         "announced": true
       }
@@ -763,96 +647,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "16.09.2026"
-      },
-      "appeal": null,
-      "track": "plaintiff_light",
-      "initial_bank_role": "Истец",
-      "import": {
-        "operator": "Зульфия",
-        "at": "2026-10-19T15:22:17",
-        "source": "dump",
-        "announced": true
-      }
-    },
-    {
-      "id": "2-2092/2026",
-      "current_stage": "first_instance",
-      "plaintiff": "ПАО Сбербанк в лице филиала - Башкирское отделение №8598",
-      "defendant": "Данилова Александра Дмитриевна, ИП Данилов Илья Анатольевич",
-      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
-      "bank_role": "Истец",
-      "notes": "",
-      "first_instance": {
-        "case_number": "2-2092/2026",
-        "court": "Калининский районный суд г. Уфы",
-        "court_domain": "kalininsky--bkr.sudrf.ru",
-        "judge": "Серов Я.К.",
-        "filing_date": "02.03.2026",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН",
-        "last_event": "Дело оформлено. 16:39. 22.04.2026",
-        "event_date": "22.04.2026",
-        "hearing_date": "07.04.2026",
-        "hearing_time": "10:00",
-        "link": "239497254|aba1942b-5da9-4501-9d9c-dea04fd23ce0",
-        "act_published": true,
-        "act_date": "",
-        "judicial_uid": "03RS0002-01-2026-001839-90",
-        "delo_id": 1540005,
-        "srv_num": 1,
-        "last_checked_at": "2026-10-19",
-        "intake_card_parse": true,
-        "resolved_emitted": true,
-        "decision_date": "07.04.2026",
-        "appeal_filed": true,
-        "appeal_filed_date": "05.05.2026",
-        "sent_to_appeal": true,
-        "sent_to_appeal_date": "19.05.2026",
-        "appeal_events": [
-          {
-            "date": "16.07.2026",
-            "text": "Назначено в вышестоящий суд на дату",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "16.07.2026",
-            "text": "Дата рассмотрения жалобы",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "05.05.2026",
-            "text": "Регистрация жалобы (представления) в суде",
-            "name": "Регистрация жалобы (представления) в суде",
-            "posted_at": "05.05.2026",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "06.05.2026",
-            "text": "Установлен срок для предоставления возражений · Срок до 15.05.2026",
-            "name": "Установлен срок для предоставления возражений",
-            "note": "Срок до 15.05.2026",
-            "posted_at": "06.05.2026",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "19.05.2026",
-            "text": "Направлено в вышестоящую инстанцию",
-            "name": "Направлено в вышестоящую инстанцию",
-            "posted_at": "18.05.2026",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "30.07.2026",
-            "text": "Возвращено из вышестоящей инстанции",
-            "name": "Возвращено из вышестоящей инстанции",
-            "posted_at": "31.07.2026",
-            "complaint_id": "1*"
-          }
-        ],
-        "appeal_appellant": "Истец",
-        "appeal_appellant_is_bank": true,
-        "appeal_appellant_status": "Истец"
+        "decision_date": "16.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-10-17",
+        "legal_force_est": "2026-10-17",
+        "writ_awaited_since": "2026-10-17",
+        "motivirovka_date": "16.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -893,7 +694,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "20.08.2026"
+        "decision_date": "20.08.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-09-29",
+        "legal_force_est": "2026-09-29",
+        "writ_awaited_since": "2026-09-29",
+        "motivirovka_date": "27.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -934,7 +741,14 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "14.07.2026"
+        "decision_date": "14.07.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-08-21",
+        "writ_overdue_emitted": "2026-08-21|30",
+        "legal_force_est": "2026-08-21",
+        "writ_awaited_since": "2026-08-21",
+        "motivirovka_date": "20.07.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1053,7 +867,12 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "05.10.2026"
+        "decision_date": "05.10.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-06",
+        "writ_awaited_since": "2026-11-06",
+        "motivirovka_date": "05.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1061,67 +880,6 @@
       "import": {
         "operator": "Зульфия",
         "at": "2026-10-19T15:20:34",
-        "source": "dump",
-        "announced": true
-      }
-    },
-    {
-      "id": "2-48/2026 (2-795/2025;)",
-      "current_stage": "first_instance",
-      "plaintiff": "ПАО Сбербанк в лице филиала -Башкирское отделение № 8598",
-      "defendant": "Абрамов Никита Олегович, Валиев Ильнур Бадертдинович, Валиев Руслан Ильнурович, наследственное имущество Абрамова Александра Олеговна, ООО СК \"Сбербанк страхование жизни\", Управление Федерального агентства по управлению государственным имуществом по РБ",
-      "category": "Споры, связанные с имущественными правами → Иски о взыскании сумм по договору займа, кредитному договору",
-      "bank_role": "Истец",
-      "notes": "",
-      "first_instance": {
-        "case_number": "2-48/2026 (2-795/2025;)",
-        "court": "Бижбулякский межрайонный суд",
-        "court_domain": "bizhbuliaksky--bkr.sudrf.ru",
-        "judge": "Зайнуллина Л.Р.",
-        "filing_date": "15.12.2025",
-        "status": "Решено",
-        "result": "Иск (заявление, жалоба) УДОВЛЕТВОРЕН ЧАСТИЧНО",
-        "last_event": "Судебное заседание. 15:00. Вынесено решение по делу. Иск (заявление, жалоба) УДОВЛЕТВОРЕН ЧАСТИЧНО. 21.05.2026",
-        "event_date": "03.06.2026",
-        "hearing_date": "03.06.2026",
-        "hearing_time": "15:00",
-        "link": "226094946|603e9dce-0ed4-4bf9-a74a-f8e0cd928ff3",
-        "act_published": true,
-        "act_date": "",
-        "judicial_uid": "03RS0030-01-2025-000226-34",
-        "delo_id": 1540005,
-        "srv_num": 1,
-        "last_checked_at": "2026-10-19",
-        "intake_card_parse": true,
-        "resolved_emitted": true,
-        "decision_date": "03.06.2026",
-        "appeal_filed": true,
-        "appeal_filed_date": "12.08.2026",
-        "sent_to_appeal": true,
-        "sent_to_appeal_date": "14.08.2026",
-        "appeal_events": [
-          {
-            "date": "12.08.2026",
-            "text": "Регистрация жалобы (представления) в суде",
-            "name": "Регистрация жалобы (представления) в суде",
-            "posted_at": "17.08.2026",
-            "complaint_id": "1*"
-          },
-          {
-            "date": "14.08.2026",
-            "text": "Направлено в вышестоящую инстанцию",
-            "name": "Направлено в вышестоящую инстанцию",
-            "posted_at": "17.08.2026",
-            "complaint_id": "1*"
-          }
-        ]
-      },
-      "appeal": null,
-      "track": "plaintiff_light",
-      "initial_bank_role": "Истец",
-      "import": {
-        "operator": "Зульфия",
-        "at": "2026-10-19T15:15:44",
         "source": "dump",
         "announced": true
       }
@@ -1155,7 +913,14 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "16.06.2026"
+        "decision_date": "16.06.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-07-31",
+        "writ_overdue_emitted": "2026-07-31|60",
+        "legal_force_est": "2026-07-31",
+        "writ_awaited_since": "2026-07-31",
+        "motivirovka_date": "30.06.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1196,7 +961,15 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "30.07.2026"
+        "decision_date": "30.07.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-09-15",
+        "writ_overdue_emitted": "2026-09-15|30",
+        "legal_force_est": "2026-09-15",
+        "writ_awaited_since": "2026-09-15",
+        "default_judgment": true,
+        "motivirovka_date": "30.07.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1237,7 +1010,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "21.09.2026"
+        "decision_date": "21.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-17",
+        "writ_awaited_since": "2026-11-17",
+        "default_judgment": true,
+        "motivirovka_date": "02.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1278,7 +1057,9 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "16.09.2026"
+        "decision_date": "16.09.2026",
+        "writ_expected": false,
+        "motivirovka_date": "30.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1319,7 +1100,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "17.09.2026"
+        "decision_date": "17.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-17",
+        "writ_awaited_since": "2026-11-17",
+        "default_judgment": true,
+        "motivirovka_date": "30.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1360,7 +1147,12 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "29.09.2026"
+        "decision_date": "29.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-10",
+        "writ_awaited_since": "2026-11-10",
+        "motivirovka_date": "07.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1401,7 +1193,14 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "20.08.2026"
+        "decision_date": "20.08.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-10-06",
+        "legal_force_est": "2026-10-06",
+        "writ_awaited_since": "2026-10-06",
+        "default_judgment": true,
+        "motivirovka_date": "20.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1442,7 +1241,14 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "17.08.2026"
+        "decision_date": "17.08.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-10-01",
+        "legal_force_est": "2026-10-01",
+        "writ_awaited_since": "2026-10-01",
+        "default_judgment": true,
+        "motivirovka_date": "17.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1561,7 +1367,12 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "05.10.2026"
+        "decision_date": "05.10.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-20",
+        "writ_awaited_since": "2026-11-20",
+        "default_judgment": true
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1602,7 +1413,12 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "05.10.2026"
+        "decision_date": "05.10.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-20",
+        "writ_awaited_since": "2026-11-20",
+        "default_judgment": true
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1682,7 +1498,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "14.09.2026"
+        "decision_date": "14.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-03",
+        "writ_awaited_since": "2026-11-03",
+        "default_judgment": true,
+        "motivirovka_date": "18.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1723,7 +1545,16 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "31.08.2026"
+        "decision_date": "31.08.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "default_copy_returned_emitted": "05.10.2026",
+        "legal_force_est": "2026-10-27",
+        "writ_awaited_since": "2026-10-27",
+        "default_judgment": true,
+        "motivirovka_date": "11.09.2026",
+        "default_copy_returned": true,
+        "default_copy_returned_date": "05.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1764,7 +1595,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "23.09.2026"
+        "decision_date": "23.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-10",
+        "writ_awaited_since": "2026-11-10",
+        "default_judgment": true,
+        "motivirovka_date": "23.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1805,7 +1642,16 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "31.08.2026"
+        "decision_date": "31.08.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "default_copy_returned_emitted": "13.10.2026",
+        "legal_force_est": "2026-10-27",
+        "writ_awaited_since": "2026-10-27",
+        "default_judgment": true,
+        "motivirovka_date": "11.09.2026",
+        "default_copy_returned": true,
+        "default_copy_returned_date": "13.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1846,7 +1692,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "21.09.2026"
+        "decision_date": "21.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-17",
+        "writ_awaited_since": "2026-11-17",
+        "default_judgment": true,
+        "motivirovka_date": "02.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1887,7 +1739,15 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "21.09.2026"
+        "decision_date": "21.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "default_copy_served_emitted": "15.10.2026",
+        "legal_force_est": "2026-11-27",
+        "writ_awaited_since": "2026-11-27",
+        "default_judgment": true,
+        "motivirovka_date": "05.10.2026",
+        "default_copy_served_date": "15.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1928,7 +1788,11 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "28.09.2026"
+        "decision_date": "28.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-13",
+        "writ_awaited_since": "2026-11-13"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -1969,7 +1833,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "17.09.2026"
+        "decision_date": "17.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-17",
+        "writ_awaited_since": "2026-11-17",
+        "default_judgment": true,
+        "motivirovka_date": "01.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2026,7 +1896,13 @@
             "recipient": "Октябрьский районный отдел судебных приставов города Уфы Главного управления Федеральной службы судебных приставов по Республике Башкортостан",
             "status": "Выдан"
           }
-        ]
+        ],
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-10-20",
+        "writ_awaited_since": "2026-10-20",
+        "default_judgment": true,
+        "motivirovka_date": "04.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2067,7 +1943,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "02.10.2026"
+        "decision_date": "02.10.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-24",
+        "writ_awaited_since": "2026-11-24",
+        "default_judgment": true,
+        "motivirovka_date": "09.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2108,7 +1990,14 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "30.07.2026"
+        "decision_date": "30.07.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-09-29",
+        "legal_force_est": "2026-09-29",
+        "writ_awaited_since": "2026-09-29",
+        "default_judgment": true,
+        "motivirovka_date": "13.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2149,7 +2038,12 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "21.09.2026"
+        "decision_date": "21.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-03",
+        "writ_awaited_since": "2026-11-03",
+        "motivirovka_date": "01.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2190,7 +2084,12 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "06.10.2026"
+        "decision_date": "06.10.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-21",
+        "writ_awaited_since": "2026-11-21",
+        "default_judgment": true
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2231,7 +2130,15 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "17.09.2026"
+        "decision_date": "17.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "default_copy_served_emitted": "30.09.2026",
+        "legal_force_est": "2026-11-10",
+        "writ_awaited_since": "2026-11-10",
+        "default_judgment": true,
+        "motivirovka_date": "23.09.2026",
+        "default_copy_served_date": "30.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2272,7 +2179,12 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "28.09.2026"
+        "decision_date": "28.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-13",
+        "writ_awaited_since": "2026-11-13",
+        "default_judgment": true
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2313,7 +2225,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "15.09.2026"
+        "decision_date": "15.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-06",
+        "writ_awaited_since": "2026-11-06",
+        "default_judgment": true,
+        "motivirovka_date": "21.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2354,7 +2272,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "10.09.2026"
+        "decision_date": "10.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-10-27",
+        "writ_awaited_since": "2026-10-27",
+        "default_judgment": true,
+        "motivirovka_date": "11.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2395,7 +2319,12 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "07.09.2026"
+        "decision_date": "07.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-10-22",
+        "writ_awaited_since": "2026-10-22",
+        "default_judgment": true
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2436,7 +2365,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "22.09.2026"
+        "decision_date": "22.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_est": "2026-11-17",
+        "writ_awaited_since": "2026-11-17",
+        "default_judgment": true,
+        "motivirovka_date": "02.10.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2477,7 +2412,14 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "17.08.2026"
+        "decision_date": "17.08.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-10-06",
+        "legal_force_est": "2026-10-06",
+        "writ_awaited_since": "2026-10-06",
+        "default_judgment": true,
+        "motivirovka_date": "21.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2518,7 +2460,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "13.08.2026"
+        "decision_date": "13.08.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-09-25",
+        "legal_force_est": "2026-09-25",
+        "writ_awaited_since": "2026-09-25",
+        "motivirovka_date": "24.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2559,7 +2507,14 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "13.08.2026"
+        "decision_date": "13.08.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-10-06",
+        "legal_force_est": "2026-10-06",
+        "writ_awaited_since": "2026-10-06",
+        "default_judgment": true,
+        "motivirovka_date": "21.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2600,7 +2555,13 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "02.09.2026"
+        "decision_date": "02.09.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-10-08",
+        "legal_force_est": "2026-10-08",
+        "writ_awaited_since": "2026-10-08",
+        "motivirovka_date": "07.09.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2680,7 +2641,17 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "24.06.2026"
+        "decision_date": "24.06.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "default_copy_served_emitted": "06.08.2026",
+        "legal_force_emitted": "2026-09-18",
+        "writ_overdue_emitted": "2026-09-18|30",
+        "legal_force_est": "2026-09-18",
+        "writ_awaited_since": "2026-09-18",
+        "default_judgment": true,
+        "motivirovka_date": "24.06.2026",
+        "default_copy_served_date": "06.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2721,7 +2692,17 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "05.05.2026"
+        "decision_date": "05.05.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "default_copy_served_emitted": "05.06.2026",
+        "legal_force_emitted": "2026-07-18",
+        "writ_overdue_emitted": "2026-07-18|90",
+        "legal_force_est": "2026-07-18",
+        "writ_awaited_since": "2026-07-18",
+        "default_judgment": true,
+        "motivirovka_date": "18.05.2026",
+        "default_copy_served_date": "05.06.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2762,7 +2743,14 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "31.07.2026"
+        "decision_date": "31.07.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-09-15",
+        "writ_overdue_emitted": "2026-09-15|30",
+        "legal_force_est": "2026-09-15",
+        "writ_awaited_since": "2026-09-15",
+        "motivirovka_date": "13.08.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2803,7 +2791,15 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "18.05.2026"
+        "decision_date": "18.05.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-07-02",
+        "writ_overdue_emitted": "2026-07-02|90",
+        "legal_force_est": "2026-07-02",
+        "writ_awaited_since": "2026-07-02",
+        "default_judgment": true,
+        "motivirovka_date": "18.05.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2844,7 +2840,18 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "29.04.2026"
+        "decision_date": "29.04.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "default_copy_returned_emitted": "08.07.2026",
+        "legal_force_emitted": "2026-06-16",
+        "writ_overdue_emitted": "2026-06-16|120",
+        "legal_force_est": "2026-06-16",
+        "writ_awaited_since": "2026-06-16",
+        "default_judgment": true,
+        "motivirovka_date": "29.04.2026",
+        "default_copy_returned": true,
+        "default_copy_returned_date": "08.07.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -2885,7 +2892,15 @@
         "last_checked_at": "2026-10-19",
         "intake_card_parse": true,
         "resolved_emitted": true,
-        "decision_date": "13.05.2026"
+        "decision_date": "13.05.2026",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
+        "legal_force_emitted": "2026-07-09",
+        "writ_overdue_emitted": "2026-07-09|90",
+        "legal_force_est": "2026-07-09",
+        "writ_awaited_since": "2026-07-09",
+        "default_judgment": true,
+        "motivirovka_date": "25.05.2026"
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -41306,5 +41321,6 @@
         "announced": true
       }
     }
-  ]
+  ],
+  "updated_at": "2026-10-19T16:13:05+05:00"
 }
