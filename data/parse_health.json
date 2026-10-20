@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-20T12:12:12+05:00",
+ "updated_at": "2026-10-20T16:10:19+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -1132,24 +1132,24 @@
   }
  },
  "last_run": {
-  "at": "2026-10-20T12:12:12",
+  "at": "2026-10-20T16:10:19",
   "alerts": [],
-  "requests_ok": 7,
+  "requests_ok": 0,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 7,
-  "cards_planned": 21,
+  "cards_read": 0,
+  "cards_planned": 14,
   "cards_read_today": 396,
   "cards_planned_today": 410,
-  "daily_attempts": 5,
+  "daily_attempts": 6,
   "instances": {
    "first_instance": {
-    "read": 7,
-    "planned": 21,
+    "read": 0,
+    "planned": 14,
     "read_today": 287,
     "planned_today": 301
    },
@@ -1166,12 +1166,7 @@
     "planned_today": 30
    }
   },
-  "latency": {
-   "n": 7,
-   "p50": 5.2,
-   "p90": 28.3,
-   "max": 28.3
-  },
+  "latency": {},
   "failure_latency": {},
   "fail_kinds": {},
   "breaker": {
@@ -1540,9 +1535,9 @@
   "date": "2026-10-20",
   "region": "bashkortostan",
   "waiting": 185,
-  "due": 19,
-  "planned": 19,
-  "read": 5,
+  "due": 14,
+  "planned": 14,
+  "read": 0,
   "unread": 14,
   "published": 0,
   "backfilled": 0,
@@ -2292,8 +2287,8 @@
    {
     "key": "sibaisky--bkr.sudrf.ru|1540005|1|2-1005/2026|2026-10-01",
     "number": "2-1005/2026",
-    "next_check_at": "2026-10-20",
-    "reason": "checked"
+    "next_check_at": "2026-10-21",
+    "reason": "scheduled"
    },
    {
     "key": "sibaisky--bkr.sudrf.ru|1540005|1|2-937/2026|2026-09-22",
@@ -2358,8 +2353,8 @@
    {
     "key": "zilairsky--bkr.sudrf.ru|1540005|1|2-421/2026|2026-09-25",
     "number": "2-421/2026",
-    "next_check_at": "2026-10-20",
-    "reason": "checked"
+    "next_check_at": "2026-10-21",
+    "reason": "scheduled"
    },
    {
     "key": "baimaksky--bkr.sudrf.ru|1540005|1|2-539/2026|2026-06-25",
@@ -2490,8 +2485,8 @@
    {
     "key": "zilairsky--bkr.sudrf.ru|1540005|1|2-519/2026|2026-10-09",
     "number": "2-519/2026",
-    "next_check_at": "2026-10-20",
-    "reason": "checked"
+    "next_check_at": "2026-10-21",
+    "reason": "scheduled"
    },
    {
     "key": "ufimsky--bkr.sudrf.ru|1540005|1|9-736/2026|undated",
@@ -2538,8 +2533,8 @@
    {
     "key": "ufimsky--bkr.sudrf.ru|1540005|1|2-3466/2026|2026-10-13",
     "number": "2-3466/2026",
-    "next_check_at": "2026-10-20",
-    "reason": "checked"
+    "next_check_at": "2026-10-21",
+    "reason": "scheduled"
    },
    {
     "key": "uchalinsky--bkr.sudrf.ru|1540005|1|9-147/2026|undated",
@@ -2712,8 +2707,8 @@
    {
     "key": "ufimsky--bkr.sudrf.ru|1540005|1|2-3730/2026|2026-10-15",
     "number": "2-3730/2026",
-    "next_check_at": "2026-10-20",
-    "reason": "checked"
+    "next_check_at": "2026-10-21",
+    "reason": "scheduled"
    },
    {
     "key": "kalininsky--bkr.sudrf.ru|1540005|1|2-1859/2026|2026-07-23",
@@ -4679,7 +4674,7 @@
    {
     "key": "sibaisky--bkr.sudrf.ru|1|2-1005/2026|01.10.2026",
     "number": "2-1005/2026",
-    "next_check_at": "2026-10-26",
+    "next_check_at": "2026-10-27",
     "reason": "scheduled"
    },
    {
@@ -4829,7 +4824,7 @@
    {
     "key": "zilairsky--bkr.sudrf.ru|1|2-421/2026|25.09.2026",
     "number": "2-421/2026",
-    "next_check_at": "2026-10-26",
+    "next_check_at": "2026-10-27",
     "reason": "scheduled"
    },
    {
@@ -4961,7 +4956,7 @@
    {
     "key": "zilairsky--bkr.sudrf.ru|1|2-519/2026|09.10.2026",
     "number": "2-519/2026",
-    "next_check_at": "2026-10-26",
+    "next_check_at": "2026-10-27",
     "reason": "scheduled"
    },
    {
@@ -5003,7 +4998,7 @@
    {
     "key": "ufimsky--bkr.sudrf.ru|1|2-3466/2026|13.10.2026",
     "number": "2-3466/2026",
-    "next_check_at": "2026-10-26",
+    "next_check_at": "2026-10-27",
     "reason": "scheduled"
    },
    {
@@ -5159,7 +5154,7 @@
    {
     "key": "ufimsky--bkr.sudrf.ru|1|2-3730/2026|15.10.2026",
     "number": "2-3730/2026",
-    "next_check_at": "2026-10-26",
+    "next_check_at": "2026-10-27",
     "reason": "scheduled"
    },
    {
@@ -7389,49 +7384,9 @@
  "card_refresh": {
   "date": "2026-10-20",
   "region": "bashkortostan",
-  "planned": 19,
-  "read": 5,
+  "planned": 14,
+  "read": 0,
   "items": [
-   {
-    "key": "first_instance|https://sibaisky--bkr.sudrf.ru/modules.php?case_id=188722218&case_uid=4d45b935-77f1-4fc2-8f38-5055a238ff25&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "first_instance|https://ufimsky--bkr.sudrf.ru/modules.php?case_id=258094474&case_uid=3a0f7190-7f5e-4031-a38f-c800cb217960&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "first_instance|https://ufimsky--bkr.sudrf.ru/modules.php?case_id=260158638&case_uid=120459cd-2ef2-4c39-b4af-1789bb17e7c9&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "first_instance|https://zilairsky--bkr.sudrf.ru/modules.php?case_id=254398056&case_uid=d33bb47d-8882-4ab8-89da-c669170c8d49&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "first_instance|https://zilairsky--bkr.sudrf.ru/modules.php?case_id=259782202&case_uid=8b1db1d0-101d-4bcf-80ce-f002109f5296&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
    {
     "key": "first_instance|https://kirovsky--bkr.sudrf.ru/modules.php?case_id=256131448&case_uid=f3428d59-e114-46f0-bb70-a95ec3493f18&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
     "stage": "first_instance",
@@ -7555,8 +7510,8 @@
     "read": 0
    },
    "first_instance": {
-    "planned": 19,
-    "read": 5
+    "planned": 14,
+    "read": 0
    }
   },
   "unread": 14
