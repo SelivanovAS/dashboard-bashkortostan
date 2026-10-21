@@ -435,5 +435,69 @@
       "status": "ready"
     },
     "generated_at": "2026-10-19T04:44:41+00:00"
+  },
+  "971bb7733885fded": {
+    "summary": "Судебная коллегия подтвердила законность обращения взыскания на заложенное имущество должника в пользу взыскателя, не являющегося залогодержателем, поскольку иного имущества для удовлетворения требований исполнительного документа у должника не имеется. При реализации имущества залог в пользу банка сохраняется, что исключает нарушение прав залогодержателя.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 39397,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "9a6a5724b60321a148acf8447733a8dfb313a0a251cc018f3b43b56d96e0c23c",
+      "raw_chars": 18624,
+      "prepared_chars": 18624,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60701389&case_uid=ddd789e0-683c-4cbd-a5d8-3418c4ee75f2&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-10-21T01:38:59+00:00",
+      "case_number": "33-18149/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "header_unavailable",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-21T03:45:27+00:00"
+  },
+  "abf3610b54873acf": {
+    "summary": "Кассационный суд оставил апелляционное определение в силе, согласившись с выводом об отсутствии в материалах дела постановлений о наложении ареста на счет и об обращении взыскания на вклад в Сбербанке, что исключает предмет спора об освобождении имущества от ареста. Отказ в компенсации морального вреда подтвержден отсутствием доказательств нарушения личных неимущественных прав истцов и причинной связи с действиями ответчиков.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 32481,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "8544ac898e2e5bc9d09c5d14a8f542d0fa68fa394adc4460409805a8f537742d",
+      "raw_chars": 14711,
+      "prepared_chars": 14711,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25886815&case_uid=6e269856-2363-4a38-bfbd-90e35c4cee8e&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-10-21T03:34:35+00:00",
+      "case_number": "8Г-18639/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0005-01-2025-008081-07",
+      "identity_check": "header_unavailable",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-21T03:45:29+00:00"
   }
 }
