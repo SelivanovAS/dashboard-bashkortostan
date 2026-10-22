@@ -499,5 +499,78 @@
       "status": "ready"
     },
     "generated_at": "2026-10-21T03:45:29+00:00"
+  },
+  "e976d51bc6f57141": {
+    "summary": "Суд удовлел иск о взыскании процентов и неустойки, так как факт предоставления кредита и ненадлежащего исполнения обязательств заемщиком достоверно установлен, а расчет истца признан арифметически верным. Встречный иск о недействительности договора из-за мошенничества отклонен, поскольку банк не знал и не должен был знать об обмане третьих лиц, а заемщица самостоятельно распорядилась полученными средствами.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "outcome_conflict",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 91898,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 91898,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "bf25c76597b8095775ad5400a39c5561923ad84755bdee05805929a3d0c454c7",
+      "raw_chars": 48260,
+      "prepared_chars": 48260,
+      "source_url": "https://ishimbaisky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=184842432&case_uid=56c81076-798a-4f6f-8460-f3e248be1352&delo_id=1540005&new=0",
+      "court_domain": "ishimbaisky--bkr.sudrf.ru",
+      "received_at": "2026-10-22T01:58:03+00:00",
+      "case_number": "2-1236/2026",
+      "stage": "first_instance",
+      "judicial_uid": "03RS0011-01-2026-001338-49",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-22T03:45:45+00:00"
+  },
+  "694cf532d5f4eade": {
+    "summary": "Суд отказал в взыскании неосновательного обогащения, так как истец перечислил деньги ответчику по соглашению с третьим лицом для погашения своей задолженности перед последним, а ответчик передав их получателю, не сберег имущество. Ошибочность перечисления не доказана, а истец знал об отсутствии обязательства перед ответчиком, что исключает возврат по ст. 1109 ГК РФ.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 30576,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "7456fdac6a4b173661d1740628c9bd687a3a59f4aa0dc551817d08ffa11e53d0",
+      "raw_chars": 14103,
+      "prepared_chars": 14103,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25865455&case_uid=41716349-e91b-4b47-b468-35f5b5937439&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-10-22T02:43:24+00:00",
+      "case_number": "8Г-18361/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0004-01-2025-008395-88",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-22T03:46:00+00:00"
   }
 }
