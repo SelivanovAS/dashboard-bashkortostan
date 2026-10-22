@@ -4,8 +4,8 @@
   "smart_skip": true,
   "totals": {
     "total": 924,
-    "parsed": 5,
-    "skip": 919,
+    "parsed": 0,
+    "skip": 924,
     "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
@@ -1472,7 +1472,7 @@
     },
     {
       "outcome": "skip",
-      "reason": "retry_cooldown",
+      "reason": "backfill_daily_time_limit",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -1651,9 +1651,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1687,9 +1687,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1705,9 +1705,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1723,9 +1723,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1759,9 +1759,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -16645,5 +16645,5 @@
       "last_checked_at": "2026-10-16"
     }
   ],
-  "updated_at": "2026-10-22T08:08:04+05:00"
+  "updated_at": "2026-10-22T08:26:47+05:00"
 }
