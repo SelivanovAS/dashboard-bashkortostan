@@ -3,19 +3,235 @@
   "run_date": "2026-10-23",
   "smart_skip": true,
   "totals": {
-    "total": 937,
-    "parsed": 17,
-    "skip": 773,
-    "failed": 116,
+    "total": 936,
+    "parsed": 247,
+    "skip": 682,
+    "failed": 7,
     "no_card": 0,
     "not_in_queue": 0,
-    "intake_new": 12
+    "intake_new": 0
   },
   "cases": [
     {
-      "outcome": "fetch_empty",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "kirovsky--bkr.sudrf.ru|М-8473/2026",
+      "number": "М-8473/2026",
+      "court": "Кировский районный суд г. Уфы",
+      "court_domain": "kirovsky--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "ordjonikidzovsky--bkr.sudrf.ru|М-3815/2026",
+      "number": "М-3815/2026",
+      "court": "Орджоникидзевский районный суд г. Уфы",
+      "court_domain": "ordjonikidzovsky--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "sovetsky--bkr.sudrf.ru|М-5338/2026",
+      "number": "М-5338/2026",
+      "court": "Советский районный суд г. Уфы",
+      "court_domain": "sovetsky--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "neftekamsky--bkr.sudrf.ru|2-2598/2026",
+      "number": "2-2598/2026",
+      "court": "Нефтекамский городской суд",
+      "court_domain": "neftekamsky--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "blagoveschensky--bkr.sudrf.ru|2-1053/2026",
+      "number": "2-1053/2026",
+      "court": "Благовещенский районный суд",
+      "court_domain": "blagoveschensky--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "diurtiulinsky--bkr.sudrf.ru|М-818/2026",
+      "number": "М-818/2026",
+      "court": "Дюртюлинский районный суд",
+      "court_domain": "diurtiulinsky--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "diurtiulinsky--bkr.sudrf.ru|М-816/2026",
+      "number": "М-816/2026",
+      "court": "Дюртюлинский районный суд",
+      "court_domain": "diurtiulinsky--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "karaidelsky--bkr.sudrf.ru|2-616/2026",
+      "number": "2-616/2026",
+      "court": "Караидельский межрайонный суд",
+      "court_domain": "karaidelsky--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "salavatskiy--bkr.sudrf.ru|М-999/2026",
+      "number": "М-999/2026",
+      "court": "Салаватский межрайонный суд",
+      "court_domain": "salavatskiy--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "salavatskiy--bkr.sudrf.ru|2-1159/2026",
+      "number": "2-1159/2026",
+      "court": "Салаватский межрайонный суд",
+      "court_domain": "salavatskiy--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "salavatskiy--bkr.sudrf.ru|М-1000/2026",
+      "number": "М-1000/2026",
+      "court": "Салаватский межрайонный суд",
+      "court_domain": "salavatskiy--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "ufimsky--bkr.sudrf.ru|2-4172/2026",
+      "number": "2-4172/2026",
+      "court": "Уфимский районный суд",
+      "court_domain": "ufimsky--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-10-23"
+    },
+    {
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -28,7 +244,7 @@
       "court": "Ленинский районный суд г. Уфы",
       "court_domain": "leninsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -49,9 +265,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -64,17 +280,17 @@
       "court": "Кировский районный суд г. Уфы",
       "court_domain": "kirovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "sovetsky--bkr.sudrf.ru|М-5334/2026",
@@ -82,12 +298,12 @@
       "court": "Советский районный суд г. Уфы",
       "court_domain": "sovetsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -100,17 +316,17 @@
       "court": "Октябрьский городской суд",
       "court_domain": "oktabrsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "baimaksky--bkr.sudrf.ru|М-931/2026",
@@ -118,12 +334,12 @@
       "court": "Баймакский районный суд",
       "court_domain": "baimaksky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -136,12 +352,12 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -154,7 +370,7 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -175,9 +391,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -190,17 +406,17 @@
       "court": "Дюртюлинский районный суд",
       "court_domain": "diurtiulinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "iglinsky--bkr.sudrf.ru|М-2143/2026",
@@ -208,12 +424,12 @@
       "court": "Иглинский межрайонный суд",
       "court_domain": "iglinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -226,7 +442,7 @@
       "court": "Уфимский районный суд",
       "court_domain": "ufimsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -247,14 +463,16 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "kalininsky--bkr.sudrf.ru|2-5689/2026",
@@ -262,17 +480,19 @@
       "court": "Калининский районный суд г. Уфы",
       "court_domain": "kalininsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "kalininsky--bkr.sudrf.ru|2-5688/2026",
@@ -280,12 +500,12 @@
       "court": "Калининский районный суд г. Уфы",
       "court_domain": "kalininsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -298,12 +518,12 @@
       "court": "Кировский районный суд г. Уфы",
       "court_domain": "kirovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -316,7 +536,7 @@
       "court": "Кировский районный суд г. Уфы",
       "court_domain": "kirovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -337,9 +557,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -352,17 +572,19 @@
       "court": "Октябрьский городской суд",
       "court_domain": "oktabrsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "oktabrsky--bkr.sudrf.ru|2-2281/2026",
@@ -370,12 +592,12 @@
       "court": "Октябрьский городской суд",
       "court_domain": "oktabrsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -388,12 +610,12 @@
       "court": "Сибайский городской суд",
       "court_domain": "sibaisky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -406,7 +628,7 @@
       "court": "Белокатайский межрайонный суд",
       "court_domain": "belokataisky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -445,9 +667,9 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -460,12 +682,12 @@
       "court": "Кушнаренковский районный суд",
       "court_domain": "kushnarenkovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -478,7 +700,7 @@
       "court": "Салаватский межрайонный суд",
       "court_domain": "salavatskiy--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -499,9 +721,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -514,17 +736,17 @@
       "court": "Уфимский районный суд",
       "court_domain": "ufimsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "chishmilinsky--bkr.sudrf.ru|М-954/2026",
@@ -532,12 +754,12 @@
       "court": "Чишминский районный суд",
       "court_domain": "chishmilinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -550,7 +772,7 @@
       "court": "Янаульский районный суд",
       "court_domain": "yanaulsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -589,14 +811,16 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "leninsky--bkr.sudrf.ru|2-5616/2026",
@@ -604,12 +828,12 @@
       "court": "Ленинский районный суд г. Уфы",
       "court_domain": "leninsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -622,7 +846,7 @@
       "court": "Советский районный суд г. Уфы",
       "court_domain": "sovetsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -643,9 +867,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -658,17 +882,19 @@
       "court": "Белорецкий межрайонный суд",
       "court_domain": "belorecky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "bizhbuliaksky--bkr.sudrf.ru|2-579/2026",
@@ -676,7 +902,7 @@
       "court": "Бижбулякский межрайонный суд",
       "court_domain": "bizhbuliaksky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -697,9 +923,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -712,12 +938,12 @@
       "court": "Туймазинский межрайонный суд",
       "court_domain": "tuimazinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -730,7 +956,7 @@
       "court": "Туймазинский межрайонный суд",
       "court_domain": "tuimazinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -751,9 +977,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -766,7 +992,7 @@
       "court": "Туймазинский межрайонный суд",
       "court_domain": "tuimazinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -823,9 +1049,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -838,7 +1064,7 @@
       "court": "Чекмагушевский межрайонный суд",
       "court_domain": "chekmagushevsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -1345,22 +1571,25 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "kirovsky--bkr.sudrf.ru|2-7035/2026",
       "number": "2-7035/2026",
       "court": "Кировский районный суд г. Уфы",
       "court_domain": "kirovsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-19"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -1921,9 +2150,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1936,12 +2165,12 @@
       "court": "Кировский районный суд г. Уфы",
       "court_domain": "kirovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -1954,7 +2183,7 @@
       "court": "Белокатайский межрайонный суд",
       "court_domain": "belokataisky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -2065,9 +2294,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "fetch_http",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "HTTP-ошибка при загрузке карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2101,9 +2330,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2116,7 +2345,7 @@
       "court": "Октябрьский районный суд г. Уфы",
       "court_domain": "oktiabrsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -2137,9 +2366,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "fetch_http",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "HTTP-ошибка при загрузке карточки",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2173,9 +2402,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2188,7 +2417,7 @@
       "court": "Альшеевский районный суд",
       "court_domain": "alsheevsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -2299,9 +2528,9 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2314,7 +2543,7 @@
       "court": "Демский районный суд г. Уфы",
       "court_domain": "demsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -2335,14 +2564,16 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "leninsky--bkr.sudrf.ru|2-5536/2026",
@@ -2350,7 +2581,7 @@
       "court": "Ленинский районный суд г. Уфы",
       "court_domain": "leninsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -2371,9 +2602,9 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2386,7 +2617,7 @@
       "court": "Стерлитамакский городской суд",
       "court_domain": "sterlitamaksky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -2425,9 +2656,9 @@
       "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2440,7 +2671,7 @@
       "court": "Октябрьский районный суд г. Уфы",
       "court_domain": "oktiabrsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -2479,9 +2710,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2494,7 +2725,7 @@
       "court": "Стерлитамакский городской суд",
       "court_domain": "sterlitamaksky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -2947,9 +3178,9 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -2962,17 +3193,17 @@
       "court": "Белорецкий межрайонный суд",
       "court_domain": "belorecky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "birsky--bkr.sudrf.ru|М-1122/2026",
@@ -2980,7 +3211,7 @@
       "court": "Бирский межрайонный суд",
       "court_domain": "birsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -3055,14 +3286,16 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_next"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "chekmagushevsky--bkr.sudrf.ru|2-901/2026",
@@ -3070,7 +3303,7 @@
       "court": "Чекмагушевский межрайонный суд",
       "court_domain": "chekmagushevsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-12"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -3271,9 +3504,9 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3286,7 +3519,7 @@
       "court": "Альшеевский районный суд",
       "court_domain": "alsheevsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -3307,9 +3540,9 @@
       "last_checked_at": "2026-10-09"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3322,7 +3555,7 @@
       "court": "Бирский межрайонный суд",
       "court_domain": "birsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -3343,22 +3576,25 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "kalininsky--bkr.sudrf.ru|2-5458/2026",
       "number": "2-5458/2026",
       "court": "Калининский районный суд г. Уфы",
       "court_domain": "kalininsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-13"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -3469,14 +3705,16 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "belorecky--bkr.sudrf.ru|2-2505/2026",
@@ -3484,12 +3722,12 @@
       "court": "Белорецкий межрайонный суд",
       "court_domain": "belorecky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3502,12 +3740,12 @@
       "court": "Салаватский межрайонный суд",
       "court_domain": "salavatskiy--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3520,7 +3758,7 @@
       "court": "Стерлибашевский межрайонный суд",
       "court_domain": "sterlibashevsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -3559,14 +3797,16 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_next"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "chishmilinsky--bkr.sudrf.ru|2-1010/2026",
@@ -3574,7 +3814,7 @@
       "court": "Чишминский районный суд",
       "court_domain": "chishmilinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -3811,14 +4051,16 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_next"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "gafuriysky--bkr.sudrf.ru|2-1238/2026",
@@ -3826,12 +4068,12 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-07"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3844,12 +4086,12 @@
       "court": "Иглинский межрайонный суд",
       "court_domain": "iglinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3862,7 +4104,7 @@
       "court": "Стерлибашевский межрайонный суд",
       "court_domain": "sterlibashevsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -3955,9 +4197,9 @@
       "last_checked_at": "2026-10-05"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -3970,7 +4212,7 @@
       "court": "Караидельский межрайонный суд",
       "court_domain": "karaidelsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -4117,14 +4359,16 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "oktiabrsky--bkr.sudrf.ru|2-7789/2026",
@@ -4132,7 +4376,7 @@
       "court": "Октябрьский районный суд г. Уфы",
       "court_domain": "oktiabrsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -4243,14 +4487,16 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_next"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "ufimsky--bkr.sudrf.ru|2-3903/2026",
@@ -4258,7 +4504,7 @@
       "court": "Уфимский районный суд",
       "court_domain": "ufimsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-09"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -4549,9 +4795,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4564,19 +4810,17 @@
       "court": "Иглинский межрайонный суд",
       "court_domain": "iglinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_returned"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "iglinsky--bkr.sudrf.ru|9-353/2026",
@@ -4587,16 +4831,14 @@
       "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_returned"
-      ],
-      "changed": true,
+      "events": [],
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "iglinsky--bkr.sudrf.ru|9-354/2026",
@@ -4661,9 +4903,9 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -4676,7 +4918,7 @@
       "court": "Демский районный суд г. Уфы",
       "court_domain": "demsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -4841,14 +5083,16 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "belorecky--bkr.sudrf.ru|2-2739/2026",
@@ -4856,7 +5100,7 @@
       "court": "Белорецкий межрайонный суд",
       "court_domain": "belorecky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -5039,14 +5283,16 @@
       "last_checked_at": "2026-10-15"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_next"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "ordjonikidzovsky--bkr.sudrf.ru|2-4002/2026",
@@ -5054,7 +5300,7 @@
       "court": "Орджоникидзевский районный суд г. Уфы",
       "court_domain": "ordjonikidzovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-09-29"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -5111,22 +5357,25 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "neftekamsky--bkr.sudrf.ru|2-2393/2026",
       "number": "2-2393/2026",
       "court": "Нефтекамский городской суд",
       "court_domain": "neftekamsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-09-28"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -5147,9 +5396,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5162,12 +5411,12 @@
       "court": "Благовещенский районный суд",
       "court_domain": "blagoveschensky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5180,7 +5429,7 @@
       "court": "Благовещенский районный суд",
       "court_domain": "blagoveschensky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -5201,9 +5450,9 @@
       "last_checked_at": "2026-10-14"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5216,7 +5465,7 @@
       "court": "Демский районный суд г. Уфы",
       "court_domain": "demsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -5255,14 +5504,14 @@
       "last_checked_at": "2026-10-05"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "sterlitamaksky--bkr.sudrf.ru|2-7552/2026",
@@ -5270,7 +5519,7 @@
       "court": "Стерлитамакский городской суд",
       "court_domain": "sterlitamaksky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -5291,9 +5540,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5306,12 +5555,12 @@
       "court": "Благоварский межрайонный суд",
       "court_domain": "blagovarsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5324,12 +5573,12 @@
       "court": "Благоварский межрайонный суд",
       "court_domain": "blagovarsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5342,7 +5591,7 @@
       "court": "Благовещенский районный суд",
       "court_domain": "blagoveschensky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -5363,9 +5612,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5378,7 +5627,7 @@
       "court": "Благовещенский районный суд",
       "court_domain": "blagoveschensky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -5435,14 +5684,16 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_next"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "ordjonikidzovsky--bkr.sudrf.ru|2-3961/2026",
@@ -5450,7 +5701,7 @@
       "court": "Орджоникидзевский районный суд г. Уфы",
       "court_domain": "ordjonikidzovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -5723,9 +5974,9 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -5738,7 +5989,7 @@
       "court": "Демский районный суд г. Уфы",
       "court_domain": "demsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -5885,14 +6136,16 @@
       "last_checked_at": "2026-10-09"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_postponed"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "kushnarenkovsky--bkr.sudrf.ru|2-504/2026",
@@ -5900,17 +6153,17 @@
       "court": "Кушнаренковский районный суд",
       "court_domain": "kushnarenkovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": true,
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "meleuzovsky--bkr.sudrf.ru|2-1473/2026",
@@ -6281,9 +6534,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6296,7 +6549,7 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-05"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -6335,9 +6588,9 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6350,25 +6603,28 @@
       "court": "Иглинский межрайонный суд",
       "court_domain": "iglinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "karmaskalinsky--bkr.sudrf.ru|2-1154/2026",
       "number": "2-1154/2026",
       "court": "Кармаскалинский межрайонный суд",
       "court_domain": "karmaskalinsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -6515,9 +6771,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6530,7 +6786,7 @@
       "court": "Октябрьский городской суд",
       "court_domain": "oktabrsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -6587,9 +6843,9 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": true,
@@ -6602,7 +6858,7 @@
       "court": "Стерлитамакский городской суд",
       "court_domain": "sterlitamaksky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -6713,9 +6969,9 @@
       "last_checked_at": "2026-09-21"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -6728,7 +6984,7 @@
       "court": "Уфимский районный суд",
       "court_domain": "ufimsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-06"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -6803,14 +7059,16 @@
       "last_checked_at": "2026-10-02"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "abzelilovsky--bkr.sudrf.ru|2-1038/2026",
@@ -6818,7 +7076,7 @@
       "court": "Абзелиловский районный суд",
       "court_domain": "abzelilovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -7145,9 +7403,9 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7163,9 +7421,9 @@
       "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7178,7 +7436,7 @@
       "court": "Абзелиловский районный суд",
       "court_domain": "abzelilovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -7217,9 +7475,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7307,15 +7565,13 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_act_text_published"
-      ],
+      "events": [],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -7327,15 +7583,13 @@
       "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [
-        "fi_writ_issued"
-      ],
+      "events": [],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -7347,9 +7601,9 @@
       "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7365,9 +7619,9 @@
       "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7383,9 +7637,9 @@
       "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7398,7 +7652,7 @@
       "court": "Абзелиловский районный суд",
       "court_domain": "abzelilovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -7419,9 +7673,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7437,9 +7691,9 @@
       "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7473,9 +7727,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7509,9 +7763,9 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7527,9 +7781,9 @@
       "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7545,9 +7799,9 @@
       "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7560,7 +7814,7 @@
       "court": "Баймакский районный суд",
       "court_domain": "baimaksky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -7743,14 +7997,14 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": true,
+      "changed": false,
       "left_track": false,
       "archived": false,
       "key": "baimaksky--bkr.sudrf.ru|2-671/2026",
@@ -7851,8 +8105,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -7866,12 +8120,12 @@
       "court": "Балтачевский межрайонный суд",
       "court_domain": "baltachevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7884,7 +8138,7 @@
       "court": "Балтачевский межрайонный суд",
       "court_domain": "baltachevsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -7905,8 +8159,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -7920,7 +8174,7 @@
       "court": "Балтачевский межрайонный суд",
       "court_domain": "baltachevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -7959,8 +8213,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -7974,7 +8228,7 @@
       "court": "Балтачевский межрайонный суд",
       "court_domain": "baltachevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -7995,8 +8249,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8010,12 +8264,12 @@
       "court": "Балтачевский межрайонный суд",
       "court_domain": "baltachevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8028,7 +8282,7 @@
       "court": "Балтачевский межрайонный суд",
       "court_domain": "baltachevsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -8103,13 +8357,16 @@
       "last_checked_at": "2026-09-25"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued",
+        "fi_act_text_published"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -8118,7 +8375,7 @@
       "court": "Белебеевский городской суд",
       "court_domain": "belebeevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -8139,8 +8396,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8154,11 +8411,11 @@
       "court": "Белокатайский межрайонный суд",
       "court_domain": "belokataisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8172,11 +8429,11 @@
       "court": "Белокатайский межрайонный суд",
       "court_domain": "belokataisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8190,11 +8447,11 @@
       "court": "Белокатайский межрайонный суд",
       "court_domain": "belokataisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8208,11 +8465,11 @@
       "court": "Белокатайский межрайонный суд",
       "court_domain": "belokataisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8226,11 +8483,11 @@
       "court": "Белокатайский межрайонный суд",
       "court_domain": "belokataisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8244,11 +8501,11 @@
       "court": "Белокатайский межрайонный суд",
       "court_domain": "belokataisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8262,17 +8519,19 @@
       "court": "Белокатайский межрайонный суд",
       "court_domain": "belokataisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_default_copy_served"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "belokataisky--bkr.sudrf.ru|2-480/2026",
@@ -8280,11 +8539,11 @@
       "court": "Белокатайский межрайонный суд",
       "court_domain": "belokataisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8298,7 +8557,7 @@
       "court": "Белокатайский межрайонный суд",
       "court_domain": "belokataisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -8337,14 +8596,16 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "belorecky--bkr.sudrf.ru|2-2477/2026",
@@ -8352,7 +8613,7 @@
       "court": "Белорецкий межрайонный суд",
       "court_domain": "belorecky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -8373,14 +8634,16 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_new"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "belorecky--bkr.sudrf.ru|2-2436/2026",
@@ -8388,7 +8651,7 @@
       "court": "Белорецкий межрайонный суд",
       "court_domain": "belorecky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -8409,26 +8672,28 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_returned"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "belorecky--bkr.sudrf.ru|2-2437/2026",
       "number": "2-2437/2026",
       "court": "Белорецкий межрайонный суд",
       "court_domain": "belorecky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8442,7 +8707,7 @@
       "court": "Белорецкий межрайонный суд",
       "court_domain": "belorecky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -8499,9 +8764,9 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8514,7 +8779,7 @@
       "court": "Бирский межрайонный суд",
       "court_domain": "birsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -8715,14 +8980,14 @@
       "last_checked_at": "2026-10-02"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "birsky--bkr.sudrf.ru|2-1067/2026",
@@ -8730,7 +8995,7 @@
       "court": "Бирский межрайонный суд",
       "court_domain": "birsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -8787,8 +9052,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8802,7 +9067,7 @@
       "court": "Бирский межрайонный суд",
       "court_domain": "birsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -8841,14 +9106,16 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_hearing_postponed"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "bizhbuliaksky--bkr.sudrf.ru|2-301/2026",
@@ -8856,11 +9123,11 @@
       "court": "Бижбулякский межрайонный суд",
       "court_domain": "bizhbuliaksky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-13"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -8874,7 +9141,7 @@
       "court": "Бижбулякский межрайонный суд",
       "court_domain": "bizhbuliaksky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -8913,22 +9180,25 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "blagovarsky--bkr.sudrf.ru|2-692/2026",
       "number": "2-692/2026",
       "court": "Благоварский межрайонный суд",
       "court_domain": "blagovarsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -8967,9 +9237,9 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -8982,7 +9252,7 @@
       "court": "Благоварский межрайонный суд",
       "court_domain": "blagovarsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -9021,9 +9291,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9036,7 +9306,7 @@
       "court": "Благовещенский районный суд",
       "court_domain": "blagoveschensky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -9057,9 +9327,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9072,16 +9342,18 @@
       "court": "Благовещенский районный суд",
       "court_domain": "blagoveschensky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-05"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -9090,17 +9362,19 @@
       "court": "Благовещенский районный суд",
       "court_domain": "blagoveschensky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_default_copy_returned"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "blagoveschensky--bkr.sudrf.ru|2-626/2026",
@@ -9108,16 +9382,18 @@
       "court": "Благовещенский районный суд",
       "court_domain": "blagoveschensky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -9126,7 +9402,7 @@
       "court": "Благовещенский районный суд",
       "court_domain": "blagoveschensky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -9147,13 +9423,15 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -9162,7 +9440,7 @@
       "court": "Благовещенский районный суд",
       "court_domain": "blagoveschensky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -9183,9 +9461,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9201,9 +9479,9 @@
       "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -9435,8 +9713,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -9450,7 +9728,7 @@
       "court": "Чекмагушевский межрайонный суд",
       "court_domain": "chekmagushevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -9471,8 +9749,8 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -9486,11 +9764,11 @@
       "court": "Чекмагушевский межрайонный суд",
       "court_domain": "chekmagushevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -9504,7 +9782,7 @@
       "court": "Чишминский районный суд",
       "court_domain": "chishmilinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -9579,13 +9857,15 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -9594,7 +9874,7 @@
       "court": "Чишминский районный суд",
       "court_domain": "chishmilinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -9633,13 +9913,15 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -9648,16 +9930,18 @@
       "court": "Чишминский районный суд",
       "court_domain": "chishmilinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -9666,16 +9950,18 @@
       "court": "Чишминский районный суд",
       "court_domain": "chishmilinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -9684,7 +9970,7 @@
       "court": "Чишминский районный суд",
       "court_domain": "chishmilinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -9885,8 +10171,8 @@
       "last_checked_at": "2026-09-16"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -9900,7 +10186,7 @@
       "court": "Демский районный суд г. Уфы",
       "court_domain": "demsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -9939,8 +10225,8 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -9954,11 +10240,11 @@
       "court": "Демский районный суд г. Уфы",
       "court_domain": "demsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -9972,11 +10258,11 @@
       "court": "Демский районный суд г. Уфы",
       "court_domain": "demsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -9990,7 +10276,7 @@
       "court": "Демский районный суд г. Уфы",
       "court_domain": "demsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -10011,8 +10297,8 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10026,17 +10312,19 @@
       "court": "Демский районный суд г. Уфы",
       "court_domain": "demsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_default_copy_returned"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "demsky--bkr.sudrf.ru|2-1792/2026",
@@ -10044,11 +10332,11 @@
       "court": "Демский районный суд г. Уфы",
       "court_domain": "demsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10062,17 +10350,20 @@
       "court": "Демский районный суд г. Уфы",
       "court_domain": "demsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": true,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "distrusted_date": "06.10.2029",
@@ -10080,12 +10371,12 @@
       "number": "2-715/2026",
       "court": "Дюртюлинский районный суд",
       "court_domain": "diurtiulinsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-02"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10099,7 +10390,7 @@
       "court": "Дюртюлинский районный суд",
       "court_domain": "diurtiulinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -10138,14 +10429,16 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_default_copy_served"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "gafuriysky--bkr.sudrf.ru|2-1050/2026",
@@ -10153,17 +10446,19 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_default_copy_served"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "gafuriysky--bkr.sudrf.ru|2-992/2026",
@@ -10171,7 +10466,7 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -10210,8 +10505,8 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10225,17 +10520,19 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_default_copy_served"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "gafuriysky--bkr.sudrf.ru|2-935/2026",
@@ -10243,11 +10540,11 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10261,11 +10558,11 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10279,11 +10576,11 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10297,17 +10594,19 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_default_copy_served"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "gafuriysky--bkr.sudrf.ru|2-795/2026",
@@ -10315,7 +10614,7 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -10336,14 +10635,16 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_default_copy_served"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "gafuriysky--bkr.sudrf.ru|2-885/2026",
@@ -10351,11 +10652,11 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10369,11 +10670,11 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10387,7 +10688,7 @@
       "court": "Гафурийский межрайонный суд",
       "court_domain": "gafuriysky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -10426,9 +10727,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10441,12 +10742,12 @@
       "court": "Иглинский межрайонный суд",
       "court_domain": "iglinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10459,12 +10760,12 @@
       "court": "Иглинский межрайонный суд",
       "court_domain": "iglinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10477,7 +10778,7 @@
       "court": "Иглинский межрайонный суд",
       "court_domain": "iglinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -10498,8 +10799,8 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10513,12 +10814,12 @@
       "court": "Иглинский межрайонный суд",
       "court_domain": "iglinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10531,12 +10832,12 @@
       "court": "Иглинский межрайонный суд",
       "court_domain": "iglinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10549,7 +10850,7 @@
       "court": "Иглинский межрайонный суд",
       "court_domain": "iglinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -10678,9 +10979,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10693,7 +10994,7 @@
       "court": "Илишевский районный суд",
       "court_domain": "ilishevsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -10714,8 +11015,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10729,7 +11030,7 @@
       "court": "Илишевский районный суд",
       "court_domain": "ilishevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -10750,13 +11051,15 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -10765,16 +11068,18 @@
       "court": "Илишевский районный суд",
       "court_domain": "ilishevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -10783,12 +11088,12 @@
       "court": "Илишевский районный суд",
       "court_domain": "ilishevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10801,7 +11106,7 @@
       "court": "Илишевский районный суд",
       "court_domain": "ilishevsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -10822,9 +11127,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -10837,7 +11142,7 @@
       "court": "Илишевский районный суд",
       "court_domain": "ilishevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -10876,32 +11181,35 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "ishimbaisky--bkr.sudrf.ru|2-1536/2026",
       "number": "2-1536/2026",
       "court": "Ишимбайский городской суд",
       "court_domain": "ishimbaisky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-09-11"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "ishimbaisky--bkr.sudrf.ru|2-1526/2026",
@@ -10909,11 +11217,11 @@
       "court": "Ишимбайский городской суд",
       "court_domain": "ishimbaisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10927,35 +11235,17 @@
       "court": "Ишимбайский городской суд",
       "court_domain": "ishimbaisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": true,
-      "key": "ishimbaisky--bkr.sudrf.ru|2-1302/2026",
-      "number": "2-1302/2026",
-      "court": "Ишимбайский городской суд",
-      "court_domain": "ishimbaisky--bkr.sudrf.ru",
-      "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
-    },
-    {
-      "outcome": "skip",
-      "reason": "run_deadline",
-      "reason_ru": "",
-      "detail": "",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "ishimbaisky--bkr.sudrf.ru|2-1301/2026",
@@ -10963,11 +11253,11 @@
       "court": "Ишимбайский городской суд",
       "court_domain": "ishimbaisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -10981,7 +11271,7 @@
       "court": "Ишимбайский городской суд",
       "court_domain": "ishimbaisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -11164,22 +11454,25 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "kalininsky--bkr.sudrf.ru|2-4618/2026",
       "number": "2-4618/2026",
       "court": "Калининский районный суд г. Уфы",
       "court_domain": "kalininsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-08"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -11272,9 +11565,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -11287,11 +11580,11 @@
       "court": "Караидельский межрайонный суд",
       "court_domain": "karaidelsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11305,11 +11598,11 @@
       "court": "Караидельский межрайонный суд",
       "court_domain": "karaidelsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11323,7 +11616,7 @@
       "court": "Караидельский межрайонный суд",
       "court_domain": "karaidelsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -11344,8 +11637,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11359,17 +11652,19 @@
       "court": "Караидельский межрайонный суд",
       "court_domain": "karaidelsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_default_copy_served"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "karaidelsky--bkr.sudrf.ru|2-387/2026",
@@ -11377,7 +11672,7 @@
       "court": "Караидельский межрайонный суд",
       "court_domain": "karaidelsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -11398,8 +11693,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11413,7 +11708,7 @@
       "court": "Караидельский межрайонный суд",
       "court_domain": "karaidelsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -11506,9 +11801,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -11521,7 +11816,7 @@
       "court": "Кармаскалинский межрайонный суд",
       "court_domain": "karmaskalinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-08"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -11578,9 +11873,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -11593,7 +11888,7 @@
       "court": "Кармаскалинский межрайонный суд",
       "court_domain": "karmaskalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -11650,8 +11945,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11665,11 +11960,11 @@
       "court": "Кармаскалинский межрайонный суд",
       "court_domain": "karmaskalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11683,11 +11978,11 @@
       "court": "Кармаскалинский межрайонный суд",
       "court_domain": "karmaskalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11701,12 +11996,12 @@
       "court": "Кармаскалинский межрайонный суд",
       "court_domain": "karmaskalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -11719,11 +12014,11 @@
       "court": "Кармаскалинский межрайонный суд",
       "court_domain": "karmaskalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11737,11 +12032,11 @@
       "court": "Кармаскалинский межрайонный суд",
       "court_domain": "karmaskalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11755,11 +12050,11 @@
       "court": "Кармаскалинский межрайонный суд",
       "court_domain": "karmaskalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11773,11 +12068,11 @@
       "court": "Кармаскалинский межрайонный суд",
       "court_domain": "karmaskalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -11791,7 +12086,7 @@
       "court": "Кармаскалинский межрайонный суд",
       "court_domain": "karmaskalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -12082,8 +12377,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12097,11 +12392,11 @@
       "court": "Краснокамский межрайонный суд",
       "court_domain": "krasnokamsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12115,11 +12410,11 @@
       "court": "Краснокамский межрайонный суд",
       "court_domain": "krasnokamsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12133,25 +12428,7 @@
       "court": "Краснокамский межрайонный суд",
       "court_domain": "krasnokamsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
-    },
-    {
-      "outcome": "fetch_empty",
-      "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
-      "detail": "",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": true,
-      "key": "krasnokamsky--bkr.sudrf.ru|2-753/2026",
-      "number": "2-753/2026",
-      "court": "Краснокамский межрайонный суд",
-      "court_domain": "krasnokamsky--bkr.sudrf.ru",
-      "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -12172,13 +12449,15 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -12187,11 +12466,11 @@
       "court": "Краснокамский межрайонный суд",
       "court_domain": "krasnokamsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12205,7 +12484,7 @@
       "court": "Краснокамский межрайонный суд",
       "court_domain": "krasnokamsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -12244,8 +12523,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12259,7 +12538,7 @@
       "court": "Кугарчинский межрайонный суд",
       "court_domain": "kugarchinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -12280,8 +12559,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12295,11 +12574,11 @@
       "court": "Кугарчинский межрайонный суд",
       "court_domain": "kugarchinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12313,11 +12592,11 @@
       "court": "Кугарчинский межрайонный суд",
       "court_domain": "kugarchinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12331,11 +12610,11 @@
       "court": "Кугарчинский межрайонный суд",
       "court_domain": "kugarchinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12349,11 +12628,11 @@
       "court": "Кугарчинский межрайонный суд",
       "court_domain": "kugarchinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12367,11 +12646,11 @@
       "court": "Кугарчинский межрайонный суд",
       "court_domain": "kugarchinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12385,7 +12664,7 @@
       "court": "Кугарчинский межрайонный суд",
       "court_domain": "kugarchinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -12460,13 +12739,15 @@
       "last_checked_at": "2026-09-28"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -12475,7 +12756,7 @@
       "court": "Кумертауский межрайонный суд",
       "court_domain": "kumertauskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -12496,8 +12777,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12511,7 +12792,7 @@
       "court": "Кумертауский межрайонный суд",
       "court_domain": "kumertauskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -12550,13 +12831,15 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -12565,11 +12848,11 @@
       "court": "Кумертауский межрайонный суд",
       "court_domain": "kumertauskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12583,16 +12866,18 @@
       "court": "Кумертауский межрайонный суд",
       "court_domain": "kumertauskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -12601,11 +12886,11 @@
       "court": "Кумертауский межрайонный суд",
       "court_domain": "kumertauskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12619,7 +12904,7 @@
       "court": "Кумертауский межрайонный суд",
       "court_domain": "kumertauskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -12676,8 +12961,8 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -12691,7 +12976,7 @@
       "court": "Кушнаренковский районный суд",
       "court_domain": "kushnarenkovsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13126,8 +13411,8 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -13141,7 +13426,7 @@
       "court": "Мелеузовский районный суд",
       "court_domain": "meleuzovsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13162,9 +13447,9 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -13177,7 +13462,7 @@
       "court": "Мелеузовский районный суд",
       "court_domain": "meleuzovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-07"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13198,8 +13483,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -13213,7 +13498,7 @@
       "court": "Мелеузовский районный суд",
       "court_domain": "meleuzovsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13234,8 +13519,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -13249,7 +13534,7 @@
       "court": "Мелеузовский районный суд",
       "court_domain": "meleuzovsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13306,14 +13591,14 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "neftekamsky--bkr.sudrf.ru|2-2064/2026",
@@ -13321,11 +13606,11 @@
       "court": "Нефтекамский городской суд",
       "court_domain": "neftekamsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -13339,7 +13624,7 @@
       "court": "Нефтекамский городской суд",
       "court_domain": "neftekamsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13378,9 +13663,9 @@
       "last_checked_at": "2026-09-23"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -13393,16 +13678,18 @@
       "court": "Нефтекамский городской суд",
       "court_domain": "neftekamsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -13411,7 +13698,7 @@
       "court": "Нефтекамский городской суд",
       "court_domain": "neftekamsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13486,8 +13773,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -13501,11 +13788,11 @@
       "court": "Октябрьский городской суд",
       "court_domain": "oktabrsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -13519,16 +13806,18 @@
       "court": "Октябрьский городской суд",
       "court_domain": "oktabrsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -13537,11 +13826,11 @@
       "court": "Октябрьский городской суд",
       "court_domain": "oktabrsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -13555,7 +13844,7 @@
       "court": "Октябрьский городской суд",
       "court_domain": "oktabrsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13594,8 +13883,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -13609,7 +13898,7 @@
       "court": "Октябрьский городской суд",
       "court_domain": "oktabrsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13648,14 +13937,14 @@
       "last_checked_at": "2026-10-13"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "oktiabrsky--bkr.sudrf.ru|2-7152/2026",
@@ -13663,7 +13952,7 @@
       "court": "Октябрьский районный суд г. Уфы",
       "court_domain": "oktiabrsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-07"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13702,14 +13991,14 @@
       "last_checked_at": "2026-10-07"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "oktiabrsky--bkr.sudrf.ru|2-6416/2026",
@@ -13717,11 +14006,11 @@
       "court": "Октябрьский районный суд г. Уфы",
       "court_domain": "oktiabrsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -13735,7 +14024,7 @@
       "court": "Октябрьский районный суд г. Уфы",
       "court_domain": "oktiabrsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13792,9 +14081,9 @@
       "last_checked_at": "2026-10-05"
     },
     {
-      "outcome": "fetch_empty",
+      "outcome": "parsed",
       "reason": "",
-      "reason_ru": "пустой ответ сервера суда",
+      "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -13807,10 +14096,10 @@
       "court": "Орджоникидзевский районный суд г. Уфы",
       "court_domain": "ordjonikidzovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
@@ -13825,7 +14114,7 @@
       "court": "Орджоникидзевский районный суд г. Уфы",
       "court_domain": "ordjonikidzovsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -13972,13 +14261,15 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -13987,7 +14278,7 @@
       "court": "Салаватский межрайонный суд",
       "court_domain": "salavatskiy--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-06"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -14026,8 +14317,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -14041,11 +14332,11 @@
       "court": "Салаватский межрайонный суд",
       "court_domain": "salavatskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -14059,11 +14350,11 @@
       "court": "Салаватский межрайонный суд",
       "court_domain": "salavatskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -14077,11 +14368,11 @@
       "court": "Салаватский межрайонный суд",
       "court_domain": "salavatskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -14095,7 +14386,7 @@
       "court": "Салаватский межрайонный суд",
       "court_domain": "salavatskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -14116,8 +14407,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -14131,7 +14422,7 @@
       "court": "Салаватский межрайонный суд",
       "court_domain": "salavatskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -14188,8 +14479,8 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -14203,7 +14494,7 @@
       "court": "Салаватский межрайонный суд",
       "court_domain": "salavatskiy--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -14278,22 +14569,26 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change",
+        "fi_final_event"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "salavatsky--bkr.sudrf.ru|2-2183/2026",
       "number": "2-2183/2026",
       "court": "Салаватский городской суд",
       "court_domain": "salavatsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-15"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -14440,8 +14735,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -14455,7 +14750,7 @@
       "court": "Салаватский городской суд",
       "court_domain": "salavatsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -14548,7 +14843,7 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
@@ -14563,7 +14858,7 @@
       "court": "Сибайский городской суд",
       "court_domain": "sibaisky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -14638,8 +14933,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -14653,7 +14948,7 @@
       "court": "Сибайский городской суд",
       "court_domain": "sibaisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -14692,7 +14987,7 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
@@ -14707,7 +15002,7 @@
       "court": "Сибайский городской суд",
       "court_domain": "sibaisky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -14728,8 +15023,8 @@
       "last_checked_at": "2026-10-07"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -14743,7 +15038,7 @@
       "court": "Сибайский городской суд",
       "court_domain": "sibaisky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -14926,7 +15221,7 @@
       "last_checked_at": "2026-10-02"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
@@ -14941,7 +15236,7 @@
       "court": "Советский районный суд г. Уфы",
       "court_domain": "sovetsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -14962,7 +15257,7 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
@@ -14977,7 +15272,7 @@
       "court": "Советский районный суд г. Уфы",
       "court_domain": "sovetsky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -15034,8 +15329,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -15049,11 +15344,11 @@
       "court": "Стерлибашевский межрайонный суд",
       "court_domain": "sterlibashevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -15067,7 +15362,7 @@
       "court": "Стерлибашевский межрайонный суд",
       "court_domain": "sterlibashevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -15088,13 +15383,15 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_writ_issued"
+      ],
       "changed": false,
       "left_track": false,
       "archived": false,
@@ -15103,7 +15400,7 @@
       "court": "Стерлибашевский межрайонный суд",
       "court_domain": "sterlibashevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -15124,8 +15421,8 @@
       "last_checked_at": "2026-10-20"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -15139,11 +15436,11 @@
       "court": "Стерлибашевский межрайонный суд",
       "court_domain": "sterlibashevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -15157,11 +15454,11 @@
       "court": "Стерлибашевский межрайонный суд",
       "court_domain": "sterlibashevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -15175,7 +15472,7 @@
       "court": "Стерлибашевский межрайонный суд",
       "court_domain": "sterlibashevsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -15250,14 +15547,14 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
-      "changed": false,
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "sterlitamaksky--bkr.sudrf.ru|2-7191/2026",
@@ -15265,7 +15562,7 @@
       "court": "Стерлитамакский городской суд",
       "court_domain": "sterlitamaksky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -15286,22 +15583,25 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "sterlitamaksky--bkr.sudrf.ru|2-7164/2026",
       "number": "2-7164/2026",
       "court": "Стерлитамакский городской суд",
       "court_domain": "sterlitamaksky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -15430,7 +15730,7 @@
       "last_checked_at": "2026-10-19"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
@@ -15445,7 +15745,7 @@
       "court": "Стерлитамакский городской суд",
       "court_domain": "sterlitamaksky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-22"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -15970,8 +16270,8 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -15985,10 +16285,10 @@
       "court": "Учалинский районный суд",
       "court_domain": "uchalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
@@ -16003,11 +16303,11 @@
       "court": "Учалинский районный суд",
       "court_domain": "uchalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -16021,7 +16321,7 @@
       "court": "Учалинский районный суд",
       "court_domain": "uchalinsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -16168,22 +16468,25 @@
       "last_checked_at": "2026-10-02"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "ufimsky--bkr.sudrf.ru|2-3560/2026",
       "number": "2-3560/2026",
       "court": "Уфимский районный суд",
       "court_domain": "ufimsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-09-11"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -16204,22 +16507,25 @@
       "last_checked_at": "2026-10-02"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
-      "changed": false,
+      "events": [
+        "fi_resolved",
+        "fi_status_change"
+      ],
+      "changed": true,
       "left_track": false,
       "archived": false,
       "key": "ufimsky--bkr.sudrf.ru|2-3563/2026",
       "number": "2-3563/2026",
       "court": "Уфимский районный суд",
       "court_domain": "ufimsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-09-11"
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -16258,27 +16564,29 @@
       "last_checked_at": "2026-10-21"
     },
     {
-      "outcome": "unknown",
+      "outcome": "parsed",
       "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
-      "events": [],
+      "events": [
+        "fi_appeal_filed"
+      ],
       "changed": false,
-      "left_track": false,
+      "left_track": true,
       "archived": false,
       "key": "ufimsky--bkr.sudrf.ru|2-3355/2026",
       "number": "2-3355/2026",
       "court": "Уфимский районный суд",
       "court_domain": "ufimsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "unknown",
+      "outcome": "fetch_empty",
       "reason": "",
-      "reason_ru": "",
+      "reason_ru": "пустой ответ сервера суда",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -16294,9 +16602,9 @@
       "last_checked_at": "2026-09-11"
     },
     {
-      "outcome": "unknown",
+      "outcome": "fetch_empty",
       "reason": "",
-      "reason_ru": "",
+      "reason_ru": "пустой ответ сервера суда",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -16312,8 +16620,8 @@
       "last_checked_at": "2026-09-11"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -16327,7 +16635,7 @@
       "court": "Уфимский районный суд",
       "court_domain": "ufimsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -16402,9 +16710,9 @@
       "last_checked_at": "2026-10-08"
     },
     {
-      "outcome": "unknown",
+      "outcome": "fetch_empty",
       "reason": "",
-      "reason_ru": "",
+      "reason_ru": "пустой ответ сервера суда",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -16438,9 +16746,9 @@
       "last_checked_at": "2026-09-29"
     },
     {
-      "outcome": "unknown",
+      "outcome": "fetch_empty",
       "reason": "",
-      "reason_ru": "",
+      "reason_ru": "пустой ответ сервера суда",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -16600,9 +16908,9 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "unknown",
+      "outcome": "fetch_empty",
       "reason": "",
-      "reason_ru": "",
+      "reason_ru": "пустой ответ сервера суда",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -16618,8 +16926,8 @@
       "last_checked_at": "2026-10-22"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -16633,11 +16941,11 @@
       "court": "Зилаирский межрайонный суд",
       "court_domain": "zilairsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
-      "outcome": "skip",
-      "reason": "run_deadline",
+      "outcome": "parsed",
+      "reason": "",
       "reason_ru": "",
       "detail": "",
       "degraded": false,
@@ -16651,7 +16959,7 @@
       "court": "Зилаирский межрайонный суд",
       "court_domain": "zilairsky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-16"
+      "last_checked_at": "2026-10-23"
     },
     {
       "outcome": "skip",
@@ -16672,221 +16980,23 @@
       "last_checked_at": "2026-10-16"
     },
     {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Кировский районный суд г. Уфы",
+      "outcome": "skip",
+      "reason": "run_deadline",
+      "reason_ru": "",
+      "detail": "",
       "degraded": false,
       "force_parsed": false,
       "events": [],
       "changed": false,
       "left_track": false,
       "archived": false,
-      "key": "kirovsky--bkr.sudrf.ru|М-8473/2026",
-      "number": "М-8473/2026",
-      "court": "Кировский районный суд г. Уфы",
-      "court_domain": "kirovsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Орджоникидзевский районный суд г. Уфы",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "ordjonikidzovsky--bkr.sudrf.ru|М-3815/2026",
-      "number": "М-3815/2026",
-      "court": "Орджоникидзевский районный суд г. Уфы",
-      "court_domain": "ordjonikidzovsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Советский районный суд г. Уфы",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "sovetsky--bkr.sudrf.ru|М-5338/2026",
-      "number": "М-5338/2026",
-      "court": "Советский районный суд г. Уфы",
-      "court_domain": "sovetsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Нефтекамский городской суд",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "neftekamsky--bkr.sudrf.ru|2-2598/2026",
-      "number": "2-2598/2026",
-      "court": "Нефтекамский городской суд",
-      "court_domain": "neftekamsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Благовещенский районный суд",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "blagoveschensky--bkr.sudrf.ru|2-1053/2026",
-      "number": "2-1053/2026",
-      "court": "Благовещенский районный суд",
-      "court_domain": "blagoveschensky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Дюртюлинский районный суд",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "diurtiulinsky--bkr.sudrf.ru|М-818/2026",
-      "number": "М-818/2026",
-      "court": "Дюртюлинский районный суд",
-      "court_domain": "diurtiulinsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Дюртюлинский районный суд",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "diurtiulinsky--bkr.sudrf.ru|М-816/2026",
-      "number": "М-816/2026",
-      "court": "Дюртюлинский районный суд",
-      "court_domain": "diurtiulinsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Караидельский межрайонный суд",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "karaidelsky--bkr.sudrf.ru|2-616/2026",
-      "number": "2-616/2026",
-      "court": "Караидельский межрайонный суд",
-      "court_domain": "karaidelsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Салаватский межрайонный суд",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "salavatskiy--bkr.sudrf.ru|М-999/2026",
-      "number": "М-999/2026",
-      "court": "Салаватский межрайонный суд",
-      "court_domain": "salavatskiy--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Салаватский межрайонный суд",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "salavatskiy--bkr.sudrf.ru|2-1159/2026",
-      "number": "2-1159/2026",
-      "court": "Салаватский межрайонный суд",
-      "court_domain": "salavatskiy--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Салаватский межрайонный суд",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "salavatskiy--bkr.sudrf.ru|М-1000/2026",
-      "number": "М-1000/2026",
-      "court": "Салаватский межрайонный суд",
-      "court_domain": "salavatskiy--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Уфимский районный суд",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "ufimsky--bkr.sudrf.ru|2-4172/2026",
-      "number": "2-4172/2026",
-      "court": "Уфимский районный суд",
-      "court_domain": "ufimsky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-10-23"
+      "key": "ishimbaisky--bkr.sudrf.ru|2-1302/2026",
+      "number": "2-1302/2026",
+      "court": "Ишимбайский городской суд",
+      "court_domain": "ishimbaisky--bkr.sudrf.ru",
+      "case_status": "Решено",
+      "last_checked_at": "2026-10-16"
     }
   ],
-  "updated_at": "2026-10-23T07:04:53+05:00"
+  "updated_at": "2026-10-23T08:09:31+05:00"
 }
