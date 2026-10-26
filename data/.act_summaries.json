@@ -572,5 +572,133 @@
       "status": "ready"
     },
     "generated_at": "2026-10-22T03:46:00+00:00"
+  },
+  "1949c2723243302c": {
+    "summary": "Суд отказал в снятии запретов, так как оба ограничения были наложены до заключения договора купли-продажи, а истец при подписании договора прямо подтвердил свою осведомленность о них. Согласно п. 2 ст. 174.1 ГК РФ, сделка, совершенная приобретателем, знавшим о запрете, не препятствует взыскателям реализовывать права, обеспеченные арестом, а доказательств прекращения исполнительных производств или исполнения обязательств в полном объеме не представлено.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 48171,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "3bce55db4bf7161ef96d06f17912ee5bd37b4c6e667c3eae3f3182f2d2cf23db",
+      "raw_chars": 23304,
+      "prepared_chars": 23304,
+      "source_url": "https://kirovsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=256667432&case_uid=ad374d4c-36f7-4712-a9dd-93069718a8ea&delo_id=1540005&new=0",
+      "court_domain": "kirovsky--bkr.sudrf.ru",
+      "received_at": "2026-10-26T01:43:31+00:00",
+      "case_number": "2-7371/2026",
+      "stage": "first_instance",
+      "judicial_uid": "03RS0003-01-2026-009329-71",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-26T03:45:29+00:00"
+  },
+  "45394c71db0e4baf": {
+    "summary": "Судебная коллегия подтвердила виновность водителя в ДТП, установив, что он не избрал безопасную скорость в условиях гололеда и выехал на встречную полосу, тогда как действий истца нарушений ПДД не выявлено. Ошибочная ссылка первой инстанции на ст. 1079 ГК РФ вместо ст. 1064 ГК РФ не влияет на правильность вывода об ответственности. Учет затрат на демонтаж и продажу годных остатков при расчете ущерба обоснован методическими рекомендациями, а наследственная масса определяется на момент открытия наследства без учета последующих процентов по кредитам.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 42099,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "e69a457b62f02b665e6db54d46171229fa7264b5a6ab0f6b58a7ee6de2a87705",
+      "raw_chars": 20453,
+      "prepared_chars": 20453,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60700043&case_uid=664bae74-9d69-45c6-94bc-918ced752002&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-10-26T01:25:34+00:00",
+      "case_number": "33-18131/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-26T03:45:35+00:00"
+  },
+  "087901a51cff00b2": {
+    "summary": "Апелляционный суд отменил отказ в удовлетворении требований к страховщику, установив, что по заключению судебной экспертизы стоимость ремонта с учётом износа составляет 402 700 руб., а выплачено лишь 180 700 руб., поэтому обязательство по договору ОСАГО не исполнено надлежащим образом. Взыскано невыплаченное возмещение 219 300 руб., штраф 109 650 руб., неустойка в пределах лимита 400 000 руб. и судебные расходы, включая 30 000 руб. на представителя.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 34611,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "2ee1a3272e89626bf314ec51161cc5bf0912b1bcdb8ef9ab45bd9a8301c8785b",
+      "raw_chars": 16309,
+      "prepared_chars": 16309,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60701550&case_uid=e0c2136b-34d5-4566-a0c7-2d318b9fe68b&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-10-26T01:25:14+00:00",
+      "case_number": "33-18171/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-26T03:45:39+00:00"
+  },
+  "7ba9bc61b4f0f556": {
+    "summary": "Суд подтвердил законность требования прекратить использование жилого дома для образовательных услуг, так как экспертизы установили, что реконструированное нежилое здание не соответствует градостроительным, противопожарным и санитарным нормам, создавая угрозу жизни и здоровью граждан. Кассационная инстанция не нашла оснований пересмотреть выводы нижестоящих судов о недопустимости эксплуатации объекта в целях дошкольного образования при отсутствии лицензии и нарушении вида разрешенного использования земельного участка.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 40108,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "e6cf4a5f07397a120c677c928763f8bbd941c0f2154b134c4c7d3f756d859adb",
+      "raw_chars": 18886,
+      "prepared_chars": 18886,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25969737&case_uid=f20df146-bcca-4a36-9210-e9d16386a420&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-10-26T02:29:27+00:00",
+      "case_number": "8Г-19171/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0064-01-2024-003506-16",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-26T03:45:43+00:00"
   }
 }
