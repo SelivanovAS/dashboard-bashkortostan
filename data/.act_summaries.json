@@ -700,5 +700,133 @@
       "status": "ready"
     },
     "generated_at": "2026-10-26T03:45:43+00:00"
+  },
+  "3f6f977c5b683ff0": {
+    "summary": "Апелляционный суд ошибочно взыскал 2 000 000 руб. как неосновательное обогащение, не учитывая, что договор купли-продажи регулирует расчеты с покупателем, а не распределение средств между собсобственниками, и в нем нет условия об обязанности ответчика передать истцу его долю. Одновременно кассация указала на необоснованность взыскания половины 500 000 руб., так как апелляция не установила, кто именно получил эту сумму, а лишь повторила вывод первой инстанции о соразмерном получении без доказательной базы.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 23211,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "8950c870f5563192bca890f96a27fd45d9ebe0ae96e4129ba226923e4a73cf04",
+      "raw_chars": 10053,
+      "prepared_chars": 10053,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=26138081&case_uid=f4dd7c87-8445-4a37-b231-16e91a29b588&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-10-27T01:51:06+00:00",
+      "case_number": "8Г-20418/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0009-01-2025-003130-98",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-27T03:45:36+00:00"
+  },
+  "f18ee1650b4fd4ca": {
+    "summary": "Суды первой и апелляционной инстанций приняли решение, опираясь на вступившее в силу решение по параллельному делу об отказе в признании договора незаключенным, однако кассационный суд отменил указанное прецедентное решение за преждевременностью выводов о заключенности договора. В отсутствие собственных выводов о мошенничестве и при отмене преюдициального акта обжалуемые судебные акты не могут считаться законными и обоснованными, что влечет их отмену с направлением дела на новое рассмотрение.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 30313,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "73bf16c3e7a92e8ec699a5dc156320a3a6da1a90ada679b9417a802075872d90",
+      "raw_chars": 13907,
+      "prepared_chars": 13907,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25887273&case_uid=f28043c3-d0cf-434e-a474-0b554ccd3eeb&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-10-27T01:52:58+00:00",
+      "case_number": "8Г-18666/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0014-01-2025-003448-43",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-27T03:45:40+00:00"
+  },
+  "3d674a03b02341f8": {
+    "summary": "Судебная коллегия подтвердила отказ в обращении взыскания на автомобиль, так как он не являлся предметом залога, а принудительное изъятие и реализация незаложенного выморочного имущества относятся к исключительной компетенции судебного пристава-исполнителя в рамках исполнительного производства по ФЗ № 229-ФЗ. Суд в рамках гражданского процесса не вправе подменять полномочия органов принудительного исполнения, разрешая вопрос обращения взыскания на имущество, перешедшее в собственность государства.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 26408,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "6cff7416bdef21c1da28cab47d119071f909dbac1aa64ee44242a91e4c3ee615",
+      "raw_chars": 11620,
+      "prepared_chars": 11620,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25944107&case_uid=a43cb469-4daf-4af7-9e08-19b12a03ffbf&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-10-27T01:53:13+00:00",
+      "case_number": "8Г-18905/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0004-01-2025-001476-87",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-27T03:45:44+00:00"
+  },
+  "0b8251e51ae95d82": {
+    "summary": "Кассационный суд оставил апелляционное определение в силе, подтвердив вывод о неосновательном обогащении ответчика, поскольку денежные средства переведены истцом в результате мошеннических действий, а ответчик не доказал выдачу встречного представления. Суд первой инстанции ошибочно сочл отсутствие обогащения из-за распоряжения средствами неустановленными лицами, однако апелляция верно применила нормы ст. 1102 ГК РФ, согласно которым правила об неосновательном обогащении действуют независимо от воли сторон, а риск несанкционированного доступа к счету несет его владелец.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 20963,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "49f0bfbf34c02dcf17fd88766b437f893a377116b731d13b1daa1098ef63cc0b",
+      "raw_chars": 8841,
+      "prepared_chars": 8841,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25948766&case_uid=514118aa-92b8-4762-aa25-e8aacf6908bb&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-10-27T01:53:30+00:00",
+      "case_number": "8Г-18915/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0063-01-2024-003879-17",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-27T03:45:47+00:00"
   }
 }
