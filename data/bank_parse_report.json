@@ -3,9 +3,9 @@
   "run_date": "2026-10-28",
   "smart_skip": true,
   "totals": {
-    "total": 976,
+    "total": 975,
     "parsed": 0,
-    "skip": 976,
+    "skip": 975,
     "failed": 0,
     "no_card": 0,
     "not_in_queue": 0,
@@ -7034,8 +7034,8 @@
     },
     {
       "outcome": "skip",
-      "reason": "future_hearing(30.11.2026)",
-      "reason_ru": "заседание 30.11.2026 ещё впереди",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -7048,7 +7048,7 @@
       "court": "Стерлитамакский городской суд",
       "court_domain": "sterlitamaksky--bkr.sudrf.ru",
       "case_status": "В производстве",
-      "last_checked_at": "2026-10-19"
+      "last_checked_at": "2026-10-28"
     },
     {
       "outcome": "skip",
@@ -7822,24 +7822,6 @@
       "court": "Стерлитамакский городской суд",
       "court_domain": "sterlitamaksky--bkr.sudrf.ru",
       "case_status": "Решено",
-      "last_checked_at": "2026-10-28"
-    },
-    {
-      "outcome": "skip",
-      "reason": "checked_today",
-      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
-      "detail": "",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "sterlitamaksky--bkr.sudrf.ru|М-5978/2026",
-      "number": "М-5978/2026",
-      "court": "Стерлитамакский городской суд",
-      "court_domain": "sterlitamaksky--bkr.sudrf.ru",
-      "case_status": "В производстве",
       "last_checked_at": "2026-10-28"
     },
     {
@@ -17581,5 +17563,5 @@
       "last_checked_at": "2026-10-23"
     }
   ],
-  "updated_at": "2026-10-28T08:40:42+05:00"
+  "updated_at": "2026-10-28T12:10:36+05:00"
 }
