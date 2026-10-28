@@ -828,5 +828,69 @@
       "status": "ready"
     },
     "generated_at": "2026-10-27T03:45:47+00:00"
+  },
+  "ff50ec6eb69f44a6": {
+    "summary": "Кассационный суд оставил решения в силе, так как расходы на досудебное техническое исследование признаны необходимыми для обоснования претензии и иска, а их сумма подтверждена материалами дела и не опровергнута ответчиком доказательствами завышения. Выводы нижестоящих инстанций о законности взыскания этих расходов в пользу потребительского общества основаны на правильном применении ст. 98 ГПК РФ и не содержат нарушений, подлежащих отмене.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 33532,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "2fef3c8992ac29330942d03a0c8313cd03fca394e044b6815f9e29d09237fcf2",
+      "raw_chars": 15513,
+      "prepared_chars": 15513,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=26020697&case_uid=09510a55-840d-46ea-8fa2-b24f474d1868&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-10-28T01:54:38+00:00",
+      "case_number": "8Г-19356/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0031-01-2025-000924-21",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-28T03:45:33+00:00"
+  },
+  "90d4cea5263ba526": {
+    "summary": "Суд отказал в иске, так как не установлено наличие наследственного имущества у умершей заемщицы: по данным ЕГРН, нотариуса и налогового органа у неё отсутствовали недвижимость, банковские счета и иное имущество. В отсутствие наследственной массы обязательства по долгу прекращаются невозможностью исполнения, а взыскание с личного имущества наследников не допускается.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 30605,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "6ae64780d44d9ed2c2b56311247f39509d11986677a410d41a9cab46e0b433ae",
+      "raw_chars": 13799,
+      "prepared_chars": 13799,
+      "source_url": "https://ilishevsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=247158803&case_uid=fafc875a-c155-4214-bb2a-5eccb846fa59&delo_id=1540005&new=0",
+      "court_domain": "ilishevsky--bkr.sudrf.ru",
+      "received_at": "2026-10-28T02:04:09+00:00",
+      "case_number": "2-288/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-28T03:45:36+00:00"
   }
 }
