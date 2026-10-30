@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-30T08:40:42+05:00",
+  "updated_at": "2026-10-30T03:46:20+00:00",
   "cases": [
     {
       "id": "33-21523/2026",
@@ -29310,7 +29310,29 @@
         "act_decision_date": "30.09.2026",
         "act_notification_kind": "new_publication",
         "act_source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25872030&case_uid=61c75060-9051-49bc-a224-07a05866ef99&delo_id=2800001&new=2800001",
-        "act_received_at": "2026-10-30T01:51:09+00:00"
+        "act_received_at": "2026-10-30T01:51:09+00:00",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Кассационный суд подтвердил вывод апелляционной инстанции о том, что страховщик не включил заболевание, ставшее причиной смерти, в перечень вопросов полиса, а сведения о его диагностике до заключения договора в материалах дела отсутствуют. Условия договора, составленные профессиональным страховщиком, толкованы в пользу потребителя, что исключает возможность признать договор недействительным по основанию скрытия сведений, о которых страховщик не спрашивал.</p>",
+          "source": "llm_summary",
+          "act_date": "30.09.2026",
+          "generated_at": "2026-10-30T03:46:04+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "9c1d13fb0c40e6a29d78ea0ae0ec55dc418ebea2de7dc4f66cd3a6cba515840b",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "9c1d13fb0c40e6a29d78ea0ae0ec55dc418ebea2de7dc4f66cd3a6cba515840b",
+            "raw_chars": 32818,
+            "prepared_chars": 32818,
+            "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25872030&case_uid=61c75060-9051-49bc-a224-07a05866ef99&delo_id=2800001&new=2800001",
+            "court_domain": "6kas.sudrf.ru",
+            "received_at": "2026-10-30T01:51:09+00:00",
+            "case_number": "8Г-18448/2026",
+            "stage": "cassation",
+            "judicial_uid": "03RS0006-01-2024-000459-09",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "import": {
         "operator": "Селиванов А.С.",

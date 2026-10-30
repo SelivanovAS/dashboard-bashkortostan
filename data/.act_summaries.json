@@ -956,5 +956,101 @@
       "status": "ready"
     },
     "generated_at": "2026-10-29T03:45:48+00:00"
+  },
+  "748fff08d007a87c": {
+    "summary": "Кассационный суд подтвердил вывод апелляционной инстанции о том, что страховщик не включил заболевание, ставшее причиной смерти, в перечень вопросов полиса, а сведения о его диагностике до заключения договора в материалах дела отсутствуют. Условия договора, составленные профессиональным страховщиком, толкованы в пользу потребителя, что исключает возможность признать договор недействительным по основанию скрытия сведений, о которых страховщик не спрашивал.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 65233,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "9c1d13fb0c40e6a29d78ea0ae0ec55dc418ebea2de7dc4f66cd3a6cba515840b",
+      "raw_chars": 32818,
+      "prepared_chars": 32818,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25872030&case_uid=61c75060-9051-49bc-a224-07a05866ef99&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-10-30T01:51:09+00:00",
+      "case_number": "8Г-18448/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0006-01-2024-000459-09",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-30T03:46:11+00:00"
+  },
+  "d563f37ce7606f73": {
+    "summary": "Суд отказал в отмене решения финансового уполномоченного, признав услугу «Своя ставка Плюс» не самостоятельной возмездной услугой, а изменением условия кредитного договора о процентной ставке, за которое банк не вправе взимать отдельную плату. Финансовый уполномоченный действовал в пределах компетенции, так как требование о возврате денег, удержанных по ничтожным условиям договора, относится к имущественным спорам из его юрисдикции.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 80342,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "e11df716b5bcbe930acb123837c45060a7e9481c22e1dc5d67ef94140414b25e",
+      "raw_chars": 41173,
+      "prepared_chars": 41173,
+      "source_url": "https://chishmilinsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=258908560&case_uid=d0cf5b8c-d32c-41a9-8d8b-e24053b3d1f0&delo_id=1540005&new=0",
+      "court_domain": "chishmilinsky--bkr.sudrf.ru",
+      "received_at": "2026-10-30T01:55:56+00:00",
+      "case_number": "2-879/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-30T03:46:14+00:00"
+  },
+  "8d7c12aa4ab8025b": {
+    "summary": "Суд взыскал с РФ в лице Россобственности долг по кредиту в размере 12 955 руб. 86 коп. в пределах наследственной массы (денежные средства на счетах умершей заемщицы), так как наследники по закону наследство не приняли, а выморочное имущество перешло к государству без акта принятия. Проценты и неустойку за период после смерти заемщицы суд отказался взыскивать, признав недобросовестным длительное бездействие банка, осведомленного о смерти, в предъявлении требований к правопреемникам.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 68526,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "4ee64d5df948a37f385e06d36153b7703eb96ac575403a709eb1c919b4fa4675",
+      "raw_chars": 34617,
+      "prepared_chars": 34617,
+      "source_url": "https://karmaskalinsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=189911375&case_uid=de45a8c2-3d1b-479c-b59a-ceb9c2a0c080&delo_id=1540005&new=0",
+      "court_domain": "karmaskalinsky--bkr.sudrf.ru",
+      "received_at": "2026-10-30T01:57:45+00:00",
+      "case_number": "2-1081/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-10-30T03:46:17+00:00"
   }
 }
