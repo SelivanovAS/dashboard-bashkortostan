@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-02T07:41:13+05:00",
+ "updated_at": "2026-11-02T08:10:54+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -1132,24 +1132,24 @@
   }
  },
  "last_run": {
-  "at": "2026-11-02T07:41:14",
+  "at": "2026-11-02T08:10:54",
   "alerts": [],
-  "requests_ok": 2,
+  "requests_ok": 0,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 2,
-  "cards_planned": 2,
+  "cards_read": 0,
+  "cards_planned": 0,
   "cards_read_today": 452,
   "cards_planned_today": 452,
-  "daily_attempts": 3,
+  "daily_attempts": 4,
   "instances": {
    "first_instance": {
-    "read": 1,
-    "planned": 1,
+    "read": 0,
+    "planned": 0,
     "read_today": 329,
     "planned_today": 329
    },
@@ -1160,18 +1160,13 @@
     "planned_today": 95
    },
    "cassation": {
-    "read": 1,
-    "planned": 1,
+    "read": 0,
+    "planned": 0,
     "read_today": 28,
     "planned_today": 28
    }
   },
-  "latency": {
-   "n": 2,
-   "p50": 7.5,
-   "p90": 8.0,
-   "max": 8.0
-  },
+  "latency": {},
   "failure_latency": {},
   "fail_kinds": {},
   "breaker": {
@@ -1200,9 +1195,9 @@
   "date": "2026-11-02",
   "region": "bashkortostan",
   "waiting": 27,
-  "due": 1,
-  "planned": 1,
-  "read": 1,
+  "due": 0,
+  "planned": 0,
+  "read": 0,
   "unread": 0,
   "published": 0,
   "backfilled": 0,
@@ -1328,8 +1323,8 @@
    {
     "key": "6kas.sudrf.ru|2800001|8Г-20796/2026",
     "number": "8Г-20796/2026",
-    "next_check_at": "2026-11-02",
-    "reason": "checked"
+    "next_check_at": "2026-11-03",
+    "reason": "scheduled"
    },
    {
     "key": "6kas.sudrf.ru|2800001|8Г-18989/2026",
@@ -1666,9 +1661,9 @@
   "date": "2026-11-02",
   "region": "bashkortostan",
   "waiting": 176,
-  "due": 1,
-  "planned": 1,
-  "read": 1,
+  "due": 0,
+  "planned": 0,
+  "read": 0,
   "unread": 0,
   "published": 0,
   "backfilled": 0,
@@ -2898,8 +2893,8 @@
    {
     "key": "ordjonikidzovsky--bkr.sudrf.ru|1540005|1|2-3409/2026|2026-10-21",
     "number": "2-3409/2026",
-    "next_check_at": "2026-11-02",
-    "reason": "checked"
+    "next_check_at": "2026-11-03",
+    "reason": "scheduled"
    },
    {
     "key": "ordjonikidzovsky--bkr.sudrf.ru|1540005|1|2-3417/2026|2026-10-21",
@@ -5789,7 +5784,7 @@
    {
     "key": "ordjonikidzovsky--bkr.sudrf.ru|1|2-3409/2026|21.10.2026",
     "number": "2-3409/2026",
-    "next_check_at": "2026-11-06",
+    "next_check_at": "2026-11-09",
     "reason": "scheduled"
    },
    {
@@ -9997,38 +9992,21 @@
  "card_refresh": {
   "date": "2026-11-02",
   "region": "bashkortostan",
-  "planned": 2,
-  "read": 2,
-  "items": [
-   {
-    "key": "cassation|https://6kas.sudrf.ru/modules.php?case_id=26180263&case_uid=624bb149-ac96-4d71-944a-62498f602997&delo_id=2800001&name=sud_delo&name_op=case&new=2800001&srv_num=1",
-    "stage": "cassation",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   },
-   {
-    "key": "first_instance|https://ordjonikidzovsky--bkr.sudrf.ru/modules.php?case_id=257450752&case_uid=4d941e4e-d336-4c5b-a01b-6e4fdb7d4003&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   }
-  ],
+  "planned": 0,
+  "read": 0,
+  "items": [],
   "instances": {
    "cassation": {
-    "planned": 1,
-    "read": 1
+    "planned": 0,
+    "read": 0
    },
    "appeal": {
     "planned": 0,
     "read": 0
    },
    "first_instance": {
-    "planned": 1,
-    "read": 1
+    "planned": 0,
+    "read": 0
    }
   },
   "unread": 0
