@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T08:40:56+05:00",
+  "updated_at": "2026-11-02T03:49:16+00:00",
   "cases": [
     {
       "id": "33-21568/2026",
@@ -17888,7 +17888,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-11-02T01:35:41+00:00",
         "act_source_url": "https://oktiabrsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=188381822&case_uid=5fa3f3ab-0f28-499f-b5da-0b1153e5a8f8&delo_id=1540005&new=0",
-        "act_decision_date": "15.10.2026"
+        "act_decision_date": "15.10.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд удовлел иск о снятии ареста с автомобиля, перешедшего истцу по наследству после наложения запрета, так как исполнительное производство по долгу тестатора прекращено в связи с полным погашением задолженности. Поскольку истец не является должником, а требования кредитора удовлетворены, оснований для сохранения ограничения прав на чужое имущество не существует.</p>",
+          "source": "llm_summary",
+          "act_date": "15.10.2026",
+          "generated_at": "2026-11-02T03:45:30+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "ab8eb33b6d11df5a25e9a92e51c73d8ccfc9c2aabe4e88794788fade15fb6b47",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "ab8eb33b6d11df5a25e9a92e51c73d8ccfc9c2aabe4e88794788fade15fb6b47",
+            "raw_chars": 8406,
+            "prepared_chars": 8406,
+            "source_url": "https://oktiabrsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=188381822&case_uid=5fa3f3ab-0f28-499f-b5da-0b1153e5a8f8&delo_id=1540005&new=0",
+            "court_domain": "oktiabrsky--bkr.sudrf.ru",
+            "received_at": "2026-11-02T01:35:41+00:00",
+            "case_number": "2-6200/2026",
+            "stage": "first_instance",
+            "judicial_uid": "03RS0005-01-2026-008236-43",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null
     },
@@ -20798,7 +20820,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-11-02T01:35:56+00:00",
         "act_source_url": "https://belokataisky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=254558250&case_uid=f398181f-f747-4ed5-90e4-e479f81e85e6&delo_id=1540005&new=0",
-        "act_decision_date": "29.09.2026"
+        "act_decision_date": "29.09.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд отказал в иске, так как вступившим в силу решением по другому делу признано выморочным имуществом всё наследственное имущество умершей — денежные средства на счетах в банках на сумму 5 927,19 руб., которые уже направлены на погашение долга другому кредитору. Поскольку стоимость наследства исчерпана взысканием по предшествующему решению, обязательства по текущему кредитному договору удовлетворить не на что.</p>",
+          "source": "llm_summary",
+          "act_date": "29.09.2026",
+          "generated_at": "2026-11-02T03:46:38+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "b9ec9ac1b164fb283af8dfdf88ba99120444dde6ea16cc41eb7601ea0c770371",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "b9ec9ac1b164fb283af8dfdf88ba99120444dde6ea16cc41eb7601ea0c770371",
+            "raw_chars": 9836,
+            "prepared_chars": 9836,
+            "source_url": "https://belokataisky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=254558250&case_uid=f398181f-f747-4ed5-90e4-e479f81e85e6&delo_id=1540005&new=0",
+            "court_domain": "belokataisky--bkr.sudrf.ru",
+            "received_at": "2026-11-02T01:35:56+00:00",
+            "case_number": "2-712/2026",
+            "stage": "first_instance",
+            "judicial_uid": "03RS0028-01-2026-001021-02",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
