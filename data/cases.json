@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T08:17:13+05:00",
+  "updated_at": "2026-11-03T03:45:35+00:00",
   "cases": [
     {
       "id": "33-21669/2026",
@@ -28997,7 +28997,29 @@
         "act_decision_date": "15.10.2026",
         "act_notification_kind": "new_publication",
         "act_source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=26039897&case_uid=76e7db6c-8096-48b7-b605-b2545118577f&delo_id=2800001&new=2800001",
-        "act_received_at": "2026-11-03T02:47:51+00:00"
+        "act_received_at": "2026-11-03T02:47:51+00:00",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд установил, что после смерти заемщика наследники, фактически принявшие наследство, отсутствуют, поэтому выморочное имущество в виде денежных средств перешло в собственность РФ, а Территориальное управление Росимущества несет ответственность по долгам в пределах его стоимости. Ссылки на иммунитет бюджетных средств и освобождение от госпошлины отклонены: взыскание производится за счет выморочного имущества, а судебные расходы взыскиваются пропорционально удовлетворенной части иска.</p>",
+          "source": "llm_summary",
+          "act_date": "15.10.2026",
+          "generated_at": "2026-11-03T03:45:26+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "e9c3500b335e9f0f1ac4dd60e11e45e9201b87a6435dd7adb89493772712c332",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "e9c3500b335e9f0f1ac4dd60e11e45e9201b87a6435dd7adb89493772712c332",
+            "raw_chars": 13119,
+            "prepared_chars": 13119,
+            "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=26039897&case_uid=76e7db6c-8096-48b7-b605-b2545118577f&delo_id=2800001&new=2800001",
+            "court_domain": "6kas.sudrf.ru",
+            "received_at": "2026-11-03T02:47:51+00:00",
+            "case_number": "8Г-19503/2026",
+            "stage": "cassation",
+            "judicial_uid": "03RS0063-01-2025-004373-06",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "import": {
         "operator": "Селиванов А.С.",

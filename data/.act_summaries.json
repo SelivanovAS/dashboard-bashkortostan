@@ -1116,5 +1116,69 @@
       "status": "ready"
     },
     "generated_at": "2026-11-02T03:47:05+00:00"
+  },
+  "fea6c655933a0340": {
+    "summary": "Суд установил, что после смерти заемщика наследники, фактически принявшие наследство, отсутствуют, поэтому выморочное имущество в виде денежных средств перешло в собственность РФ, а Территориальное управление Росимущества несет ответственность по долгам в пределах его стоимости. Ссылки на иммунитет бюджетных средств и освобождение от госпошлины отклонены: взыскание производится за счет выморочного имущества, а судебные расходы взыскиваются пропорционально удовлетворенной части иска.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 29102,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "e9c3500b335e9f0f1ac4dd60e11e45e9201b87a6435dd7adb89493772712c332",
+      "raw_chars": 13119,
+      "prepared_chars": 13119,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=26039897&case_uid=76e7db6c-8096-48b7-b605-b2545118577f&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-11-03T02:47:51+00:00",
+      "case_number": "8Г-19503/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0063-01-2025-004373-06",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-03T03:45:29+00:00"
+  },
+  "c2b2bd9ea2074868": {
+    "summary": "Суд отказал в иске, так как единственный наследник ФИО3 уже исполняет решение суда по другому кредиту в пределах всей стоимости наследственного имущества (152 000 руб.), исчерпав лимит ответственности по долгам наследодателя. Взыскание новой задолженности с наследника невозможно при отсутствии имущества, превышающего уже взысканную сумму.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 43235,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "274e0d70798b9646827add6276e73b86b8a8a69286e9d226e7e913f07683fc45",
+      "raw_chars": 20863,
+      "prepared_chars": 20863,
+      "source_url": "https://chekmagushevsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=253649350&case_uid=709964af-cbf7-48da-9879-55f881498af9&delo_id=1540005&new=0",
+      "court_domain": "chekmagushevsky--bkr.sudrf.ru",
+      "received_at": "2026-11-03T02:55:02+00:00",
+      "case_number": "2-601/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-03T03:45:33+00:00"
   }
 }
