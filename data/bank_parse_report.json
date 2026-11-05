@@ -3,15 +3,33 @@
   "run_date": "2026-11-05",
   "smart_skip": true,
   "totals": {
-    "total": 1006,
-    "parsed": 1,
-    "skip": 1003,
+    "total": 1005,
+    "parsed": 0,
+    "skip": 1005,
     "failed": 0,
     "no_card": 0,
-    "not_in_queue": 1,
-    "intake_new": 1
+    "not_in_queue": 0,
+    "intake_new": 0
   },
   "cases": [
+    {
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
+      "detail": "",
+      "degraded": false,
+      "force_parsed": false,
+      "events": [],
+      "changed": false,
+      "left_track": false,
+      "archived": false,
+      "key": "blagoveschensky--bkr.sudrf.ru|M-1131/2026",
+      "number": "M-1131/2026",
+      "court": "Благовещенский районный суд",
+      "court_domain": "blagoveschensky--bkr.sudrf.ru",
+      "case_status": "В производстве",
+      "last_checked_at": "2026-11-05"
+    },
     {
       "outcome": "skip",
       "reason": "checked_today",
@@ -261,24 +279,6 @@
       "number": "2-1190/2026",
       "court": "Салаватский межрайонный суд",
       "court_domain": "salavatskiy--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-11-05"
-    },
-    {
-      "outcome": "not_in_queue",
-      "reason": "",
-      "reason_ru": "стадия «cassation» — карточку 1-й инст. не парсим, дело уходит из лёгкого трека",
-      "detail": "cassation",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": true,
-      "archived": false,
-      "key": "tuimazinsky--bkr.sudrf.ru|2-2959/2026",
-      "number": "2-2959/2026",
-      "court": "Туймазинский межрайонный суд",
-      "court_domain": "tuimazinsky--bkr.sudrf.ru",
       "case_status": "В производстве",
       "last_checked_at": "2026-11-05"
     },
@@ -12811,9 +12811,9 @@
       "last_checked_at": "2026-11-05"
     },
     {
-      "outcome": "parsed",
-      "reason": "",
-      "reason_ru": "",
+      "outcome": "skip",
+      "reason": "checked_today",
+      "reason_ru": "карточка уже прочитана сегодня (дочитка слотов)",
       "detail": "",
       "degraded": false,
       "force_parsed": false,
@@ -18101,25 +18101,7 @@
       "court_domain": "zilairsky--bkr.sudrf.ru",
       "case_status": "Решено",
       "last_checked_at": "2026-10-30"
-    },
-    {
-      "outcome": "intake_new",
-      "reason": "",
-      "reason_ru": "дело заведено авто-подхватом с выдачи суда в этом прогоне (карточка прочитана при заведении)",
-      "detail": "Благовещенский районный суд",
-      "degraded": false,
-      "force_parsed": false,
-      "events": [],
-      "changed": false,
-      "left_track": false,
-      "archived": false,
-      "key": "blagoveschensky--bkr.sudrf.ru|M-1131/2026",
-      "number": "M-1131/2026",
-      "court": "Благовещенский районный суд",
-      "court_domain": "blagoveschensky--bkr.sudrf.ru",
-      "case_status": "В производстве",
-      "last_checked_at": "2026-11-05"
     }
   ],
-  "updated_at": "2026-11-05T07:13:38+05:00"
+  "updated_at": "2026-11-05T07:40:37+05:00"
 }
