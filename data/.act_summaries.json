@@ -1180,5 +1180,110 @@
       "status": "ready"
     },
     "generated_at": "2026-11-03T03:45:33+00:00"
+  },
+  "d894164e5a347940": {
+    "summary": "Судебная коллегия установила, что истец лично совершала все оспариваемые действия: входила в приложение с характерного устройства, подтверждала операции ПИН-кодом и СМС-кодами, а денежные средства последовательно переводила на свои счета в другом банке. Доказательств того, что воля истца была подчинена обману мошенников при заключении договоров с банком, или что банк нарушил процедуры идентификации и безопасности, не выявлено.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 73475,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "57a48ddcdc11efa9d101d95fed2ff5318f4c36c045222a78c49f379dbe442833",
+      "raw_chars": 37436,
+      "prepared_chars": 37436,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60744161&case_uid=54d306b1-cb0f-4335-a43e-ecdeea343f72&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-11-05T01:47:44+00:00",
+      "case_number": "33-18355/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-05T03:46:30+00:00"
+  },
+  "3962b9113b44535b": {
+    "summary": "Суд отказал в возмещении упущенной выгоды и инфляционных потерь, так как истец не доказал причинно-следственную связь между арестом счетов и неполучением дохода, а также не подтвердил совершение всех необходимых действий для получения процентов. Обесценивание денежных средств признано следствием инфляции, а не виной государственных органов, а ст. 395 ГК РФ к данным правоотношениям не применяется.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "timeout",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 42173,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      },
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 42173,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "f6aa85f7d99b25cba108b36415dfb748ffba47927c9f4b99122123f1215522ba",
+      "raw_chars": 20007,
+      "prepared_chars": 20007,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25949927&case_uid=c49a1e35-a7ff-47bc-82e4-8d7c5b092994&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-11-05T01:50:35+00:00",
+      "case_number": "8Г-18989/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0009-01-2025-003042-71",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-05T03:47:58+00:00"
+  },
+  "bb3f8df0ab4086f5": {
+    "summary": "Суд отказал в иске, так как не установлено наличие наследственного имущества у умершего заемщика и фактического его принятия наследником. Отсутствие имущества, из которого возможно взыскание, исключает привлечение наследника к ответственности по долгам наследодателя.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 23031,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "0fab5c21e9532b9445b4fe0fc59b74a2a1072064781beae6deaa6f11a710aafb",
+      "raw_chars": 9852,
+      "prepared_chars": 9852,
+      "source_url": "https://iglinsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=190884018&case_uid=4a9b40fc-2bd8-487e-8e3a-f08d47aeeb91&delo_id=1540005&new=0",
+      "court_domain": "iglinsky--bkr.sudrf.ru",
+      "received_at": "2026-11-05T01:57:00+00:00",
+      "case_number": "2-2114/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-05T03:48:00+00:00"
   }
 }
