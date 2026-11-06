@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T08:40:44+05:00",
+  "updated_at": "2026-11-06T03:45:33+00:00",
   "cases": [
     {
       "id": "33-21846/2026",
@@ -17914,7 +17914,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-11-06T01:52:35+00:00",
         "act_source_url": "https://sovetsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=259388681&case_uid=4da31cea-e5c4-4abd-b6f1-64f29e88c64c&delo_id=1540005&new=0",
-        "act_decision_date": "02.11.2026"
+        "act_decision_date": "02.11.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд исключил ПАО Сбербанк из ответчиков и передал дело по подсудности в Щербинский районный суд, так как привлеченный в качестве надлежащего ответчика ДЗБ зарегистрирован по адресу, не входящему в юрисдикцию текущего суда. Решение основано на нормах о замене ненадлежащего ответчика и подсудности по месту жительства ответчика.</p>",
+          "source": "llm_summary",
+          "act_date": "02.11.2026",
+          "generated_at": "2026-11-06T03:45:28+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "f36a01a458ee7c4e5a84ac6a23c7ce343a7e975d5b4d0eb1b962d4fcd2b53cdd",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "f36a01a458ee7c4e5a84ac6a23c7ce343a7e975d5b4d0eb1b962d4fcd2b53cdd",
+            "raw_chars": 3568,
+            "prepared_chars": 3568,
+            "source_url": "https://sovetsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=259388681&case_uid=4da31cea-e5c4-4abd-b6f1-64f29e88c64c&delo_id=1540005&new=0",
+            "court_domain": "sovetsky--bkr.sudrf.ru",
+            "received_at": "2026-11-06T01:52:35+00:00",
+            "case_number": "2-5295/2026",
+            "stage": "first_instance",
+            "judicial_uid": "",
+            "identity_check": "matched_header",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null
     },

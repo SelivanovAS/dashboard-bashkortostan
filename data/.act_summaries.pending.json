@@ -2141,8 +2141,8 @@
     },
     "source_hash": "f36a01a458ee7c4e5a84ac6a23c7ce343a7e975d5b4d0eb1b962d4fcd2b53cdd",
     "created_at": "2026-11-06T02:02:48+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "f36a01a458ee7c4e5a84ac6a23c7ce343a7e975d5b4d0eb1b962d4fcd2b53cdd",
@@ -2157,8 +2157,23 @@
       "identity_check": "matched_header",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 11515,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-11-06T02:02:48+00:00"
+    "updated_at": "2026-11-06T03:45:28+00:00",
+    "retry_after": "2026-11-07T03:45:28+00:00",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Суд исключил ПАО Сбербанк из ответчиков и передал дело по подсудности в Щербинский районный суд, так как привлеченный в качестве надлежащего ответчика ДЗБ зарегистрирован по адресу, не входящему в юрисдикцию текущего суда. Решение основано на нормах о замене ненадлежащего ответчика и подсудности по месту жительства ответчика."
   }
 }
