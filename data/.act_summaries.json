@@ -1317,5 +1317,37 @@
       "status": "ready"
     },
     "generated_at": "2026-11-06T03:45:31+00:00"
+  },
+  "4c3e2558fd62bb50": {
+    "summary": "Суд передает дело по подсудности в Гафурийский межрайонный суд, так как истец зарегистрирован в Аургазинском районе, а ответчик не зарегистрирован в Кировском районе. Адрес, указанный истцом в иске, документально не подтвержден.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 9487,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "b1f1b3aedaecdd2a5a6bda3da11850e0163476762cd805f0a98cabd1b12b3aba",
+      "raw_chars": 2375,
+      "prepared_chars": 2375,
+      "source_url": "https://kirovsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=254037909&case_uid=ab5fade5-cf2b-4668-a4c5-5a53322782bd&delo_id=1540005&new=0",
+      "court_domain": "kirovsky--bkr.sudrf.ru",
+      "received_at": "2026-11-09T01:47:23+00:00",
+      "case_number": "2-6613/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-09T03:45:33+00:00"
   }
 }
