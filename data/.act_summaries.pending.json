@@ -2195,8 +2195,8 @@
     },
     "source_hash": "b1f1b3aedaecdd2a5a6bda3da11850e0163476762cd805f0a98cabd1b12b3aba",
     "created_at": "2026-11-09T01:50:33+00:00",
-    "runs": 0,
-    "status": "missing_keys",
+    "runs": 1,
+    "status": "ready",
     "preparation": {
       "version": "full-act-v1",
       "source_hash": "b1f1b3aedaecdd2a5a6bda3da11850e0163476762cd805f0a98cabd1b12b3aba",
@@ -2211,8 +2211,23 @@
       "identity_check": "matched_header",
       "status": "ready"
     },
-    "attempts": [],
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 9487,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
     "refusal_rechecked": false,
-    "updated_at": "2026-11-09T01:50:33+00:00"
+    "updated_at": "2026-11-09T03:45:31+00:00",
+    "retry_after": "2026-11-10T03:45:31+00:00",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "fallback": false,
+    "cached": false,
+    "summary": "Суд передает дело по подсудности в Гафурийский межрайонный суд, так как истец зарегистрирован в Аургазинском районе, а ответчик не зарегистрирован в Кировском районе. Адрес, указанный истцом в иске, документально не подтвержден."
   }
 }
