@@ -2,6 +2,7 @@
   "version": 1,
   "track": "plaintiff_light",
   "archived_count": 107,
+  "updated_at": "2026-11-11T21:10:35+05:00",
   "cases": [
     {
       "id": "М-7840/2026",
@@ -37787,10 +37788,10 @@
         "srv_num": 1,
         "last_checked_at": "2026-11-06",
         "resolved_emitted": true,
-        "decision_date": "10.09.2026",
+        "decision_date": "11.09.2026",
         "default_judgment": true,
-        "writ_watch_status": "needs_review",
-        "writ_watch_reason": "decision_date_changed",
+        "writ_watch_status": "waiting",
+        "writ_watch_reason": "awaiting_writ",
         "writ_checked_at": "2026-11-06",
         "act_detected_at": "2026-10-09",
         "act_notification_kind": "backfill",
@@ -37801,7 +37802,6 @@
         "fi_act_watch_baseline_version": 1,
         "fi_act_checked_at": "2026-10-09",
         "motivirovka_date": "25.09.2026",
-        "writ_source_review_reason": "decision_date_changed",
         "default_copy_returned_emitted": "22.10.2026",
         "default_copy_returned": true,
         "default_copy_returned_date": "22.10.2026"
@@ -50350,6 +50350,5 @@
         "announced": true
       }
     }
-  ],
-  "updated_at": "2026-11-11T16:14:52+05:00"
+  ]
 }
