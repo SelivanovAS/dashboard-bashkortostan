@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T08:41:03+05:00",
+  "updated_at": "2026-11-11T03:46:01+00:00",
   "cases": [
     {
       "id": "33-22079/2026",
@@ -17918,7 +17918,29 @@
         "act_notification_kind": "new_publication",
         "act_received_at": "2026-11-11T01:23:29+00:00",
         "act_source_url": "https://kalininsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=255225711&case_uid=a4c320cf-e0f6-40eb-afc3-97a49fb9acec&delo_id=1540005&new=0",
-        "act_decision_date": "21.10.2026"
+        "act_decision_date": "21.10.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд отказал в иске, так как операции по счету истца обоснованно признаны подозрительными по 115-ФЗ, а клиент не предоставил запрошенные документы, подтверждающие законность происхождения средств, для снятия ограничений. Кроме того, к моменту рассмотрения дела банк уже снял все ограничения и разблокировал карты, а доказательств своевременного сообщения об утере карты истец в суд не представил.</p>",
+          "source": "llm_summary",
+          "act_date": "21.10.2026",
+          "generated_at": "2026-11-11T03:45:36+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "831aec0c23bab9c92fddb5529e9f34bbfe9e4f126a4731449fd8a2e45c3224a2",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "831aec0c23bab9c92fddb5529e9f34bbfe9e4f126a4731449fd8a2e45c3224a2",
+            "raw_chars": 16884,
+            "prepared_chars": 16884,
+            "source_url": "https://kalininsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=255225711&case_uid=a4c320cf-e0f6-40eb-afc3-97a49fb9acec&delo_id=1540005&new=0",
+            "court_domain": "kalininsky--bkr.sudrf.ru",
+            "received_at": "2026-11-11T01:23:29+00:00",
+            "case_number": "2-4229/2026",
+            "stage": "first_instance",
+            "judicial_uid": "03RS0002-01-2026-006063-28",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "import": {
