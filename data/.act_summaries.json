@@ -1509,5 +1509,197 @@
       "status": "ready"
     },
     "generated_at": "2026-11-11T03:45:56+00:00"
+  },
+  "9a868da1b13a4977": {
+    "summary": "Суд признал условие о повышении ставки при отказе от допуслуги законным, так как дисконт 14% предоставлялся именно за оформление услуги «ПРОМО СБС «Безопасное авто», а заемщик осознанно согласился на такие условия, подписав заявление и индивидуальные условия. Доказательств навязывания услуги или введения в заблуждение не обнаружено, банк исполнил обязательства по предоставлению кредита на согласованных условиях.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 65015,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "1a7fee31e53538d43ba8e8d3a6d402980e888af79032a70c9ae11aa167eb6a1b",
+      "raw_chars": 33282,
+      "prepared_chars": 33282,
+      "source_url": "https://yanaulsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=254390955&case_uid=9ac26d7a-cf0a-43ce-90cd-279812c95c5c&delo_id=1540005&new=0",
+      "court_domain": "yanaulsky--bkr.sudrf.ru",
+      "received_at": "2026-11-13T01:53:09+00:00",
+      "case_number": "2-477/2026",
+      "stage": "first_instance",
+      "judicial_uid": "03RS0071-01-2026-000585-98",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-13T03:45:36+00:00"
+  },
+  "754fc23957e82d40": {
+    "summary": "Суд прекратил производство по частной жалобе, так как определение о выдаче исполнительного листа для принудительного исполнения мирового соглашения не подлежит самостоятельному обжалованию в апелляционном порядке по ГПК РФ. Оно не исключает возможности дальнейшего движения дела, а оспаривание исполнительного листа предусмотрено в рамках исполнительного производства.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 23458,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "dd25a25b2ca45612e00f8a7f380e245e1e617df439bd897211580990e994774c",
+      "raw_chars": 10224,
+      "prepared_chars": 10224,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=61185769&case_uid=1df50d96-b88b-412a-a535-f6af313872b9&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-11-13T01:18:05+00:00",
+      "case_number": "33-20318/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-13T03:45:40+00:00"
+  },
+  "d5f412d34af057d8": {
+    "summary": "Суд первой инстанции не учёл, что ответственность наследника ограничена стоимостью наследственного имущества, составляющей 20,79 руб., тогда как долг превышает 300 тысяч рублей. Апелляционная инстанция отменила определение и удовлетворила заявление о правопреемстве частично — в пределах стоимости перешедшего имущества.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 22440,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "671830227435e02a7821fb8557359134a57fc5e51cb32e2821cd35f920dcc6de",
+      "raw_chars": 9495,
+      "prepared_chars": 9495,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=61122408&case_uid=b419ada4-4245-497e-93ac-4589583a66d1&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-11-13T01:18:54+00:00",
+      "case_number": "33-20018/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-13T03:45:44+00:00"
+  },
+  "f7e36be685760088": {
+    "summary": "Суды ошибочно признали транспортные средства выморочным имуществом, опираясь только на учетные данные регистрации в ГИБДД и Гостехнадзоре, которые не подтверждают право собственности наследодателя на день открытия наследства. Не установлены факты реального наличия имущества у умершего и его принадлежности ему на праве собственности, а также не проверено возможное принятие наследства проживающими родственниками, что исключает ответственность Росимущества по долгам заемщика.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 53331,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "794655b3f84d69264d8cfce00043666483eb9c27a4c39d1c14d11d3c4b98e9a6",
+      "raw_chars": 26445,
+      "prepared_chars": 26445,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25877136&case_uid=b55739da-a9ac-468e-96a3-4f799ff57519&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-11-13T02:24:24+00:00",
+      "case_number": "8Г-18559/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0051-01-2025-001226-92",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-13T03:45:56+00:00"
+  },
+  "6712878d0fca7e17": {
+    "summary": "Апелляционный суд преждевременно применил правило равных долей по ст. 325 ГК РФ, не выяснив, вытекало ли из отношений между созаемщиками (бывшими супругами) имущественного характера и условий договора ипотеки, что весь долг в их внутренних отношениях лежал на умершем титульном заемщике. Кассация отменила определение и направила дело на новое рассмотрение для установления этого обстоятельства, определяющего размер регрессного требования истца к администрации как наследнику выморочного имущества.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 41249,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "82608c6f01225676460ed16ea65a43fb4b4bee1be8c4cbfd9cc76912eff62a97",
+      "raw_chars": 19797,
+      "prepared_chars": 19797,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25949471&case_uid=517cbef3-fd77-4bac-ac75-783f7fddc0e0&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-11-13T02:24:46+00:00",
+      "case_number": "8Г-18958/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0005-01-2025-013294-82",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-13T03:46:04+00:00"
+  },
+  "fba0d6e03511430b": {
+    "summary": "Суды первой и апелляционной инстанций вынесли решения на основе неполно выясненных обстоятельств: не установлено наличие или отсутствие наследственного имущества, в том числе не проверены сведения о недвижимости из-за несовпадения отчества в справке, и не разрешён вопрос о страховом случае по договору страхования жизни заемщика. Кассационный суд отменил акты и направил дело на новое рассмотрение для всестороннего исследования состава наследственной массы, факта наступления страхового случая и привлечения страховщика.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 50053,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "6f72c1a014d2a3825f77f0df264525c31006ffe9e6d4fc23dccafb4d105a3256",
+      "raw_chars": 24510,
+      "prepared_chars": 24510,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=25980604&case_uid=b2484200-8d7a-44f3-acfb-3c32aefdd420&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-11-13T02:25:07+00:00",
+      "case_number": "8Г-19194/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0063-01-2025-003069-38",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-13T03:46:09+00:00"
   }
 }
