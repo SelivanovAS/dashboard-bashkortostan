@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-13T08:11:13+05:00",
+ "updated_at": "2026-11-13T08:41:15+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -1132,20 +1132,20 @@
   }
  },
  "last_run": {
-  "at": "2026-11-13T08:11:13",
+  "at": "2026-11-13T08:41:15",
   "alerts": [],
-  "requests_ok": 1,
+  "requests_ok": 0,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 1,
-  "cards_planned": 1,
+  "cards_read": 0,
+  "cards_planned": 0,
   "cards_read_today": 585,
   "cards_planned_today": 585,
-  "daily_attempts": 4,
+  "daily_attempts": 5,
   "instances": {
    "first_instance": {
     "read": 0,
@@ -1154,8 +1154,8 @@
     "planned_today": 437
    },
    "appeal": {
-    "read": 1,
-    "planned": 1,
+    "read": 0,
+    "planned": 0,
     "read_today": 126,
     "planned_today": 126
    },
@@ -1166,12 +1166,7 @@
     "planned_today": 22
    }
   },
-  "latency": {
-   "n": 1,
-   "p50": 0.3,
-   "p90": 0.3,
-   "max": 0.3
-  },
+  "latency": {},
   "failure_latency": {},
   "fail_kinds": {},
   "breaker": {
@@ -1194,7 +1189,7 @@
   "cards_unreachable": 0,
   "cards_unread_other": 0,
   "run_deadline_seconds": 3300.0,
-  "run_deadline_reached": false
+  "run_deadline_reached": true
  },
  "act_publication_watch": {
   "date": "2026-11-13",
@@ -1343,9 +1338,9 @@
   "date": "2026-11-13",
   "region": "bashkortostan",
   "waiting": 61,
-  "due": 1,
-  "planned": 1,
-  "read": 1,
+  "due": 0,
+  "planned": 0,
+  "read": 0,
   "unread": 0,
   "published": 0,
   "backfilled": 0,
@@ -1441,8 +1436,8 @@
    {
     "key": "vs--bkr.sudrf.ru|5|1|33-18677/2026",
     "number": "33-18677/2026",
-    "next_check_at": "2026-11-13",
-    "reason": "checked"
+    "next_check_at": "2026-11-16",
+    "reason": "scheduled"
    },
    {
     "key": "vs--bkr.sudrf.ru|5|1|33-18242/2026",
@@ -10453,26 +10448,17 @@
  "card_refresh": {
   "date": "2026-11-13",
   "region": "bashkortostan",
-  "planned": 1,
-  "read": 1,
-  "items": [
-   {
-    "key": "appeal|https://vs--bkr.sudrf.ru/modules.php?case_id=60814025&case_uid=80ee82df-7d47-49d1-a109-bd9972f6545e&delo_id=5&name=sud_delo&name_op=case&new=5&srv_num=1",
-    "stage": "appeal",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   }
-  ],
+  "planned": 0,
+  "read": 0,
+  "items": [],
   "instances": {
    "cassation": {
     "planned": 0,
     "read": 0
    },
    "appeal": {
-    "planned": 1,
-    "read": 1
+    "planned": 0,
+    "read": 0
    },
    "first_instance": {
     "planned": 0,
