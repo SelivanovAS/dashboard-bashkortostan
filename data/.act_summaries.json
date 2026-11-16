@@ -1701,5 +1701,101 @@
       "status": "ready"
     },
     "generated_at": "2026-11-13T03:46:09+00:00"
+  },
+  "d2c79c734d146430": {
+    "summary": "Судебная коллегия отменила решение, так как не установлено, что действия по заключению договора займа совершены самим ответчиком: использование его паспортных данных, чужого номера телефона и чужой банковской карты без доказательства их предоставления заемщиком не подтверждает волю ответчика. Материалы уголовного дела подтверждают, что договор оформило неустановленное лицо, а денежные средства поступили и были распоряжены мошенником.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 23016,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "77d2859a0fab695e41b401f4a3508a7ad46479c81e3446a71b23f71a1f16fb66",
+      "raw_chars": 9969,
+      "prepared_chars": 9969,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60731893&case_uid=b17aa5bb-1b91-44ce-a265-3639e3a0bb5b&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-11-16T01:25:13+00:00",
+      "case_number": "33-18267/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-16T03:45:32+00:00"
+  },
+  "f6c7d6dee08be6df": {
+    "summary": "Судебная коллегия приняла отказ истца от исковых требований, поданный в апелляционной инстанции, как не противоречащий закону и не нарушающий права других лиц. На основании ст. 326.1 ГПК РФ решение первой инстанции отменено и производство по делу прекращено.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 17279,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "d6418620469ffe9aa6db68dbe680f190c62a7753a31c0bc6c41338316f84819d",
+      "raw_chars": 6747,
+      "prepared_chars": 6747,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60537837&case_uid=f478cd6e-e3e9-4837-954e-ca312535288a&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-11-16T01:23:49+00:00",
+      "case_number": "33-17440/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-16T03:45:41+00:00"
+  },
+  "5610cc920f7d3201": {
+    "summary": "Судебная коллегия подтвердила законность оставления заявления без рассмотрения, так как оспаривание заявителем действительности кредитного договора и суммы долга выявило материально-правовой спор, подведомственный исковому производству. Направленное банком досудебное требование и вручение его должнику исключают доводы о нарушении порядка уведомления.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 15813,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "29e1dea48b1d15c96be82bdb356d1a981157a2f0dc129b6c36c00974c96e75a2",
+      "raw_chars": 5931,
+      "prepared_chars": 5931,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60733057&case_uid=65294731-1d79-46e3-bca0-6cb37e43ceab&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-11-16T02:25:43+00:00",
+      "case_number": "33-18320/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-16T03:45:52+00:00"
   }
 }
