@@ -3069,8 +3069,40 @@
     },
     "source_hash": "dddfcb66f13fe4a72a9cad2caa7fe6a5b3dd3ad28bbea9c366e4409da78192a4",
     "created_at": "2026-11-18T02:39:50+00:00",
-    "runs": 0,
-    "status": "pending",
-    "executor": "github"
+    "runs": 1,
+    "status": "ready",
+    "executor": "local",
+    "retry_after": "2026-11-19T03:45:34+00:00",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "dddfcb66f13fe4a72a9cad2caa7fe6a5b3dd3ad28bbea9c366e4409da78192a4",
+      "raw_chars": 37042,
+      "prepared_chars": 37042,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60471667&case_uid=0b9c8c8c-f42c-4d8d-9fa1-d20e451d8d5e&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-11-18T02:24:29+00:00",
+      "case_number": "33-17166/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 72771,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "refusal_rechecked": false,
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "fallback": false,
+    "cached": false,
+    "updated_at": "2026-11-18T03:45:34+00:00",
+    "summary": "Судебная коллегия отменила решение первой инстанции в части взыскания процентов (107 076,92 руб.), признав их начисление за период с 6 марта 2024 г. по 11 июня 2025 г. злоупотреблением правом кредитором, осведомленным о смерти заемщика, но не предъявившим требований к наследникам. Взыскание основного долга (317 496 руб.) оставлено в силе и распределено солидарно между Территориальным управлением Росимущества (в пределах денежных остатков 64 651,48 руб.) и Администрацией сельского поселения (в пределах стоимости недвижимости 252 844,52 руб.)."
   }
 }
