@@ -1861,5 +1861,101 @@
       "status": "ready"
     },
     "generated_at": "2026-11-18T03:45:39+00:00"
+  },
+  "19ef03e7c7f00075": {
+    "summary": "Апелляционный суд отменил замену обеспечительных мер, так как нижестоящая инстанция не оценила соразмерность кадастровой стоимости новых участков (около 984 тыс. руб.) сумме иска (2 682 905 руб.), а ответчик не доказал ущемление прав сособственника или недостаточность прежней меры. Ранее наложенный арест на 1/2 доли участка был прямо связан с предметом спора и гарантировал исполнение решения, в то время как замена на неликвидные имущества не обеспечивает интересы истца.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 24008,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "33e62e23387786c7b134bee9bea9074e48eca200c7b9d76a7720b7a0ae915ddb",
+      "raw_chars": 10324,
+      "prepared_chars": 10324,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60973025&case_uid=008eaf03-22c9-4338-b57b-3e3ba0749fc2&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-11-19T01:37:46+00:00",
+      "case_number": "33-19382/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-19T03:45:34+00:00"
+  },
+  "17c23011c858d9ba": {
+    "summary": "Апелляционный суд подтвердил взыскание задолженности с созаемщиков, поскольку признание одного из должников банкротом и утверждение плана реструктуризации не освобождают солидарных должников от ответственности по ст. 323 ГК РФ. Суд первой инстанции обоснованно определил сумму долга за вычетом фактически внесенных платежей ФИО4, что подтверждено материалами дела.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 25251,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "af59d18265e7a5f397bed6de193beae767443ae0ea3d76740eba86b44b3d12d7",
+      "raw_chars": 11192,
+      "prepared_chars": 11192,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60701365&case_uid=2427331f-db80-4e5b-b475-01510f21ad56&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-11-19T02:41:17+00:00",
+      "case_number": "33-18153/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-19T03:45:41+00:00"
+  },
+  "e7a45d8d5eda258a": {
+    "summary": "Суд отказал в иске, так как ответчик представил справку о полном погашении задолженности по кредитному договору и квитанцию об оплате госпошлины. Учитывая исполнение обязательств заемщиком в полном объёме, оснований для взыскания долга, расторжения договора и обращения взыскания на заложенное имущество не имеется.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 21161,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "a0589cd6fb2f3d525e720aa1336788e1686bf133314747b13daf8199b8302b92",
+      "raw_chars": 8998,
+      "prepared_chars": 8998,
+      "source_url": "https://baimaksky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=185896941&case_uid=04f70887-5b35-499f-b3cf-134d22125d59&delo_id=1540005&new=0",
+      "court_domain": "baimaksky--bkr.sudrf.ru",
+      "received_at": "2026-11-19T03:07:51+00:00",
+      "case_number": "2-686/2026",
+      "stage": "first_instance",
+      "judicial_uid": "03RS0024-01-2026-001135-66",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-19T03:45:46+00:00"
   }
 }
