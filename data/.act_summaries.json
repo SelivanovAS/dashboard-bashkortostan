@@ -1957,5 +1957,101 @@
       "status": "ready"
     },
     "generated_at": "2026-11-19T03:45:46+00:00"
+  },
+  "d69322e62e88c081": {
+    "summary": "Суд установил, что наследственное имущество состоит только из денежных средств на счете в Сбербанке (17 175,09 руб.), а наследники наследство не приняли, поэтому имущество признается выморочным и переходит к РФ. Ответчик — ТУ Росимущества — отвечает по долгам наследодателя только в пределах стоимости этого имущества, поэтому задолженность взыскана частично в размере 17 175,09 руб.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 33308,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "cc8e95adb086bbec8e6b6e5ca7ce2af9c6bb924001a6186bc88513626ca40bd7",
+      "raw_chars": 15423,
+      "prepared_chars": 15423,
+      "source_url": "https://karaidelsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=190322992&case_uid=703c4dd1-568e-4d6b-84b2-2f7c97b7497f&delo_id=1540005&new=0",
+      "court_domain": "karaidelsky--bkr.sudrf.ru",
+      "received_at": "2026-11-20T03:00:01+00:00",
+      "case_number": "2-536/2026",
+      "stage": "first_instance",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-20T03:45:32+00:00"
+  },
+  "6a5fa94b59f22ff3": {
+    "summary": "Апелляционный суд отменил решение первой инстанции, так как банк не доказал выдачу вклада и закрытие счета: в сберегательной книжке истца отсутствуют записи о спорной операции, а представленный акт об уничтожении документов не содержит сведений о расходном кассовом ордере по данному счету. Суд применил презумпцию ст. 843 ГК РФ, согласно которой данные сберегательной книжки являются основанием для расчетов, пока банк не докажет иное состояние вклада, и признал доводы об истечении исковой давности необоснованными в силу ст. 208 ГК РФ.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 79279,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "60d2af25b670286c8af4818cfec4495e65100f3e3189fad2885f2b0bb4281484",
+      "raw_chars": 40672,
+      "prepared_chars": 40672,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=61066807&case_uid=5a88acd8-a479-4236-ba9a-333f32e7d325&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-11-20T01:34:00+00:00",
+      "case_number": "33-19822/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-20T03:45:58+00:00"
+  },
+  "70f80d4de377d895": {
+    "summary": "Апелляционная инстанция отменила решение первой инстанции, установив, что срок исковой давности исчислялся не с момента образования задолженности, а с истечения 12 месяцев со дня направления уведомления о возврате излишне перечисленных средств (07.02.2023), поэтому к дате обращения в суд (26.04.2026) трехлетний срок не был пропущен. Суд также признал ответчика обязанным вернуть 29 248,93 руб., так как он не уведомил об увольнении и не сообщил адрес для взаиморасчетов, а пени снизил до 20 000 руб. по ст. 333 ГК РФ с учетом компенсационного характера неустойки и размера основного долга.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 33763,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "570715bb46465b18e8efb4d654fb8a08da764f71daadbd674e5aa47123640294",
+      "raw_chars": 15932,
+      "prepared_chars": 15932,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60759122&case_uid=d28ee1d4-dafa-47df-a0f4-8b1bc10c5810&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-11-20T02:47:47+00:00",
+      "case_number": "33-18424/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-20T03:46:12+00:00"
   }
 }

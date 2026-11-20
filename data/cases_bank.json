@@ -2,6 +2,7 @@
   "version": 1,
   "track": "plaintiff_light",
   "archived_count": 135,
+  "updated_at": "2026-11-20T08:46:45+05:00",
   "cases": [
     {
       "id": "2-2556/2026",
@@ -11190,7 +11191,29 @@
         "act_received_at": "2026-11-20T03:00:01+00:00",
         "act_source_url": "https://karaidelsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=190322992&case_uid=703c4dd1-568e-4d6b-84b2-2f7c97b7497f&delo_id=1540005&new=0",
         "act_decision_date": "03.11.2026",
-        "motivirovka_date": "13.11.2026"
+        "motivirovka_date": "13.11.2026",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд установил, что наследственное имущество состоит только из денежных средств на счете в Сбербанке (17 175,09 руб.), а наследники наследство не приняли, поэтому имущество признается выморочным и переходит к РФ. Ответчик — ТУ Росимущества — отвечает по долгам наследодателя только в пределах стоимости этого имущества, поэтому задолженность взыскана частично в размере 17 175,09 руб.</p>",
+          "source": "llm_summary",
+          "act_date": "03.11.2026",
+          "generated_at": "2026-11-20T03:45:25+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "cc8e95adb086bbec8e6b6e5ca7ce2af9c6bb924001a6186bc88513626ca40bd7",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "cc8e95adb086bbec8e6b6e5ca7ce2af9c6bb924001a6186bc88513626ca40bd7",
+            "raw_chars": 15423,
+            "prepared_chars": 15423,
+            "source_url": "https://karaidelsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=190322992&case_uid=703c4dd1-568e-4d6b-84b2-2f7c97b7497f&delo_id=1540005&new=0",
+            "court_domain": "karaidelsky--bkr.sudrf.ru",
+            "received_at": "2026-11-20T03:00:01+00:00",
+            "case_number": "2-536/2026",
+            "stage": "first_instance",
+            "judicial_uid": "",
+            "identity_check": "matched_header",
+            "status": "ready"
+          }
+        }
       },
       "appeal": null,
       "track": "plaintiff_light",
@@ -52733,6 +52756,5 @@
         "announced": true
       }
     }
-  ],
-  "updated_at": "2026-11-20T08:41:14+05:00"
+  ]
 }
