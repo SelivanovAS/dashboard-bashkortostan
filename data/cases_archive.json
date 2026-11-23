@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T07:04:34+05:00",
+  "updated_at": "2026-11-23T08:09:34+05:00",
   "cases": [
     {
       "id": "2-708/2026",
@@ -1242,9 +1242,9 @@
           }
         ],
         "link": "25865204|c2007285-0398-40d9-86d3-3016895b695d",
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "discovered_via_cassation": true,
-        "act_absent_checked_at": "2026-11-16"
+        "act_absent_checked_at": "2026-11-23"
       },
       "import": {
         "operator": "Селиванов А.С.",
@@ -1596,9 +1596,9 @@
         "remanded_to": "",
         "events": [],
         "link": "26228176|bd5da954-3b3c-4a93-a9db-0e5426371ef8",
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "discovered_via_cassation": true,
-        "act_absent_checked_at": "2026-11-16"
+        "act_absent_checked_at": "2026-11-23"
       },
       "import": {
         "operator": "Селиванов А.С.",
@@ -3332,7 +3332,7 @@
             "posted_at": "28.09.2026"
           }
         ],
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "judicial_uid": "03RS0069-01-2026-001244-70",
         "material_number": "М-862/2026",
         "accepted_pending_emit": false,
@@ -3340,11 +3340,98 @@
         "resolved_emitted": true,
         "decision_date": "",
         "termination_date": "23.09.2026",
-        "act_absent_checked_at": "2026-11-16",
+        "act_absent_checked_at": "2026-11-23",
         "fi_act_watch_baseline_version": 1,
-        "fi_act_checked_at": "2026-11-16"
+        "fi_act_checked_at": "2026-11-23"
       },
       "appeal": null,
+      "archived_at": "2026-11-23"
+    },
+    {
+      "id": "4Г-163/2026",
+      "current_stage": "cassation",
+      "plaintiff": "Мулюков Рустем Масгутович",
+      "defendant": "ПАО Сбербанк",
+      "category": "Отношения, связанные с защитой прав потребителей → О защите прав потребителей → - из договоров в сфере: → иные договоры в сфере услуг",
+      "bank_role": "Ответчик",
+      "notes": "Заведено дампом президиума (Президиум Верховного суда Республики Башкортостан)",
+      "discovered_via_cassation": true,
+      "first_instance": {
+        "case_number": "2-1024/2026",
+        "court": "",
+        "court_domain": "",
+        "magistrate": true,
+        "judge": "Фарваева-Халиуллина Альфия Ниязовна",
+        "filing_date": "",
+        "status": "Решено",
+        "result": "",
+        "last_event": "",
+        "event_date": "",
+        "hearing_date": "19.06.2026",
+        "hearing_time": "",
+        "link": "",
+        "act_published": false,
+        "act_date": "",
+        "act_text": "",
+        "events": [],
+        "decision_date": "19.06.2026"
+      },
+      "appeal": null,
+      "cassation": {
+        "case_number": "4Г-163/2026",
+        "cassation_number": "",
+        "court": "Президиум Верховного суда Республики Башкортостан",
+        "court_domain": "vs--bkr.sudrf.ru",
+        "delo_id": 2800001,
+        "srv_num": 1,
+        "new": 2800001,
+        "timezone": "Asia/Yekaterinburg",
+        "judge": "",
+        "filing_date": "10.09.2026",
+        "fi_decision_date": "19.06.2026",
+        "act_kind": "Иные определения, вынесенные В ХОДЕ СУДЕБНОГО ПРОИЗВОДСТВА",
+        "category": "Прочие исковые дела →прочие (прочие исковые дела)",
+        "judicial_uid": "",
+        "appellant": "ПАО Сбербанк",
+        "appellant_is_bank": true,
+        "appellant_status": "ОТВЕТЧИК",
+        "review_result": "ОТКАЗ В ПЕРЕДАЧЕ КАССАЦИОННЫХ ЖАЛОБЫ, ПРЕДСТАВЛЕНИЯ ДЛЯ РАССМОТРЕНИЯ В СУДЕБНОМ ЗАСЕДАНИИ СУДА КАССАЦИОННОЙ ИНСТАНЦИИ",
+        "review_date": "05.10.2026",
+        "suspended_until": "08.10.2026",
+        "hearing_date": "",
+        "hearing_time": "",
+        "decision_date": "05.10.2026",
+        "result_text": "",
+        "result_for_appeal": "",
+        "act_published": false,
+        "act_date": "",
+        "act_text": "",
+        "outcome": "cassation_dismissed_no_transfer",
+        "remanded_to": "",
+        "events": [
+          {
+            "name": "Жалоба оставлена без движения до 08.10.2026",
+            "date": "14.09.2026",
+            "time": "",
+            "place": "",
+            "result_event": "",
+            "ground": "",
+            "note": "",
+            "posted_at": ""
+          }
+        ],
+        "link": "60778950|b9be2d34-da67-43a5-a04d-cdd06e5f640f",
+        "last_checked_at": "2026-11-23",
+        "discovered_via_cassation": true,
+        "act_absent_checked_at": "2026-11-23"
+      },
+      "import": {
+        "operator": "Селиванов А.С.",
+        "at": "2026-09-13T11:37:09",
+        "source": "dump_presidium",
+        "announced": true
+      },
+      "initial_bank_role": "Ответчик",
       "archived_at": "2026-11-23"
     },
     {
@@ -4052,7 +4139,7 @@
           }
         ],
         "judicial_uid": "03RS0030-01-2026-000436-02",
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "decision_date": "10.09.2026",
         "resolved_emitted": true,
         "act_analysis": {
@@ -4340,7 +4427,7 @@
           }
         ],
         "judicial_uid": "77RS0004-02-2025-000557-71",
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "decision_date": "07.09.2026",
         "resolved_emitted": true,
         "motivirovka_emitted": true,
@@ -4487,7 +4574,7 @@
           }
         ],
         "judicial_uid": "03RS0002-01-2026-004191-18",
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "decision_date": "26.08.2026",
         "resolved_emitted": true,
         "act_detected_at": "2026-10-20",
@@ -4833,7 +4920,7 @@
             "status": "Выдан"
           }
         ],
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "decision_date": "23.07.2026",
         "resolved_emitted": true,
         "act_detected_at": "2026-10-26",
@@ -5021,7 +5108,7 @@
           }
         ],
         "decision_date": "13.08.2026",
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "judicial_uid": "03RS0002-01-2026-001813-71",
         "resolved_emitted": true,
         "act_detected_at": "2026-10-19",
@@ -5171,7 +5258,7 @@
             "status": "Выдан"
           }
         ],
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "decision_date": "13.08.2026",
         "resolved_emitted": true,
         "act_detected_at": "2026-10-26",
@@ -5335,7 +5422,7 @@
           }
         ],
         "decision_date": "16.07.2026",
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "judicial_uid": "03RS0059-01-2026-000347-90",
         "resolved_emitted": true,
         "act_detected_at": "2026-10-19",
@@ -5470,7 +5557,7 @@
           }
         ],
         "decision_date": "24.06.2026",
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "judicial_uid": "03RS0037-01-2026-000391-57",
         "resolved_emitted": true,
         "act_detected_at": "2026-10-19",
@@ -5605,7 +5692,7 @@
           }
         ],
         "decision_date": "15.06.2026",
-        "last_checked_at": "2026-11-16",
+        "last_checked_at": "2026-11-23",
         "judicial_uid": "03RS0037-01-2026-000341-13",
         "resolved_emitted": true,
         "act_detected_at": "2026-10-19",
@@ -5992,93 +6079,6 @@
         "announced": true
       },
       "archived_at": "2026-09-12"
-    },
-    {
-      "id": "4Г-163/2026",
-      "current_stage": "cassation",
-      "plaintiff": "Мулюков Рустем Масгутович",
-      "defendant": "ПАО Сбербанк",
-      "category": "Отношения, связанные с защитой прав потребителей → О защите прав потребителей → - из договоров в сфере: → иные договоры в сфере услуг",
-      "bank_role": "Ответчик",
-      "notes": "Заведено дампом президиума (Президиум Верховного суда Республики Башкортостан)",
-      "discovered_via_cassation": true,
-      "first_instance": {
-        "case_number": "2-1024/2026",
-        "court": "",
-        "court_domain": "",
-        "magistrate": true,
-        "judge": "Фарваева-Халиуллина Альфия Ниязовна",
-        "filing_date": "",
-        "status": "Решено",
-        "result": "",
-        "last_event": "",
-        "event_date": "",
-        "hearing_date": "19.06.2026",
-        "hearing_time": "",
-        "link": "",
-        "act_published": false,
-        "act_date": "",
-        "act_text": "",
-        "events": [],
-        "decision_date": "19.06.2026"
-      },
-      "appeal": null,
-      "cassation": {
-        "case_number": "4Г-163/2026",
-        "cassation_number": "",
-        "court": "Президиум Верховного суда Республики Башкортостан",
-        "court_domain": "vs--bkr.sudrf.ru",
-        "delo_id": 2800001,
-        "srv_num": 1,
-        "new": 2800001,
-        "timezone": "Asia/Yekaterinburg",
-        "judge": "",
-        "filing_date": "10.09.2026",
-        "fi_decision_date": "19.06.2026",
-        "act_kind": "Иные определения, вынесенные В ХОДЕ СУДЕБНОГО ПРОИЗВОДСТВА",
-        "category": "Прочие исковые дела →прочие (прочие исковые дела)",
-        "judicial_uid": "",
-        "appellant": "ПАО Сбербанк",
-        "appellant_is_bank": true,
-        "appellant_status": "ОТВЕТЧИК",
-        "review_result": "ОТКАЗ В ПЕРЕДАЧЕ КАССАЦИОННЫХ ЖАЛОБЫ, ПРЕДСТАВЛЕНИЯ ДЛЯ РАССМОТРЕНИЯ В СУДЕБНОМ ЗАСЕДАНИИ СУДА КАССАЦИОННОЙ ИНСТАНЦИИ",
-        "review_date": "05.10.2026",
-        "suspended_until": "08.10.2026",
-        "hearing_date": "",
-        "hearing_time": "",
-        "decision_date": "05.10.2026",
-        "result_text": "",
-        "result_for_appeal": "",
-        "act_published": false,
-        "act_date": "",
-        "act_text": "",
-        "outcome": "cassation_dismissed_no_transfer",
-        "remanded_to": "",
-        "events": [
-          {
-            "name": "Жалоба оставлена без движения до 08.10.2026",
-            "date": "14.09.2026",
-            "time": "",
-            "place": "",
-            "result_event": "",
-            "ground": "",
-            "note": "",
-            "posted_at": ""
-          }
-        ],
-        "link": "60778950|b9be2d34-da67-43a5-a04d-cdd06e5f640f",
-        "last_checked_at": "2026-11-23",
-        "discovered_via_cassation": true,
-        "act_absent_checked_at": "2026-11-23"
-      },
-      "import": {
-        "operator": "Селиванов А.С.",
-        "at": "2026-09-13T11:37:09",
-        "source": "dump_presidium",
-        "announced": true
-      },
-      "initial_bank_role": "Ответчик",
-      "archived_at": "2026-11-23"
     }
   ]
 }
