@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-23T12:10:56+05:00",
+ "updated_at": "2026-11-23T16:10:40+05:00",
  "sources": {
   "appeal:oblsud": {
    "counts": [
@@ -1132,24 +1132,24 @@
   }
  },
  "last_run": {
-  "at": "2026-11-23T12:10:56",
+  "at": "2026-11-23T16:10:40",
   "alerts": [],
-  "requests_ok": 1,
+  "requests_ok": 0,
   "requests_failed": 0,
   "requests_retried": 0,
   "cards_breaker_skipped": 0,
   "cards_breaker_unrequested": 0,
   "cards_breaker_recovered": 0,
   "cards_blocked": 0,
-  "cards_read": 1,
-  "cards_planned": 2,
+  "cards_read": 0,
+  "cards_planned": 1,
   "cards_read_today": 525,
   "cards_planned_today": 529,
-  "daily_attempts": 4,
+  "daily_attempts": 5,
   "instances": {
    "first_instance": {
-    "read": 1,
-    "planned": 1,
+    "read": 0,
+    "planned": 0,
     "read_today": 391,
     "planned_today": 395
    },
@@ -1166,12 +1166,7 @@
     "planned_today": 14
    }
   },
-  "latency": {
-   "n": 1,
-   "p50": 7.0,
-   "p90": 7.0,
-   "max": 7.0
-  },
+  "latency": {},
   "failure_latency": {},
   "fail_kinds": {},
   "breaker": {
@@ -1876,9 +1871,9 @@
   "date": "2026-11-23",
   "region": "bashkortostan",
   "waiting": 202,
-  "due": 1,
-  "planned": 1,
-  "read": 1,
+  "due": 0,
+  "planned": 0,
+  "read": 0,
   "unread": 0,
   "published": 0,
   "backfilled": 0,
@@ -3414,8 +3409,8 @@
    {
     "key": "sterlitamaksky--bkr.sudrf.ru|1540005|1|2-7193/2026|2026-11-19",
     "number": "2-7193/2026",
-    "next_check_at": "2026-11-23",
-    "reason": "checked"
+    "next_check_at": "2026-11-24",
+    "reason": "scheduled"
    },
    {
     "key": "sterlitamaksky--bkr.sudrf.ru|1540005|1|2-7126/2026|2026-11-19",
@@ -6767,7 +6762,7 @@
    {
     "key": "sterlitamaksky--bkr.sudrf.ru|1|2-7193/2026|19.11.2026",
     "number": "2-7193/2026",
-    "next_check_at": "2026-11-27",
+    "next_check_at": "2026-11-30",
     "reason": "scheduled"
    },
    {
@@ -10442,18 +10437,9 @@
  "card_refresh": {
   "date": "2026-11-23",
   "region": "bashkortostan",
-  "planned": 1,
-  "read": 1,
-  "items": [
-   {
-    "key": "first_instance|https://sterlitamaksky--bkr.sudrf.ru/modules.php?case_id=190567172&case_uid=0b329588-b848-4ef7-8a7a-61b5d89c1cc5&delo_id=1540005&name=sud_delo&name_op=case&new=0&srv_num=1",
-    "stage": "first_instance",
-    "reasons": [
-     "text_waiting"
-    ],
-    "reason": "checked"
-   }
-  ],
+  "planned": 0,
+  "read": 0,
+  "items": [],
   "instances": {
    "cassation": {
     "planned": 0,
@@ -10464,8 +10450,8 @@
     "read": 0
    },
    "first_instance": {
-    "planned": 1,
-    "read": 1
+    "planned": 0,
+    "read": 0
    }
   },
   "unread": 0
