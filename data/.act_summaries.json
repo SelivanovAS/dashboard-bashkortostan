@@ -2053,5 +2053,101 @@
       "status": "ready"
     },
     "generated_at": "2026-11-20T03:46:12+00:00"
+  },
+  "aac07b89ae40fd8d": {
+    "summary": "Суд отказал в удовлетворении иска, так как заемщица осознанно и добровольно выразила согласие на приобретение дополнительной услуги с дисконтом по ставке, подтвердив это электронной подписью в заявлении. Доказательств навязывания услуги, введения в заблуждение или отказа в кредите без неё не представлено, а условие повышения ставки при отказе от услуги не противоречит закону о потребительском кредите.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 49770,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "f287ea1f2b4ca82cea2f924e7836d25d0e51d2dae37a45077d08b39b10b8f4ef",
+      "raw_chars": 24339,
+      "prepared_chars": 24339,
+      "source_url": "https://kalininsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=253294466&case_uid=a1b32f90-49b9-4270-8224-c4f96bec1fdc&delo_id=1540005&new=0",
+      "court_domain": "kalininsky--bkr.sudrf.ru",
+      "received_at": "2026-11-23T02:19:53+00:00",
+      "case_number": "2-3922/2026",
+      "stage": "first_instance",
+      "judicial_uid": "03RS0002-01-2026-005557-91",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-23T03:45:22+00:00"
+  },
+  "c8ee8c03c6f535b9": {
+    "summary": "Суд удовлеворил иск об изъятии доли в праве собственности на жилое помещение путем выкупа за 6 158 300 руб. с последующим выселением должников, а выплату возмещения адресует на погашение ипотечной задолженности перед банком. Признав основания для изъятия, суд взыскал с администрации расходы на экспертизу и представителя в пользу одного из ответчиков.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 10992,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "5636b52ff58d49987d07dc9a0861ae5286ea3d87cacf17a7f8cf5c930665d42c",
+      "raw_chars": 3071,
+      "prepared_chars": 3071,
+      "source_url": "https://kalininsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=256272129&case_uid=c5e7229a-f855-4734-9d56-f1b337bd8a0d&delo_id=1540005&new=0",
+      "court_domain": "kalininsky--bkr.sudrf.ru",
+      "received_at": "2026-11-23T02:25:45+00:00",
+      "case_number": "2-4344/2026",
+      "stage": "first_instance",
+      "judicial_uid": "03RS0002-01-2026-006417-33",
+      "identity_check": "header_unavailable",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-23T03:45:27+00:00"
+  },
+  "560f567bba99208e": {
+    "summary": "Суд первой инстанции незаконно вернул иск о взыскании задолженности по кредитному договору, не учтя, что один из двух ответчиков зарегистрирован на его территории. Согласно ст. 31 ГПК РФ, истец имел право выбрать суд по месту жительства любого из ответчиков, что обеспечивает его процессуальную гарантию.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 13219,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "5d30f0f7df290c67010f77582ea10e9dff047c3ae31dc65e0e3408c551efacd1",
+      "raw_chars": 4463,
+      "prepared_chars": 4463,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=61139910&case_uid=b93ae587-e2e8-4e68-b9bb-de8fc24cf5c2&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-11-23T01:26:22+00:00",
+      "case_number": "33-20143/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "header_unavailable",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-23T03:45:36+00:00"
   }
 }
