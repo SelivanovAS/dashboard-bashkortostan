@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T08:38:59+05:00",
+  "updated_at": "2026-11-25T08:47:19+05:00",
   "cases": [
     {
       "id": "2-708/2026",
@@ -3432,7 +3432,29 @@
         "act_decision_date": "22.10.2026",
         "act_notification_kind": "new_publication",
         "act_source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=26246700&case_uid=4301abf2-9fe0-41c2-a0eb-d27ca6f5c178&delo_id=2800001&new=2800001",
-        "act_received_at": "2026-11-24T07:14:49+00:00"
+        "act_received_at": "2026-11-24T07:14:49+00:00",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд подтвердил частичное взыскание задолженности в пределах установленной наследственной массы (46,51 руб.), так как ответственность наследственника ограничена стоимостью имущества независимо от суммы иска. Кассатор не доказал злоупотребление правом банка долгим необращением в суд, а доводы об отсутствии наследственного имущества опровергнуты банковскими выписками о наличии средств на счетах умершего.</p>",
+          "source": "llm_summary",
+          "act_date": "22.10.2026",
+          "generated_at": "2026-11-25T03:46:46+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "e0624d20767853551fddc1ed9b491186cd5c87b637fdbe460ee0f0c2c70a8c0f",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "e0624d20767853551fddc1ed9b491186cd5c87b637fdbe460ee0f0c2c70a8c0f",
+            "raw_chars": 11407,
+            "prepared_chars": 11407,
+            "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=26246700&case_uid=4301abf2-9fe0-41c2-a0eb-d27ca6f5c178&delo_id=2800001&new=2800001",
+            "court_domain": "6kas.sudrf.ru",
+            "received_at": "2026-11-24T07:14:49+00:00",
+            "case_number": "8Г-21288/2026",
+            "stage": "cassation",
+            "judicial_uid": "03RS0032-01-2025-000617-16",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "import": {
         "operator": "Селиванов А.С.",
@@ -3615,7 +3637,29 @@
         "act_decision_date": "22.10.2026",
         "act_notification_kind": "new_publication",
         "act_source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=26228105&case_uid=c420a7e0-be4d-4e2f-83b9-5929dfd6d0c6&delo_id=2800001&new=2800001",
-        "act_received_at": "2026-11-25T03:38:52+00:00"
+        "act_received_at": "2026-11-25T03:38:52+00:00",
+        "act_analysis": {
+          "html": "<p><b>Почему:</b> Суд подтвердил взыскание с выморочного имущества в размере 27 317,80 руб., так как наследник по закону не принял наследство, а иного наследственного имущества не выявлено. Доводы жалобы об злоупотреблении правом банка отклонены, поскольку ответственность по долгам наследодателя ограничена стоимостью перешедшего к государству имущества независимо от сроков предъявления иска.</p>",
+          "source": "llm_summary",
+          "act_date": "22.10.2026",
+          "generated_at": "2026-11-25T03:46:53+00:00",
+          "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+          "source_hash": "458dde2c392295efb1595583e8c3c0656ba24460369f35e4218f421154d27da4",
+          "preparation": {
+            "version": "full-act-v1",
+            "source_hash": "458dde2c392295efb1595583e8c3c0656ba24460369f35e4218f421154d27da4",
+            "raw_chars": 11160,
+            "prepared_chars": 11160,
+            "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=26228105&case_uid=c420a7e0-be4d-4e2f-83b9-5929dfd6d0c6&delo_id=2800001&new=2800001",
+            "court_domain": "6kas.sudrf.ru",
+            "received_at": "2026-11-25T03:38:52+00:00",
+            "case_number": "8Г-21209/2026",
+            "stage": "cassation",
+            "judicial_uid": "03RS0005-01-2025-009881-39",
+            "identity_check": "matched_uid",
+            "status": "ready"
+          }
+        }
       },
       "import": {
         "operator": "Селиванов А.С.",

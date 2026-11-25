@@ -2149,5 +2149,261 @@
       "status": "ready"
     },
     "generated_at": "2026-11-23T03:45:36+00:00"
+  },
+  "1920ad400f6cce83": {
+    "summary": "Суд удовлетворил иск об освобождении аварийного жилья от арестов, так как Администрация исполнила решение о принудительном изъятии и выплате возмещения, а сохранение запретов препятствует регистрации права муниципалитета и сносу дома, угрожающего безопасности граждан. Наличие долгов собственника по кредитам не исключает снятия ограничений, поскольку имущество уже переходит в собственность города по вступившему в силу судебному акту.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 24136,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "first_instance",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "9fea7423bb0ed9660300bfcd4f3b2252b74d20827c4df343e69fc7e525509fe0",
+      "raw_chars": 10372,
+      "prepared_chars": 10372,
+      "source_url": "https://kalininsky--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=260103558&case_uid=3c39b751-efb5-413f-ba40-c7361555f60e&delo_id=1540005&new=0",
+      "court_domain": "kalininsky--bkr.sudrf.ru",
+      "received_at": "2026-11-25T02:23:10+00:00",
+      "case_number": "2-5047/2026",
+      "stage": "first_instance",
+      "judicial_uid": "03RS0002-01-2026-007688-03",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-25T03:45:41+00:00"
+  },
+  "1013c78c26e006a5": {
+    "summary": "Суд отменил обеспечительные меры, так как с момента введения процедуры реализации имущества гражданина-банкрота накладываются специальные ограничения: ранее наложенные аресты и запреты на распоряжение имуществом подлежат снятию, а новые — не допускаются. Обеспечительные меры суда общей юрисдикции препятствуют формированию конкурсной массы и приоритетному удовлетворению требований кредиторов вне банкротной процедуры.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 23293,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "b5e75826f64f0036d67ccacca44164440e1e4a87a96d5f965f1f57acbf54f699",
+      "raw_chars": 9895,
+      "prepared_chars": 9895,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60815725&case_uid=53e33b70-3371-495f-afc6-4fdab70d07d7&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-11-24T07:19:02+00:00",
+      "case_number": "33-18732/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-25T03:46:04+00:00"
+  },
+  "7722ed27d12630a6": {
+    "summary": "Суд отменил взыскание судебных расходов солидарно с УЗИО, Службой расселения, Насретдиновой и Халимовым, так как материалами дела не установлены законные или договорные основания для солидарной ответственности ответчиков, а их совместное участие в процессе не образует солидарного характера обязанности. Поскольку в удовлетворении исковых требований УЗИО к Калининым отказано и они признаны добросовестными приобретателями, проигравшей стороной по этому спору является УЗИО, с которого взысканы расходы на представителя в размере 50 000 руб. пропорционально удовлетворенной части встречного иска.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 51710,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "cb59b961e66067369660f45236b6c8500b0d26d0dcad18bc5a875706297b193e",
+      "raw_chars": 25559,
+      "prepared_chars": 25559,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60953812&case_uid=45539b57-1c8e-45bf-a8e0-88ebceb68896&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-11-24T07:21:09+00:00",
+      "case_number": "33-19276/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-25T03:46:16+00:00"
+  },
+  "a6d9e48264b51bd0": {
+    "summary": "Судебная коллегия отказала в истребовании земельного участка, так как на нем расположен жилой дом в собственности ответчиков, и удовлетворение иска противоречит принципу единства судьбы участка и прочно связанного с ним объекта недвижимости. Истец избрал ненадлежащий способ защиты: при выбытии имущества помимо воли собственника надлежащим способом является возмещение убытков в виде стоимости утраченного имущества, а не виндикация обремененного чужой недвижимостью участка.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 46409,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "8b2300964791aecd19be8b817a54c83d1fff7436599d4ac68a2a09a0968fc20b",
+      "raw_chars": 22657,
+      "prepared_chars": 22657,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=61351775&case_uid=e57bd33c-8adc-469a-b440-ca5a3bb9031a&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-11-25T01:26:20+00:00",
+      "case_number": "33-21093/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-25T03:46:24+00:00"
+  },
+  "b153c799eb85e273": {
+    "summary": "Суд признал злоупотреблением правом со стороны банка бездействие в течение 2,5 лет после смерти заемщика и не предъявление требований к наследникам, о которых он знал. В связи с этим апелляционная инстанция исключила из взыскания просроченные проценты, оставив удовлетворенным только основной долг в размере 24 230,40 руб.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 60170,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "de2790e01545ee2e871fb231394889122ca59159c07dd8eaf080ce76a51a7c27",
+      "raw_chars": 30095,
+      "prepared_chars": 30095,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=61139878&case_uid=05e4be65-b4f4-48d1-88d8-9da038e19199&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-11-25T01:35:46+00:00",
+      "case_number": "33-20138/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-25T03:46:32+00:00"
+  },
+  "ebe865008af23390": {
+    "summary": "Судебная коллегия вернула дело для вынесения дополнительного решения, так как суд первой инстанции не рассмотрел требования к наследницам Нуховой О.А. и Нуховой А.А., хотя они были привлечены в качестве ответчиков. Кроме того, в материалах дела отсутствует определение об отмене заочного решения от 19 мая 2026 г.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 25882,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "f77b82c3ba4934c7adc9c51ccc457384b111b5e47b36603f1617d42c0c951179",
+      "raw_chars": 11348,
+      "prepared_chars": 11348,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=61155118&case_uid=e701fce3-2442-4601-bd7a-179563dff58e&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-11-25T01:34:19+00:00",
+      "case_number": "33-20175/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-25T03:46:41+00:00"
+  },
+  "a1c1ddc78804c4fb": {
+    "summary": "Суд подтвердил частичное взыскание задолженности в пределах установленной наследственной массы (46,51 руб.), так как ответственность наследственника ограничена стоимостью имущества независимо от суммы иска. Кассатор не доказал злоупотребление правом банка долгим необращением в суд, а доводы об отсутствии наследственного имущества опровергнуты банковскими выписками о наличии средств на счетах умершего.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 25493,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "e0624d20767853551fddc1ed9b491186cd5c87b637fdbe460ee0f0c2c70a8c0f",
+      "raw_chars": 11407,
+      "prepared_chars": 11407,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=26246700&case_uid=4301abf2-9fe0-41c2-a0eb-d27ca6f5c178&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-11-24T07:14:49+00:00",
+      "case_number": "8Г-21288/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0032-01-2025-000617-16",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-25T03:46:49+00:00"
+  },
+  "7691400b16b56cfc": {
+    "summary": "Суд подтвердил взыскание с выморочного имущества в размере 27 317,80 руб., так как наследник по закону не принял наследство, а иного наследственного имущества не выявлено. Доводы жалобы об злоупотреблении правом банка отклонены, поскольку ответственность по долгам наследодателя ограничена стоимостью перешедшего к государству имущества независимо от сроков предъявления иска.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 24830,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "cassation",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "458dde2c392295efb1595583e8c3c0656ba24460369f35e4218f421154d27da4",
+      "raw_chars": 11160,
+      "prepared_chars": 11160,
+      "source_url": "https://6kas.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=26228105&case_uid=c420a7e0-be4d-4e2f-83b9-5929dfd6d0c6&delo_id=2800001&new=2800001",
+      "court_domain": "6kas.sudrf.ru",
+      "received_at": "2026-11-25T03:38:52+00:00",
+      "case_number": "8Г-21209/2026",
+      "stage": "cassation",
+      "judicial_uid": "03RS0005-01-2025-009881-39",
+      "identity_check": "matched_uid",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-25T03:46:58+00:00"
   }
 }
