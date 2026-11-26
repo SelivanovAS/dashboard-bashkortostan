@@ -2405,5 +2405,69 @@
       "status": "ready"
     },
     "generated_at": "2026-11-25T03:46:58+00:00"
+  },
+  "04bbc9bbc123f589": {
+    "summary": "Суд подтвердил взыскание с поручителя полной задолженности по кредитному договору, так как по договору поручительства она отвечает перед кредитором в полном объеме, а банк вправе требовать исполнения от любого должника без предварительного обращения взыскания на заложенное имущество заемщика. Неустойка снижена до 7 000 руб. на основании ст. 333 ГК РФ как несоразмерно высокая.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 21219,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "e706dcf6995938230a982d3f7ecd074b3007da5329cd51ec39990d773855f365",
+      "raw_chars": 8987,
+      "prepared_chars": 8987,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=60814711&case_uid=b03e9bd2-b335-4182-8dac-3136b9a3c666&delo_id=5&new=5",
+      "court_domain": "",
+      "received_at": "2026-11-25T07:22:17+00:00",
+      "case_number": "33-18622/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-26T03:45:27+00:00"
+  },
+  "3f33282ac45592c2": {
+    "summary": "Суд подтвердил взыскание убытков (рыночной стоимости ремонта) и штрафа, так как страховщик в одностороннем порядке заменил приоритетную натуральную форму возмещения (ремонт без износа) на денежную выплату с износом, не исполнив обязанность организовать ремонт на СТОА и не доказав оснований для смены формы по п. 16.1 ст. 12 Закона об ОСАГО. Штраф исчисляется от стоимости ремонта по Единой методике без износа, так как добровольные выплаты в судебном споре не освобождают от санкций, а несоразмерность штрафа ответчиком не обоснована.",
+    "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+    "attempts": [
+      {
+        "provider": "openrouter",
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "status": "ready",
+        "context_limit": 1000000,
+        "input_token_upper_bound": 45623,
+        "output_reserve": 1024,
+        "token_estimate": "utf8_bytes_upper_bound"
+      }
+    ],
+    "fallback": false,
+    "stage": "appeal",
+    "preparation": {
+      "version": "full-act-v1",
+      "source_hash": "38f954311fc74c4f91322da89467b02b5b67622bd22e4415b63f3a867170be7c",
+      "raw_chars": 22359,
+      "prepared_chars": 22359,
+      "source_url": "https://vs--bkr.sudrf.ru/modules.php?name=sud_delo&srv_num=1&name_op=case&case_id=61108548&case_uid=f622cd6c-14ba-4626-bb2a-7b20c7a63888&delo_id=5&new=5",
+      "court_domain": "vs--bkr.sudrf.ru",
+      "received_at": "2026-11-26T02:34:02+00:00",
+      "case_number": "33-19957/2026",
+      "stage": "appeal",
+      "judicial_uid": "",
+      "identity_check": "matched_header",
+      "status": "ready"
+    },
+    "generated_at": "2026-11-26T03:45:42+00:00"
   }
 }
